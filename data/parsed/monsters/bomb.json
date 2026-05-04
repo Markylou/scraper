@@ -1,0 +1,133 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "bomb",
+  "name": "Bomb",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/3/36/FFXIII_enemy_Bomb.png/revision/latest?cb=20140221104303",
+  "role": "Ravager",
+  "speed": null,
+  "tame_rate_pct": 13,
+  "max_level": 20,
+  "growth": "Early Peaker",
+  "special_notes": "Early Peaker - Flameproof - Standard",
+  "paradigm_pack_notes": null,
+  "stats": {
+    "hp_min": 497,
+    "hp_max": 497,
+    "str_min": 19,
+    "str_max": 19,
+    "mag_min": 97,
+    "mag_max": 97
+  },
+  "feral_link": {
+    "name": "Elemental Overdrive",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Vile Peaks -010 AF-",
+      "slug": "vile-peaks-010-af",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [
+      "Fire",
+      "Lightning",
+      "Wind"
+    ],
+    "resistant": [
+      "Ice"
+    ],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Auto-Enfire",
+        "slug": "auto-enfire",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Resist Fire: +10%",
+        "slug": "resist-fire-10",
+        "source_url": null,
+        "level": 8,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Critical: Faith",
+        "slug": "critical-faith",
+        "source_url": null,
+        "level": 12,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Magic: +20%",
+        "slug": "magic-20",
+        "source_url": null,
+        "level": 19,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Fira",
+        "slug": "fira",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Flamestrike",
+        "slug": "flamestrike",
+        "source_url": null,
+        "level": 5,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Firaga",
+        "slug": "firaga",
+        "source_url": null,
+        "level": 15,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Overwhelm",
+        "slug": "overwhelm",
+        "source_url": null,
+        "level": 17,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Felflame",
+        "slug": "felflame",
+        "source_url": null,
+        "level": 20,
+        "default": false,
+        "infusable": false
+      }
+    ]
+  }
+}

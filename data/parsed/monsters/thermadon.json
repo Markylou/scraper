@@ -1,0 +1,150 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "thermadon",
+  "name": "Thermadon",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/7/73/Thermadon_FFXIII.png/revision/latest/scale-to-width-down/268?cb=20140221152718",
+  "role": "Commando",
+  "speed": null,
+  "tame_rate_pct": 7,
+  "max_level": 40,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Strong - Bullish",
+  "paradigm_pack_notes": "Thermadon is a Commando with a low development cost and high stats, with resistances to physical and magic spells. Once maxed out, it will have Strength in excess of 1,000 and low Magic.\n\nIt has a red-locked passive Leadenstrike, which halves the ATB-recharge rate. A good way to overcome it is to infuse a Fencer level 18 and a Yeoman level 1 to get Attack:ATB Charge II and Siphon Boost II, which override Leadenstrike.",
+  "stats": {
+    "hp_min": 1595,
+    "hp_max": 1595,
+    "str_min": 223,
+    "str_max": 223,
+    "mag_min": 37,
+    "mag_max": 37
+  },
+  "feral_link": {
+    "name": "Crippling Surge",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Augusta Tower -200 AF- (49th Floor, 51st Floor)",
+      "slug": "augusta-tower-200-af-49th-floor-51st-floor",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Fire",
+      "Ice",
+      "Lightning"
+    ],
+    "halved": [],
+    "resistant": [
+      "Physical",
+      "Magical"
+    ],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Leadenstrike",
+        "slug": "leadenstrike",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Strength: +16%",
+        "slug": "strength-16",
+        "source_url": null,
+        "level": 4,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Strength: +20%",
+        "slug": "strength-20",
+        "source_url": null,
+        "level": 16,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Strength: +25%",
+        "slug": "strength-25",
+        "source_url": null,
+        "level": 28,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Auto-Bravery",
+        "slug": "auto-bravery",
+        "source_url": null,
+        "level": 36,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Attack",
+        "slug": "attack",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Ruin",
+        "slug": "ruin",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Lifesiphon",
+        "slug": "lifesiphon",
+        "source_url": null,
+        "level": 3,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Launch",
+        "slug": "launch",
+        "source_url": null,
+        "level": 11,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Blindside",
+        "slug": "blindside",
+        "source_url": null,
+        "level": 20,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Bravery Feeder",
+        "slug": "bravery-feeder",
+        "source_url": null,
+        "level": 40,
+        "default": false,
+        "infusable": false
+      }
+    ]
+  }
+}

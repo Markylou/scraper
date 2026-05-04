@@ -1,0 +1,27 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "explosive-thrust",
+  "name": "Explosive Thrust",
+  "role": "Medic",
+  "monster": {
+    "name": "Spiranthes",
+    "slug": "spiranthes",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Spiranthes"
+  },
+  "input": {
+    "type": "Button tap",
+    "ps3": [
+      "X"
+    ],
+    "xbox": [
+      "A"
+    ]
+  },
+  "description": "Deal physical damage and absorb HP.",
+  "details": null,
+  "type": "Physical",
+  "damage_modifier": null,
+  "charge_time_seconds": 165,
+  "max_sync_pct": 300,
+  "effects": []
+}

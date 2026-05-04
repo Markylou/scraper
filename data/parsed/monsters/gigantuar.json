@@ -1,0 +1,179 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "gigantuar",
+  "name": "Gigantuar",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/7/71/Gigantuar_FFXIII.png/revision/latest/scale-to-width-down/268?cb=20140221154816",
+  "role": "Synergist",
+  "speed": null,
+  "tame_rate_pct": 100,
+  "max_level": 70,
+  "growth": "Late Bloomer",
+  "special_notes": "Late Bloomer - Magical - Gigantic",
+  "paradigm_pack_notes": "Gigantuar is a Synergist monster. It can get over 7000 HP, 500 Strength, and 1200 Magic only using Potent materials. Its true strength lies in its ability execution speed, which is only beaten by Sahagin Princes.\n\nThe Gigantuar crystal can be obtained three times; if the player does not have a crystal and fights a Gigantuar, they automatically obtain it. The Gigantuar can be leveled to 28 to obtain Auto-Protect, and then infused into another monster. The one big downside to this is the passive ability Fettered Magic, which reduces magic damage. It is a downside because it takes up an extra passive ability slot; it does not affect the Gigantuar's buffs nor its Feral Link. Infusing a Gigantuar into anything other than a Synergist or Sentinel would also gain the Fettered Magic's magic damage reduction. Gigantuar also learns Auto-Vigilance on the way to Auto-Protect, but this is arguably a detriment, as it is as useful as Auto-Protect and the like, but is ranked higher than them (Auto-Protect is Rank 7, Auto-Vigilance, Rank 8). Auto-Vigilance is impossible to get rid of without removing Auto-Protect, or the inefficient method of yellow-locking Auto-Protect and then adding it a third time to unlock it again.",
+  "stats": {
+    "hp_min": 966,
+    "hp_max": 966,
+    "str_min": 121,
+    "str_max": 121,
+    "mag_min": 82,
+    "mag_max": 82
+  },
+  "feral_link": {
+    "name": "Hop",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Archylte Steppe -??? AF- (Stonestump Wastelands, Clearwater Marshes)",
+      "slug": "archylte-steppe-af-stonestump-wastelands-clearwater-marshes",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Fire",
+      "Physical",
+      "Magical"
+    ],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Fettered Magic",
+        "slug": "fettered-magic",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": false
+      },
+      {
+        "name": "Auto-Vigilance",
+        "slug": "auto-vigilance",
+        "source_url": null,
+        "level": 20,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Auto-Protect",
+        "slug": "auto-protect",
+        "source_url": null,
+        "level": 28,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Strength: +25%",
+        "slug": "strength-25",
+        "source_url": null,
+        "level": 40,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Magic: +25%",
+        "slug": "magic-25",
+        "source_url": null,
+        "level": 49,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Pressure II",
+        "slug": "pressure-ii",
+        "source_url": null,
+        "level": 69,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Immovable II",
+        "slug": "immovable-ii",
+        "source_url": null,
+        "level": 70,
+        "default": false,
+        "red_locked": true
+      }
+    ],
+    "skills": [
+      {
+        "name": "Bravery",
+        "slug": "bravery",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Faith",
+        "slug": "faith",
+        "source_url": null,
+        "level": 2,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Endless Blessings",
+        "slug": "endless-blessings",
+        "source_url": null,
+        "level": 6,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Protect",
+        "slug": "protect",
+        "source_url": null,
+        "level": 9,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Shell",
+        "slug": "shell",
+        "source_url": null,
+        "level": 14,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Protectga",
+        "slug": "protectga",
+        "source_url": null,
+        "level": 33,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Bravega",
+        "slug": "bravega",
+        "source_url": null,
+        "level": 42,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Shellga",
+        "slug": "shellga",
+        "source_url": null,
+        "level": 59,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

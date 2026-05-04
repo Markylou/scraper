@@ -1,0 +1,33 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "crippling-surge",
+  "name": "Crippling Surge",
+  "role": "Commando",
+  "monster": {
+    "name": "Thermadon",
+    "slug": "thermadon",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Thermadon_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Multiple",
+    "ps3": [
+      "Left stick down",
+      "Left stick left",
+      "Left stick right",
+      "Left stick up"
+    ],
+    "xbox": [
+      "Left stick down",
+      "Left stick left",
+      "Left stick right",
+      "Left stick up"
+    ]
+  },
+  "description": "Inflict debuffing ailments on target and nearby foes.",
+  "details": "Inflicts Deprotect, Deshell, and Imperil.",
+  "type": "Debuff",
+  "damage_modifier": null,
+  "charge_time_seconds": 108,
+  "max_sync_pct": 400,
+  "effects": []
+}

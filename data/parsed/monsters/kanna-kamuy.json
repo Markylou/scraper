@@ -1,0 +1,138 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "kanna-kamuy",
+  "name": "Kanna Kamuy",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/f/fd/FFXIII-2_Kanna_Kamuy.png/revision/latest?cb=20120803194434",
+  "role": "Saboteur",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 40,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Thunderproof - Aloof",
+  "paradigm_pack_notes": "The Kanna Kamuy is a Saboteur and its skillset is based around dealing physical-based damage. It is capable of inflicting Curse, which neither Serah nor Noel are capable of. Its stat development is geared towards maximum HP, but none of its stats are high.",
+  "stats": {
+    "hp_min": 1327,
+    "hp_max": 1327,
+    "str_min": 131,
+    "str_max": 131,
+    "mag_min": 53,
+    "mag_max": 53
+  },
+  "feral_link": {
+    "name": "Fresh Breath",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Yaschas Massif -110 AF- (The Pass of Paddra)",
+      "slug": "yaschas-massif-110-af-the-pass-of-paddra",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [
+      "Lightning",
+      "Wind"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Resist Curse: +10%",
+        "slug": "resist-curse-10",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Pain: +10%",
+        "slug": "resist-pain-10",
+        "source_url": null,
+        "level": 19,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Curse: +44%",
+        "slug": "resist-curse-44",
+        "source_url": null,
+        "level": 27,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Pain: +44%",
+        "slug": "resist-pain-44",
+        "source_url": null,
+        "level": 37,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Dispel II",
+        "slug": "dispel-ii",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Wound",
+        "slug": "wound",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Curse II",
+        "slug": "curse-ii",
+        "source_url": null,
+        "level": 21,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Deprotect II",
+        "slug": "deprotect-ii",
+        "source_url": null,
+        "level": 26,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Heavy Deshellga",
+        "slug": "heavy-deshellga",
+        "source_url": null,
+        "level": 33,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Heavy Dispelga",
+        "slug": "heavy-dispelga",
+        "source_url": null,
+        "level": 40,
+        "default": false,
+        "infusable": false
+      }
+    ]
+  }
+}

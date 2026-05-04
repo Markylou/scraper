@@ -1,0 +1,132 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "moblin",
+  "name": "Moblin",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/1/10/FFXIII-2_Moblin.png/revision/latest?cb=20120802042518",
+  "role": "Commando",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 20,
+  "growth": "Early Peaker",
+  "special_notes": "Early Peaker - Rare - Greedy",
+  "paradigm_pack_notes": "A Moblin is not the easiest to find of potential sources of Gilfinder II, but it is the cheapest, available for infusion at level 1. Buccaboos and Gancanaghs get it at level 20. An assortment of other Goblins and Terraquatics get it later, or have it redlocked. Gilfinder II sources are cumulative in their effect, for a maximum of +250% to gil drops. He is a slightly better Goblin, but still not recommended to be used as a team member.",
+  "stats": {
+    "hp_min": 577,
+    "hp_max": 577,
+    "str_min": 48,
+    "str_max": 48,
+    "mag_min": 69,
+    "mag_max": 69
+  },
+  "feral_link": {
+    "name": "Batter Up",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Archylte Steppe -??? AF- (Stonestump Wastelands, Clearwater Marshes)",
+      "slug": "archylte-steppe-af-stonestump-wastelands-clearwater-marshes",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Fire",
+      "Ice",
+      "Lightning",
+      "Wind"
+    ],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Critical: Haste",
+        "slug": "critical-haste",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Gilfinder II",
+        "slug": "gilfinder-ii",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Magic: +5%",
+        "slug": "resist-magic-5",
+        "source_url": null,
+        "level": 6,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Magic: +15%",
+        "slug": "resist-magic-15",
+        "source_url": null,
+        "level": 10,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Attack",
+        "slug": "attack",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Ruin",
+        "slug": "ruin",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Launch",
+        "slug": "launch",
+        "source_url": null,
+        "level": 3,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Blitz",
+        "slug": "blitz",
+        "source_url": null,
+        "level": 14,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Blindside",
+        "slug": "blindside",
+        "source_url": null,
+        "level": 19,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

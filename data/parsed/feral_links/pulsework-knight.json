@@ -1,0 +1,27 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "head-twister",
+  "name": "Head Twister",
+  "role": "Sentinel",
+  "monster": {
+    "name": "Pulse Knight",
+    "slug": "pulsework-knight",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Pulsework_Knight_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Single button",
+    "ps3": [
+      "Left stick right"
+    ],
+    "xbox": [
+      "Left stick right"
+    ]
+  },
+  "description": "Inflict wind-attribute magic damage on surrounding foes and lift them into the air.",
+  "details": "Provokes enemies.",
+  "type": "Magic",
+  "damage_modifier": null,
+  "charge_time_seconds": 135,
+  "max_sync_pct": 300,
+  "effects": []
+}

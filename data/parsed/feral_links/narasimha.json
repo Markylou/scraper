@@ -1,0 +1,31 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "diving-strike",
+  "name": "Diving Strike",
+  "role": "Commando",
+  "monster": {
+    "name": "Narasimha",
+    "slug": "narasimha",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Narasimha_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Multiple",
+    "ps3": [
+      "Left stick left",
+      "Left stick left",
+      "Left stick up"
+    ],
+    "xbox": [
+      "Left stick left",
+      "Left stick left",
+      "Left stick up"
+    ]
+  },
+  "description": "Deal physical damage to target.",
+  "details": null,
+  "type": "Physical",
+  "damage_modifier": null,
+  "charge_time_seconds": 165,
+  "max_sync_pct": 300,
+  "effects": []
+}

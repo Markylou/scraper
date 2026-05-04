@@ -1,0 +1,104 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "lieutenant-amodar",
+  "name": "Lieutenant Amodar",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/7/7b/Amodar_XIII-2_Battle_Render.png/revision/latest/scale-to-width-down/268?cb=20120202022128",
+  "role": "Commando",
+  "speed": null,
+  "tame_rate_pct": 7,
+  "max_level": 13,
+  "growth": "Early Peaker",
+  "special_notes": "Early Peaker - Loyal - Cryptic",
+  "paradigm_pack_notes": "The low chance of acquiring Amodar's crystal can be increased by using high-sync Feral Links, e.g. Red Chocobo's Kweh (up to 400%), Twilight Odin's Zantetsuken (up to 999%) or PuPu's Items Please! (up to 999%). It is only possible to get the crystal if Lieutenant Amodar is defeated after Lightning has been eliminated.\n\nAmodar's stats are among the highest in the game, particularly in HP. This, coupled with his high strength, can make him an attacking alternative to any Sentinel. Amodar innately halves Fire damage.\n\nIf an enemy is airborne, either innately or after being launched, Amodar will fire his cannon during Attacks. This hits five times per action; an infused Attack: ATB Charge II will cause Amodar to fill an entire segment with every attack he uses. His Blitz takes the form of a grenade which deals fire-elemental damage and can launch.\n\nAmodar has a \"Cryptic\" trait. This may be referring to his duplicate, Captain Cryptic.",
+  "stats": {
+    "hp_min": 7000,
+    "hp_max": 7000,
+    "str_min": 600,
+    "str_max": 600,
+    "mag_min": 450,
+    "mag_max": 450
+  },
+  "feral_link": {
+    "name": "Iron Bear Claw",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Coliseum -??? AF- (Coliseum)",
+      "slug": "coliseum-af-coliseum",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [
+      "Fire"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [],
+    "skills": [
+      {
+        "name": "Paradigm",
+        "slug": "paradigm",
+        "source_url": null,
+        "level": null,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Cerberus",
+        "slug": "cerberus",
+        "source_url": null,
+        "level": null,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Tri-Disaster",
+        "slug": "tri-disaster",
+        "source_url": null,
+        "level": null,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Diversity",
+        "slug": "diversity",
+        "source_url": null,
+        "level": null,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Evened Odds",
+        "slug": "evened-odds",
+        "source_url": null,
+        "level": null,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Salvation",
+        "slug": "salvation",
+        "source_url": null,
+        "level": null,
+        "default": false,
+        "infusable": false
+      }
+    ]
+  }
+}

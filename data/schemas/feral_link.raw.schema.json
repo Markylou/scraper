@@ -1,0 +1,159 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "feral_link.raw.schema.json",
+  "title": "Raw Feral Link",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "slug",
+    "name",
+    "role",
+    "monster",
+    "input",
+    "description",
+    "details",
+    "type",
+    "damage_modifier",
+    "charge_time_seconds",
+    "max_sync_pct",
+    "effects"
+  ],
+  "properties": {
+    "source_url": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "role": {
+      "type": "string",
+      "enum": [
+        "Commando",
+        "Ravager",
+        "Sentinel",
+        "Saboteur",
+        "Synergist",
+        "Medic"
+      ]
+    },
+    "monster": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "slug",
+        "source_url"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "slug": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "source_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "input": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "ps3",
+        "xbox"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "Single button",
+            "Multiple",
+            "Timing",
+            "Button tap",
+            "Stick rotation",
+            "Complex",
+            "None"
+          ]
+        },
+        "ps3": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "xbox": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "description": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "details": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "type": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "Physical",
+        "Magic",
+        "Recovery",
+        "Buff",
+        "Debuff",
+        "Other",
+        null
+      ]
+    },
+    "damage_modifier": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "charge_time_seconds": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "max_sync_pct": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "effects": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

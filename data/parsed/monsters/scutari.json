@@ -1,0 +1,115 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "scutari",
+  "name": "Scutari",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/0/03/FFXIII-2_Scutari.png/revision/latest?cb=20120802041625",
+  "role": "Commando",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 20,
+  "growth": "Early Peaker",
+  "special_notes": "Early Peaker - Strong - Old Model",
+  "paradigm_pack_notes": "He can surpass 600 Strength and reach around 5500 HP with Strength Material and passives, which makes him durable and a stronger alternative compared to the Hoplite. If focused on HP, he may exceed 9000 HP and 400 Strength.",
+  "stats": {
+    "hp_min": 1277,
+    "hp_max": 1277,
+    "str_min": 164,
+    "str_max": 164,
+    "mag_min": 78,
+    "mag_max": 78
+  },
+  "feral_link": {
+    "name": "Missile Hatch",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Archylte Steppe -??? AF- (Stonestump Wastelands, Grave Ridge (Sunny))",
+      "slug": "archylte-steppe-af-stonestump-wastelands-grave-ridge-sunny",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Lightning"
+    ],
+    "halved": [
+      "Wind"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Feral Surge",
+        "slug": "feral-surge",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Feral Fatigue",
+        "slug": "feral-fatigue",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      }
+    ],
+    "skills": [
+      {
+        "name": "Attack",
+        "slug": "attack",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Ruin",
+        "slug": "ruin",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Lifesiphon",
+        "slug": "lifesiphon",
+        "source_url": null,
+        "level": 4,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Armor Breaker",
+        "slug": "armor-breaker",
+        "source_url": null,
+        "level": 19,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Ruinga",
+        "slug": "ruinga",
+        "source_url": null,
+        "level": 20,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

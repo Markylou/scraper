@@ -1,0 +1,29 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "multicast",
+  "name": "Multicast",
+  "role": "Ravager",
+  "monster": {
+    "name": "Zwerg Scandroid",
+    "slug": "zwerg-scandroid",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Zwerg_Scandroid_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Multiple",
+    "ps3": [
+      "Left stick down",
+      "Triangle"
+    ],
+    "xbox": [
+      "Left stick down",
+      "Y"
+    ]
+  },
+  "description": "Deal magic damage to target.",
+  "details": "Casts a barrage of thunder spells.",
+  "type": "Magic",
+  "damage_modifier": null,
+  "charge_time_seconds": 135,
+  "max_sync_pct": 300,
+  "effects": []
+}

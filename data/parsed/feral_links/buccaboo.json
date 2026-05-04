@@ -1,0 +1,33 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "batter-up",
+  "name": "Batter Up",
+  "role": "Ravager",
+  "monster": {
+    "name": "Buccaboo",
+    "slug": "buccaboo",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Buccaboo_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Multiple",
+    "ps3": [
+      "Left stick down",
+      "Left stick down",
+      "Left stick down",
+      "Left stick left"
+    ],
+    "xbox": [
+      "Left stick down",
+      "Left stick down",
+      "Left stick down",
+      "Left stick left"
+    ]
+  },
+  "description": "Deal physical damage to target and surrounding foes and launch them into the air.",
+  "details": null,
+  "type": "Physical",
+  "damage_modifier": null,
+  "charge_time_seconds": 120,
+  "max_sync_pct": 400,
+  "effects": []
+}

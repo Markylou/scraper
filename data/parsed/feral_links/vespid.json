@@ -1,0 +1,31 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "sniping-thrust",
+  "name": "Sniping Thrust",
+  "role": "Ravager",
+  "monster": {
+    "name": "Vespid",
+    "slug": "vespid",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Vespid_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Multiple",
+    "ps3": [
+      "Circle",
+      "Square",
+      "Square"
+    ],
+    "xbox": [
+      "B",
+      "X",
+      "X"
+    ]
+  },
+  "description": "Deal physical damage to target.",
+  "details": null,
+  "type": "Physical",
+  "damage_modifier": null,
+  "charge_time_seconds": 165,
+  "max_sync_pct": 350,
+  "effects": []
+}

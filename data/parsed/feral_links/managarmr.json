@@ -1,0 +1,31 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "sonic-fangs",
+  "name": "Sonic Fangs",
+  "role": "Commando",
+  "monster": {
+    "name": "Mánagarmr",
+    "slug": "managarmr",
+    "source_url": "https://finalfantasy.fandom.com/wiki/M%C3%A1nagarmr_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Multiple",
+    "ps3": [
+      "X",
+      "Triangle",
+      "X"
+    ],
+    "xbox": [
+      "A",
+      "Y",
+      "A"
+    ]
+  },
+  "description": "Deal physical damage to target.",
+  "details": null,
+  "type": "Physical",
+  "damage_modifier": null,
+  "charge_time_seconds": 165,
+  "max_sync_pct": 300,
+  "effects": []
+}

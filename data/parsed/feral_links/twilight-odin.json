@@ -1,0 +1,33 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "zantetsuken",
+  "name": "Zantetsuken",
+  "role": "Commando",
+  "monster": {
+    "name": "Twilight Odin",
+    "slug": "twilight-odin",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Twilight_Odin"
+  },
+  "input": {
+    "type": "Multiple",
+    "ps3": [
+      "Left stick left",
+      "Left stick right",
+      "Left stick down",
+      "Circle"
+    ],
+    "xbox": [
+      "Left stick left",
+      "Left stick right",
+      "Left stick down",
+      "B"
+    ]
+  },
+  "description": "Inflict physical damage on target and nearby foes.",
+  "details": null,
+  "type": "Physical",
+  "damage_modifier": null,
+  "charge_time_seconds": 265,
+  "max_sync_pct": 999,
+  "effects": []
+}

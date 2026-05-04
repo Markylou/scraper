@@ -1,0 +1,172 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "xolotl",
+  "name": "Xolotl",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/b/ba/FFXIII-2_Xolotl.png/revision/latest?cb=20120802014336",
+  "role": "Sentinel",
+  "speed": null,
+  "tame_rate_pct": 3,
+  "max_level": 40,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Hearty - Calm",
+  "paradigm_pack_notes": "The Xolotl is difficult to obtain. It excels in the Sentinel role, having high HP and potent damage resistance. It is also cheap to raise to maximum level.\n\nThe passive abilities Resist Magic +36% and Resist Physical +36% are prized enough by players that they are included a good percentage of the innumerable creature \"builds\" posted online, and Xolotl, like its fellow Woodwraith Tezcatlipoca, has both of them without infusion.\n\nXolotl and Goblin Chieftain have Improved Guard red-locked; Flandit and Lancer have it available for infusion (and Snow, for those with that DLC).\n\nImproved Guard II strengthens the effects of the existing Steelguard, reducing damage taken from 30% of normal to 14% of normal, and it can do the same for Mediguard if and when it is infused from another monster, ideally Pulse Knight. Improved Ward from Viking can improve the Xolotl's ability to protect the party against area attacks with its Fringeward.\n\nIt requires 66 Grade three Biological (Orb) monster materials to advance to level 20; 37 grade four Essences to maximum level of 40.",
+  "stats": {
+    "hp_min": 2711,
+    "hp_max": 2711,
+    "str_min": 126,
+    "str_max": 126,
+    "mag_min": 114,
+    "mag_max": 114
+  },
+  "feral_link": {
+    "name": "Oscillating Wave",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Academia -500 AF-",
+      "slug": "academia-500-af",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Physical",
+      "Magical"
+    ],
+    "halved": [],
+    "resistant": [
+      "Fire"
+    ],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Improved Guard II",
+        "slug": "improved-guard-ii",
+        "source_url": null,
+        "level": 1,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Resist Physical: +15%",
+        "slug": "resist-physical-15",
+        "source_url": null,
+        "level": 11,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Magic: +15%",
+        "slug": "resist-magic-15",
+        "source_url": null,
+        "level": 12,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Physical: +26%",
+        "slug": "resist-physical-26",
+        "source_url": null,
+        "level": 23,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Magic: +26%",
+        "slug": "resist-magic-26",
+        "source_url": null,
+        "level": 24,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Physical: +36%",
+        "slug": "resist-physical-36",
+        "source_url": null,
+        "level": 36,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Magic: +36%",
+        "slug": "resist-magic-36",
+        "source_url": null,
+        "level": 39,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Provoke",
+        "slug": "provoke",
+        "source_url": null,
+        "level": 1,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Steelguard",
+        "slug": "steelguard",
+        "source_url": null,
+        "level": 2,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Fringeward",
+        "slug": "fringeward",
+        "source_url": null,
+        "level": 7,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Vendetta",
+        "slug": "vendetta",
+        "source_url": null,
+        "level": 19,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Element Guard",
+        "slug": "element-guard",
+        "source_url": null,
+        "level": 30,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Challenge",
+        "slug": "challenge",
+        "source_url": null,
+        "level": 34,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Entrench",
+        "slug": "entrench",
+        "source_url": null,
+        "level": 40,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

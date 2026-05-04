@@ -1,0 +1,159 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "reaver",
+  "name": "Reaver",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/7/73/FFXIII-2_Reaver.png/revision/latest/scale-to-width-down/268?cb=20140331163503",
+  "role": "Commando",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 70,
+  "growth": "Late Bloomer",
+  "special_notes": "Late Bloomer - Painproof - Cool",
+  "paradigm_pack_notes": "Compared to Narasimha, the Reaver can get slightly higher Strength but lacks any other argument to be taken into the team instead of the superior Narasimha.",
+  "stats": {
+    "hp_min": 1226,
+    "hp_max": 1226,
+    "str_min": 129,
+    "str_max": 129,
+    "mag_min": 45,
+    "mag_max": 45
+  },
+  "feral_link": {
+    "name": "Spinning Slice",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Archylte Steppe -??? AF- (Sanctorium (Sunny), Plains of Eternity (Sunny))",
+      "slug": "archylte-steppe-af-sanctorium-sunny-plains-of-eternity-sunny",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Attack: ATB Charge",
+        "slug": "attack-atb-charge",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": false
+      },
+      {
+        "name": "Critical: Bravery",
+        "slug": "critical-bravery",
+        "source_url": null,
+        "level": 14,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Critical: Protect",
+        "slug": "critical-protect",
+        "source_url": null,
+        "level": 46,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Attack: ATB Charge II",
+        "slug": "attack-atb-charge-ii",
+        "source_url": null,
+        "level": 55,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Attack",
+        "slug": "attack",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Ruin",
+        "slug": "ruin",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Area Sweep",
+        "slug": "area-sweep",
+        "source_url": null,
+        "level": 2,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Launch",
+        "slug": "launch",
+        "source_url": null,
+        "level": 8,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Smite",
+        "slug": "smite",
+        "source_url": null,
+        "level": 22,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Blindside",
+        "slug": "blindside",
+        "source_url": null,
+        "level": 34,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Bloodthirsty",
+        "slug": "bloodthirsty",
+        "source_url": null,
+        "level": 50,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Scourge",
+        "slug": "scourge",
+        "source_url": null,
+        "level": 56,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Slow Chaser",
+        "slug": "slow-chaser",
+        "source_url": null,
+        "level": 60,
+        "default": false,
+        "infusable": false
+      }
+    ]
+  }
+}

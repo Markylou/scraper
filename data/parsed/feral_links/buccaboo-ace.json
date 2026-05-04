@@ -1,0 +1,29 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "spirit-infusion",
+  "name": "Spirit Infusion",
+  "role": "Ravager",
+  "monster": {
+    "name": "Buccaboo Ace",
+    "slug": "buccaboo-ace",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Buccaboo_Ace"
+  },
+  "input": {
+    "type": "Single button",
+    "ps3": [
+      "Left stick up"
+    ],
+    "xbox": [
+      "Left stick up"
+    ]
+  },
+  "description": "Enhance all allies' attributes.",
+  "details": "Restores max HP and bestows Faith, Protect and Shell.",
+  "type": "Buff",
+  "damage_modifier": null,
+  "charge_time_seconds": 150,
+  "max_sync_pct": 300,
+  "effects": [
+    "Faith"
+  ]
+}

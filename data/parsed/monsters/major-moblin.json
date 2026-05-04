@@ -1,0 +1,149 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "major-moblin",
+  "name": "Major Moblin",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/3/3b/FFXIII-2_Major_Moblin.png/revision/latest?cb=20120802042502",
+  "role": "Sentinel",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 45,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Rare - Hearty",
+  "paradigm_pack_notes": null,
+  "stats": {
+    "hp_min": 1176,
+    "hp_max": 1176,
+    "str_min": 71,
+    "str_max": 71,
+    "mag_min": 77,
+    "mag_max": 77
+  },
+  "feral_link": {
+    "name": "Neo Goblin Rush",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Archylte Steppe -??? AF- (Stonestump Wastelands, Grave Ridge, Clearwater Marshes)",
+      "slug": "archylte-steppe-af-stonestump-wastelands-grave-ridge-clearwater-marshes",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [
+      "Fire",
+      "Ice",
+      "Lightning",
+      "Wind",
+      "Physical"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Feral Speed II",
+        "slug": "feral-speed-ii",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Resist Physical: +5%",
+        "slug": "resist-physical-5",
+        "source_url": null,
+        "level": 4,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Physical: +15%",
+        "slug": "resist-physical-15",
+        "source_url": null,
+        "level": 7,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Physical: +26%",
+        "slug": "resist-physical-26",
+        "source_url": null,
+        "level": 20,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Strength: +10%",
+        "slug": "strength-10",
+        "source_url": null,
+        "level": 30,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Auto-Bravery",
+        "slug": "auto-bravery",
+        "source_url": null,
+        "level": 40,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Provoke",
+        "slug": "provoke",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Steelguard",
+        "slug": "steelguard",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Fringeward",
+        "slug": "fringeward",
+        "source_url": null,
+        "level": 3,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Vendetta",
+        "slug": "vendetta",
+        "source_url": null,
+        "level": 13,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Element Guard",
+        "slug": "element-guard",
+        "source_url": null,
+        "level": 26,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

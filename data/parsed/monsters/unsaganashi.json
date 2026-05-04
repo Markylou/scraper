@@ -1,0 +1,157 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "unsaganashi",
+  "name": "Unsaganashi",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/8/8d/FFXIII-2_Unsaganashi.png/revision/latest?cb=20120802005543",
+  "role": "Saboteur",
+  "speed": null,
+  "tame_rate_pct": 25,
+  "max_level": 70,
+  "growth": "Late Bloomer",
+  "special_notes": "Late Bloomer - Sparkprone - Slimy",
+  "paradigm_pack_notes": "Unsaganashi is one of only two sources of Cursega for infusion, and it comes about even with Ahriman as a source. It has a fifth rank but undesirable passive ability, Resist Wind +44%, that could conceivably force the use of yellow locking, where Ahriman has Magic +25%, and Imperilga, Woundga and Dispelga too. It can only be found at normal encounter rates in the one small area to the east called the Hidden Woodland Area. Before the death of Faeryl its encounter rate could be lower. After Faeryl and in 400 AF, though, it is as common as or more common than Ahriman.",
+  "stats": {
+    "hp_min": 523,
+    "hp_max": 523,
+    "str_min": 35,
+    "str_max": 35,
+    "mag_min": 46,
+    "mag_max": 46
+  },
+  "feral_link": {
+    "name": "Giant Drop",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Sunleth Waterscape -300 AF- (Hidden Woodland Area)",
+      "slug": "sunleth-waterscape-300-af-hidden-woodland-area",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Lightning"
+    ],
+    "halved": [
+      "Wind",
+      "Physical",
+      "Magical"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Resist Magic: +5%",
+        "slug": "resist-magic-5",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Fog: +10%",
+        "slug": "resist-fog-10",
+        "source_url": null,
+        "level": 16,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Resist Wind: +10%",
+        "slug": "resist-wind-10",
+        "source_url": null,
+        "level": 24,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Wind: +33%",
+        "slug": "resist-wind-33",
+        "source_url": null,
+        "level": 37,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Fog: +44%",
+        "slug": "resist-fog-44",
+        "source_url": null,
+        "level": 41,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Resist Wind: +45%",
+        "slug": "resist-wind-45",
+        "source_url": null,
+        "level": 54,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Fog: +66%",
+        "slug": "resist-fog-66",
+        "source_url": null,
+        "level": 58,
+        "default": false,
+        "red_locked": true
+      }
+    ],
+    "skills": [
+      {
+        "name": "Deprotect",
+        "slug": "deprotect",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Wound",
+        "slug": "wound",
+        "source_url": null,
+        "level": 10,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Fog II",
+        "slug": "fog-ii",
+        "source_url": null,
+        "level": 30,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Curse",
+        "slug": "curse",
+        "source_url": null,
+        "level": 49,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Cursega",
+        "slug": "cursega",
+        "source_url": null,
+        "level": 67,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "hateful-gouge",
+  "name": "Hateful Gouge",
+  "role": "Commando",
+  "monster": {
+    "name": "Don Tonberry",
+    "slug": "don-tonberry",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Don_Tonberry_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Timing",
+    "ps3": [
+      "X"
+    ],
+    "xbox": [
+      "A"
+    ]
+  },
+  "description": "Inflict physical damage and debuffing ailment on target.",
+  "details": "Inflicts Curse, Deprotect, Imperil, and Slow.",
+  "type": "Debuff",
+  "damage_modifier": null,
+  "charge_time_seconds": 200,
+  "max_sync_pct": 300,
+  "effects": [
+    "Curse",
+    "Imperil"
+  ]
+}

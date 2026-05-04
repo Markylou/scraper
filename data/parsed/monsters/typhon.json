@@ -1,0 +1,157 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "typhon",
+  "name": "Typhon",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/1/15/XIII-2_Typhon.png/revision/latest/scale-to-width-down/268?cb=20210415142209",
+  "role": "Commando",
+  "speed": null,
+  "tame_rate_pct": 15,
+  "max_level": 13,
+  "growth": "Early Peaker",
+  "special_notes": "Early Peaker - Flameproof - Bodyguard",
+  "paradigm_pack_notes": "Typhon is recruitable as a Commando. His stat development is weighted towards HP initially, but his Magic is heavily boosted at Level 13, allowing him to have the highest Magic stat for a monster Commando. His passive abilities Auto Enaero, Auto Enfire and Weak Spot allow him to inflict even more damage against certain enemies. One large drawback is that he has a very long animation casting length, so he may not inflict as much damage as his stats and skillset suggest.",
+  "stats": {
+    "hp_min": 6923,
+    "hp_max": 6923,
+    "str_min": 401,
+    "str_max": 401,
+    "mag_min": 612,
+    "mag_max": 612
+  },
+  "feral_link": {
+    "name": "Snort",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Coliseum -??? AF- (Coliseum)",
+      "slug": "coliseum-af-coliseum",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Physical",
+      "Magical"
+    ],
+    "halved": [
+      "Fire",
+      "Wind"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Weak Spot",
+        "slug": "weak-spot",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Auto-Enaero",
+        "slug": "auto-enaero",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Auto-Enfire",
+        "slug": "auto-enfire",
+        "source_url": null,
+        "level": 9,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Magic: +25%",
+        "slug": "magic-25",
+        "source_url": null,
+        "level": 13,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Attack",
+        "slug": "attack",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Ruin",
+        "slug": "ruin",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Powerchain",
+        "slug": "powerchain",
+        "source_url": null,
+        "level": 4,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Lifesiphon",
+        "slug": "lifesiphon",
+        "source_url": null,
+        "level": 5,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Mind Piercer",
+        "slug": "mind-piercer",
+        "source_url": null,
+        "level": 7,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Blindside",
+        "slug": "blindside",
+        "source_url": null,
+        "level": 10,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Scourge",
+        "slug": "scourge",
+        "source_url": null,
+        "level": 11,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Ruinga",
+        "slug": "ruinga",
+        "source_url": null,
+        "level": 12,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "flandit",
+  "name": "Flandit",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/d/dc/FFXIII2_enemy_Flandit.png/revision/latest/scale-to-width-down/268?cb=20120728213550",
+  "role": "Sentinel",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 99,
+  "growth": "Late Bloomer",
+  "special_notes": "Late Bloomer - Meleeproof - Ditzy",
+  "paradigm_pack_notes": "The Flandit is a Sentinel. Its Feral Link, Hundred Fists, deals physical damage. It is the only source of Improved Guard II, which it learns at level 99. Thus it is good infusion fodder for better Sentinels. It is one of two sources of Improved Guard at level 8; Lancer has it at 10. However, it has weaknesses to Fire and Wind, thus it is not recommended as a full-time SEN.",
+  "stats": {
+    "hp_min": 595,
+    "hp_max": 595,
+    "str_min": 42,
+    "str_max": 42,
+    "mag_min": 67,
+    "mag_max": 67
+  },
+  "feral_link": {
+    "name": "Hundred Fists",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Sunleth Waterscape -300 AF- (Assembly Area, Base of the Crystal, Warpwood)",
+      "slug": "sunleth-waterscape-300-af-assembly-area-base-of-the-crystal-warpwood",
+      "source_url": null
+    },
+    {
+      "name": "Sunleth Waterscape -400 AF- (Isle of Arboreal Embrace, Base of the Crystal, Undergrown Path)",
+      "slug": "sunleth-waterscape-400-af-isle-of-arboreal-embrace-base-of-the-crystal-undergrown-path",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Fire",
+      "Wind"
+    ],
+    "halved": [
+      "Lightning",
+      "Physical",
+      "Magical"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Improved Guard",
+        "slug": "improved-guard",
+        "source_url": null,
+        "level": 8,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Deprotect: +10%",
+        "slug": "resist-deprotect-10",
+        "source_url": null,
+        "level": 16,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Physical: +15%",
+        "slug": "resist-physical-15",
+        "source_url": null,
+        "level": 22,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "HP: +10%",
+        "slug": "hp-10",
+        "source_url": null,
+        "level": 24,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Deprotect: +44%",
+        "slug": "resist-deprotect-44",
+        "source_url": null,
+        "level": 29,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "HP: +16%",
+        "slug": "hp-16",
+        "source_url": null,
+        "level": 41,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Physical: +26%",
+        "slug": "resist-physical-26",
+        "source_url": null,
+        "level": 47,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "HP: +25%",
+        "slug": "hp-25",
+        "source_url": null,
+        "level": 68,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Deprotect: +66%",
+        "slug": "resist-deprotect-66",
+        "source_url": null,
+        "level": 77,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Improved Guard II",
+        "slug": "improved-guard-ii",
+        "source_url": null,
+        "level": 99,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Provoke",
+        "slug": "provoke",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Steelguard",
+        "slug": "steelguard",
+        "source_url": null,
+        "level": 5,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Fringeward",
+        "slug": "fringeward",
+        "source_url": null,
+        "level": 12,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Vendetta",
+        "slug": "vendetta",
+        "source_url": null,
+        "level": 37,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Element Guard",
+        "slug": "element-guard",
+        "source_url": null,
+        "level": 54,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Mediguard",
+        "slug": "mediguard",
+        "source_url": null,
+        "level": 87,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Entrench",
+        "slug": "entrench",
+        "source_url": null,
+        "level": 93,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

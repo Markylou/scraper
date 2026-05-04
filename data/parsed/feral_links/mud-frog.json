@@ -1,0 +1,23 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "cleansing-overture",
+  "name": "Cleansing Overture",
+  "role": "Ravager",
+  "monster": {
+    "name": "Mud Frog",
+    "slug": "mud-frog",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Mud_Frog_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "None",
+    "ps3": [],
+    "xbox": []
+  },
+  "description": "Remove status changes from all foes and allies.",
+  "details": null,
+  "type": "Other",
+  "damage_modifier": null,
+  "charge_time_seconds": 265,
+  "max_sync_pct": 100,
+  "effects": []
+}

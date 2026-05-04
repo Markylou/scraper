@@ -1,0 +1,33 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "kweh-kweh",
+  "name": "Kweh Kweh",
+  "role": "Ravager",
+  "monster": {
+    "name": "Blue Chocobo",
+    "slug": "blue-chocobo",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Blue_Chocobo_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Multiple",
+    "ps3": [
+      "Left stick up",
+      "Left stick right",
+      "Left stick down",
+      "Left stick left"
+    ],
+    "xbox": [
+      "Left stick up",
+      "Left stick right",
+      "Left stick down",
+      "Left stick left"
+    ]
+  },
+  "description": "Inflict magic damage on target and nearby foes.",
+  "details": null,
+  "type": "Magic",
+  "damage_modifier": null,
+  "charge_time_seconds": 180,
+  "max_sync_pct": 350,
+  "effects": []
+}

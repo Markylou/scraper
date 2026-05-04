@@ -1,0 +1,169 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "ahriman",
+  "name": "Ahriman",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/f/fa/FFXIII_enemy_Ahriman.png/revision/latest/scale-to-width-down/268?cb=20140220213829",
+  "role": "Saboteur",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 70,
+  "growth": "Late Bloomer",
+  "special_notes": "Late Bloomer - Windprone - Witty",
+  "paradigm_pack_notes": "Ahriman has the highest Magic stat of Saboteurs; at approximately 1,100, it has 100 more than Forked Cat. It gains an aid to its Curse and Cursega spells, and any other Debilitation spells that might be infused into it, with the Improved Debilitation II it gains at level 59. It is the best source of Imperil and Curse for infusion. It is one of only two sources of Cursega, and it as good or better than Unsaganashi as a source. Ahriman has Magic +25%, and Imperilga, Woundga and Dispelga too. It is weak to Wind, a problem in fights with Yomi, for example.\n\nIt requires 24 Grade two Biological monster materials (Slivers) to get to level 15, 32 grade three Orbs to attain level 30, 60 grade four Essences to reach level 45, and 52 grade five Crystals to get to maximum level of 70, when it learns Dispelga. 18 Essences are required to reach level 38 for Imperilga. Five Crystals get it to level 50 for Woundga, and 34, to 64 for Cursega.\n\nIts Feral Link is Multicast, which deals magic damage to a target.",
+  "stats": {
+    "hp_min": 889,
+    "hp_max": 889,
+    "str_min": 60,
+    "str_max": 60,
+    "mag_min": 82,
+    "mag_max": 82
+  },
+  "feral_link": {
+    "name": "Multicast",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Yaschas Massif -100 AF- (The Pass of Paddra)",
+      "slug": "yaschas-massif-100-af-the-pass-of-paddra",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Wind"
+    ],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Improved Debilitation",
+        "slug": "improved-debilitation",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Magic: +10%",
+        "slug": "magic-10",
+        "source_url": null,
+        "level": 7,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Magic: +16%",
+        "slug": "magic-16",
+        "source_url": null,
+        "level": 24,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Magic: +20%",
+        "slug": "magic-20",
+        "source_url": null,
+        "level": 29,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Improved Debilitation II",
+        "slug": "improved-debilitation-ii",
+        "source_url": null,
+        "level": 59,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Magic: +25%",
+        "slug": "magic-25",
+        "source_url": null,
+        "level": 63,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Imperil",
+        "slug": "imperil",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Curse",
+        "slug": "curse",
+        "source_url": null,
+        "level": 4,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Wound",
+        "slug": "wound",
+        "source_url": null,
+        "level": 14,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Dispel",
+        "slug": "dispel",
+        "source_url": null,
+        "level": 20,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Imperilga",
+        "slug": "imperilga",
+        "source_url": null,
+        "level": 38,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Woundga",
+        "slug": "woundga",
+        "source_url": null,
+        "level": 50,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Cursega",
+        "slug": "cursega",
+        "source_url": null,
+        "level": 64,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Dispelga",
+        "slug": "dispelga",
+        "source_url": null,
+        "level": 70,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

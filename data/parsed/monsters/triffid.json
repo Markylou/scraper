@@ -1,0 +1,153 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "triffid",
+  "name": "Triffid",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/2/2e/Triffid.png/revision/latest/scale-to-width-down/268?cb=20140221152759",
+  "role": "Synergist",
+  "speed": null,
+  "tame_rate_pct": 20,
+  "max_level": 70,
+  "growth": "Late Bloomer",
+  "special_notes": "Late Bloomer - Windproof - Elegant",
+  "paradigm_pack_notes": null,
+  "stats": {
+    "hp_min": 421,
+    "hp_max": 421,
+    "str_min": 47,
+    "str_max": 47,
+    "mag_min": 98,
+    "mag_max": 98
+  },
+  "feral_link": {
+    "name": "Sniping Thrust",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Archylte Steppe -Year Unknown- (Sanctorium (Sunny), Plains of Eternity (Sunny))",
+      "slug": "archylte-steppe-year-unknown-sanctorium-sunny-plains-of-eternity-sunny",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Ice"
+    ],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Resist Wind: +10%",
+        "slug": "resist-wind-10",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": false
+      },
+      {
+        "name": "Magic: +10%",
+        "slug": "magic-10",
+        "source_url": null,
+        "level": 5,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Magic: +20%",
+        "slug": "magic-20",
+        "source_url": null,
+        "level": 16,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Wind: +45%",
+        "slug": "resist-wind-45",
+        "source_url": null,
+        "level": 36,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Critical: Vigilance",
+        "slug": "critical-vigilance",
+        "source_url": null,
+        "level": 56,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Item Collector",
+        "slug": "item-collector",
+        "source_url": null,
+        "level": 70,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Protect",
+        "slug": "protect",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Shell",
+        "slug": "shell",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Veil",
+        "slug": "veil",
+        "source_url": null,
+        "level": 2,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Endless Blessings",
+        "slug": "endless-blessings",
+        "source_url": null,
+        "level": 10,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Protectga",
+        "slug": "protectga",
+        "source_url": null,
+        "level": 26,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Shellga",
+        "slug": "shellga",
+        "source_url": null,
+        "level": 46,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

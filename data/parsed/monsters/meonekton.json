@@ -1,0 +1,121 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "meonekton",
+  "name": "Meonekton",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/2/2b/FFXIII-2_Meonekton.png/revision/latest?cb=20120802011623",
+  "role": "Commando",
+  "speed": null,
+  "tame_rate_pct": 15,
+  "max_level": 20,
+  "growth": "Early Peaker",
+  "special_notes": "Early Peaker - Strong - Witty",
+  "paradigm_pack_notes": "Meonekton is a Commando whose development is slightly weighted towards Strength. Its stat development is largely linear, but its stats at its maximum level are low, even for an Early Peaker. It can inflict Deprotect with its Feral Link, which makes Meonekton slightly useful in the very early stages of the game. If one is not caught before defeating Atlas in Bresha Ruins 005 AF, a Gate Seal must be used to obtain one.",
+  "stats": {
+    "hp_min": 414,
+    "hp_max": 414,
+    "str_min": 25,
+    "str_max": 25,
+    "mag_min": 24,
+    "mag_max": 24
+  },
+  "feral_link": {
+    "name": "Black Hole",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "New Bodhum -003 AF- (Town Square, Beachfront)",
+      "slug": "new-bodhum-003-af-town-square-beachfront",
+      "source_url": null
+    },
+    {
+      "name": "Bresha Ruins -005 AF- (Echoes of the Past)",
+      "slug": "bresha-ruins-005-af-echoes-of-the-past",
+      "source_url": null
+    },
+    {
+      "name": "The Void Beyond",
+      "slug": "the-void-beyond",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Strength: +10%",
+        "slug": "strength-10",
+        "source_url": null,
+        "level": 10,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Attack",
+        "slug": "attack",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Ruin",
+        "slug": "ruin",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Smite",
+        "slug": "smite",
+        "source_url": null,
+        "level": 4,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Bravery Feeder",
+        "slug": "bravery-feeder",
+        "source_url": null,
+        "level": 13,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Lifesiphon",
+        "slug": "lifesiphon",
+        "source_url": null,
+        "level": 18,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Armor Breaker",
+        "slug": "armor-breaker",
+        "source_url": null,
+        "level": 20,
+        "default": false,
+        "infusable": false
+      }
+    ]
+  }
+}

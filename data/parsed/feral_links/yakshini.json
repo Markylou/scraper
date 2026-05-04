@@ -1,0 +1,31 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "fanatical-dance",
+  "name": "Fanatical Dance",
+  "role": "Synergist",
+  "monster": {
+    "name": "Yakshini",
+    "slug": "yakshini",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Yakshini_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Timing",
+    "ps3": [
+      "Left stick right",
+      "Left stick left",
+      "Left stick right"
+    ],
+    "xbox": [
+      "Left stick right",
+      "Left stick left",
+      "Left stick right"
+    ]
+  },
+  "description": "Enhance all allies' attributes.",
+  "details": "Restores max HP and bestows Bravery, Faith, Protect, Shell, Veil and Vigilance.",
+  "type": "Buff",
+  "damage_modifier": null,
+  "charge_time_seconds": 150,
+  "max_sync_pct": 340,
+  "effects": []
+}

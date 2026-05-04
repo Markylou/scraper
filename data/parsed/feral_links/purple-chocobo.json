@@ -1,0 +1,31 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "kweh-kweh",
+  "name": "Kweh Kweh",
+  "role": "Synergist",
+  "monster": {
+    "name": "Purple Chocobo",
+    "slug": "purple-chocobo",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Purple_Chocobo"
+  },
+  "input": {
+    "type": "Multiple",
+    "ps3": [
+      "Left stick left",
+      "Left stick left",
+      "Circle"
+    ],
+    "xbox": [
+      "Left stick left",
+      "Left stick left",
+      "B"
+    ]
+  },
+  "description": "Inflict magic damage on target and nearby foes.",
+  "details": null,
+  "type": "Magic",
+  "damage_modifier": null,
+  "charge_time_seconds": 150,
+  "max_sync_pct": 350,
+  "effects": []
+}

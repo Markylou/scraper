@@ -1,0 +1,29 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "cold-blood",
+  "name": "Cold Blood",
+  "role": "Synergist",
+  "monster": {
+    "name": "Sazh",
+    "slug": "sazh-katzroy",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Sazh_Katzroy"
+  },
+  "input": {
+    "type": "Button tap",
+    "ps3": [
+      "Square",
+      "Circle"
+    ],
+    "xbox": [
+      "X",
+      "B"
+    ]
+  },
+  "description": "Unleash a devastating volley of gunfire. Chain bonus effect varies by situation.",
+  "details": "Increases chain gauge when staggered.",
+  "type": "Other",
+  "damage_modifier": null,
+  "charge_time_seconds": 205,
+  "max_sync_pct": 300,
+  "effects": []
+}

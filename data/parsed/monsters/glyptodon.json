@@ -1,0 +1,42 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "glyptodon",
+  "name": "Glyptodon",
+  "dlc": false,
+  "monster_image": null,
+  "role": "Sentinel",
+  "speed": null,
+  "tame_rate_pct": null,
+  "max_level": 99,
+  "growth": null,
+  "special_notes": "None",
+  "paradigm_pack_notes": null,
+  "stats": {
+    "hp_min": 1,
+    "hp_max": 1,
+    "str_min": 0,
+    "str_max": 0,
+    "mag_min": 0,
+    "mag_max": 0
+  },
+  "feral_link": null,
+  "locations": [
+    {
+      "name": "Unknown",
+      "slug": "unknown",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [],
+    "skills": []
+  }
+}

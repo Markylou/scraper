@@ -1,0 +1,33 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "slurp",
+  "name": "Slurp",
+  "role": "Commando",
+  "monster": {
+    "name": "Crawler",
+    "slug": "crawler",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Crawler_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Complex",
+    "ps3": [
+      "Circle",
+      "Circle"
+    ],
+    "xbox": [
+      "X",
+      "Timing",
+      "B",
+      "B",
+      "A",
+      "Timing"
+    ]
+  },
+  "description": "Deal physical damage and inflict debuffing ailments.",
+  "details": "Inflicts Deprotect.",
+  "type": "Debuff",
+  "damage_modifier": null,
+  "charge_time_seconds": 150,
+  "max_sync_pct": 350,
+  "effects": []
+}

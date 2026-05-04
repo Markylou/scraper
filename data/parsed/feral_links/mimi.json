@@ -1,0 +1,33 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "multicast",
+  "name": "Multicast",
+  "role": "Saboteur",
+  "monster": {
+    "name": "Mimi",
+    "slug": "mimi",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Mimi"
+  },
+  "input": {
+    "type": "Multiple",
+    "ps3": [
+      "Circle",
+      "Circle",
+      "X",
+      "Circle"
+    ],
+    "xbox": [
+      "B",
+      "B",
+      "A",
+      "B"
+    ]
+  },
+  "description": "Deal magic damage to target.",
+  "details": "Casts a barrage of wound spells.",
+  "type": "Magic",
+  "damage_modifier": null,
+  "charge_time_seconds": 120,
+  "max_sync_pct": 375,
+  "effects": []
+}

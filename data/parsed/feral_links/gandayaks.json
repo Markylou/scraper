@@ -1,0 +1,29 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "heel-kick",
+  "name": "Heel Kick",
+  "role": "Commando",
+  "monster": {
+    "name": "Gandayaks",
+    "slug": "gandayaks",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Gandayaks"
+  },
+  "input": {
+    "type": "Multiple",
+    "ps3": [
+      "Left stick down",
+      "Circle"
+    ],
+    "xbox": [
+      "Left stick down",
+      "B"
+    ]
+  },
+  "description": "Deal physical damage to target.",
+  "details": null,
+  "type": "Physical",
+  "damage_modifier": null,
+  "charge_time_seconds": 165,
+  "max_sync_pct": 300,
+  "effects": []
+}

@@ -1,0 +1,127 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "navidon",
+  "name": "Navidon",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/e/ec/FFXIII_enemy_Navidon.png/revision/latest/scale-to-width-down/268?cb=20140221145041",
+  "role": "Sentinel",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 40,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Stoic - Icetouch",
+  "paradigm_pack_notes": "The Navidon, like the Pulse Gladiator, is a skilled Sentinel, mainly due to its unparalleled resistances. It lacks high HP, having half as much as the Bunkerbeast, but it receives half the total amount of damage or less from all types of enemy attacks and is far easier to heal.",
+  "stats": {
+    "hp_min": 2797,
+    "hp_max": 2797,
+    "str_min": 120,
+    "str_max": 120,
+    "mag_min": 62,
+    "mag_max": 62
+  },
+  "feral_link": {
+    "name": "Shell Spin",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Archylte Steppe -??? AF- (Clearwater Marshes (Rainy))",
+      "slug": "archylte-steppe-af-clearwater-marshes-rainy",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [
+      "Fire",
+      "Lightning",
+      "Wind",
+      "Physical",
+      "Magical"
+    ],
+    "resistant": [
+      "Ice"
+    ],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Improved Counter",
+        "slug": "improved-counter",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Feral Surge",
+        "slug": "feral-surge",
+        "source_url": null,
+        "level": 5,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Improved Counter II",
+        "slug": "improved-counter-ii",
+        "source_url": null,
+        "level": 26,
+        "default": false,
+        "red_locked": true
+      }
+    ],
+    "skills": [
+      {
+        "name": "Challenge",
+        "slug": "challenge",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Vendetta",
+        "slug": "vendetta",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Element Guard",
+        "slug": "element-guard",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Entrench",
+        "slug": "entrench",
+        "source_url": null,
+        "level": 12,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Deathward",
+        "slug": "deathward",
+        "source_url": null,
+        "level": 40,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

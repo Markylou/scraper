@@ -1,0 +1,27 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "turbo-fist",
+  "name": "Turbo Fist",
+  "role": "Sentinel",
+  "monster": {
+    "name": "Pulse Gladiator",
+    "slug": "pulsework-gladiator",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Pulsework_Gladiator_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Stick rotation",
+    "ps3": [
+      "Rotate left stick clockwise"
+    ],
+    "xbox": [
+      "Rotate left stick clockwise"
+    ]
+  },
+  "description": "Deal physical damage to surrounding foes.",
+  "details": "Provokes enemies.",
+  "type": "Physical",
+  "damage_modifier": null,
+  "charge_time_seconds": 135,
+  "max_sync_pct": 300,
+  "effects": []
+}

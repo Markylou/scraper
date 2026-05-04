@@ -1,0 +1,114 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "pulsework-soldier",
+  "name": "Pulsework Soldier",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/a/a1/FFXIII_enemy_Pulsework_Soldier.png/revision/latest?cb=20140221151148",
+  "role": "Sentinel",
+  "speed": null,
+  "tame_rate_pct": 15,
+  "max_level": 40,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Stoic - Oily",
+  "paradigm_pack_notes": "The Pulse Soldier is a Sentinel whose stat development begins slow, but grow rapidly between levels 20 and 30, before slowing down again. Its skillset development is similarly erratic, learning most of its abilities between levels 10 and 20, and does not learn any more beyond that.\n\nThe Pulse Soldier will have a maximum HP of around 5,000 if given Vitality materials, which is poor compared to other monster Sentinels. It takes half damage from physical and magical attacks and gains more passive resistance against physical attacks during its development, putting it on a par with Sentinels with higher HP.\n\nIt is less suitable than the Pulsework Knight for the purposes of giving the hidden Curaja ability to Medics, as it also passes on two passive abilities. A total of 99 levels of Sentinel are required, in the form of five at level 20, or six at level 17, etc.",
+  "stats": {
+    "hp_min": 580,
+    "hp_max": 580,
+    "str_min": 50,
+    "str_max": 50,
+    "mag_min": 10,
+    "mag_max": 10
+  },
+  "feral_link": {
+    "name": "Energy Wave",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "New Bodhum - 003 AF- (Beachfront, Winding Way)",
+      "slug": "new-bodhum-003-af-beachfront-winding-way",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [
+      "Physical",
+      "Magical"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Resist Physical: +15%",
+        "slug": "resist-physical-15",
+        "source_url": null,
+        "level": 3,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "HP: +10%",
+        "slug": "hp-10",
+        "source_url": null,
+        "level": 10,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Defense Maintenance",
+        "slug": "defense-maintenance",
+        "source_url": null,
+        "level": 18,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "HP: +16%",
+        "slug": "hp-16",
+        "source_url": null,
+        "level": 20,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Provoke",
+        "slug": "provoke",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Steelguard",
+        "slug": "steelguard",
+        "source_url": null,
+        "level": 7,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Vendetta",
+        "slug": "vendetta",
+        "source_url": null,
+        "level": 16,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "multicast",
+  "name": "Multicast",
+  "role": "Ravager",
+  "monster": {
+    "name": "Garchimacera",
+    "slug": "garchimacera",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Garchimacera_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Timing",
+    "ps3": [
+      "X"
+    ],
+    "xbox": [
+      "A"
+    ]
+  },
+  "description": "Deal magic damage to target.",
+  "details": "Casts a barrage of fire spells.",
+  "type": "Magic",
+  "damage_modifier": null,
+  "charge_time_seconds": 135,
+  "max_sync_pct": 300,
+  "effects": []
+}

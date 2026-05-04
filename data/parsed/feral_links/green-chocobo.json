@@ -1,0 +1,27 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "kweh-kweh",
+  "name": "Kweh Kweh",
+  "role": "Medic",
+  "monster": {
+    "name": "Green Chocobo",
+    "slug": "green-chocobo",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Green_Chocobo_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Timing",
+    "ps3": [
+      "Square"
+    ],
+    "xbox": [
+      "X"
+    ]
+  },
+  "description": "Inflict magic damage on target and nearby foes.",
+  "details": null,
+  "type": "Magic",
+  "damage_modifier": null,
+  "charge_time_seconds": 180,
+  "max_sync_pct": 300,
+  "effects": []
+}

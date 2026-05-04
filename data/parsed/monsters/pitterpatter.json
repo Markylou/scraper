@@ -1,0 +1,150 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "pitterpatter",
+  "name": "Pitterpatter",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/b/b0/FFXIII-2_Pitterpatter.png/revision/latest?cb=20120719121550",
+  "role": "Saboteur",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 45,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Icetouch - Spicy",
+  "paradigm_pack_notes": "The Pitterpatter is a Saboteur, however, one may not need it because of its limited skillset.",
+  "stats": {
+    "hp_min": 795,
+    "hp_max": 795,
+    "str_min": 42,
+    "str_max": 42,
+    "mag_min": 82,
+    "mag_max": 82
+  },
+  "feral_link": {
+    "name": "Refreshing Rain",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Yaschas Massif -100 AF- (The Pass of Paddra)",
+      "slug": "yaschas-massif-100-af-the-pass-of-paddra",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Fire",
+      "Lightning"
+    ],
+    "halved": [
+      "Wind"
+    ],
+    "resistant": [
+      "Ice"
+    ],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Attack: ATB Charge",
+        "slug": "attack-atb-charge",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Curse: +10%",
+        "slug": "resist-curse-10",
+        "source_url": null,
+        "level": 9,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Dispel: +10%",
+        "slug": "resist-dispel-10",
+        "source_url": null,
+        "level": 32,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Fog: +10%",
+        "slug": "resist-fog-10",
+        "source_url": null,
+        "level": 33,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Curse: +44%",
+        "slug": "resist-curse-44",
+        "source_url": null,
+        "level": 37,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Dispel: +44%",
+        "slug": "resist-dispel-44",
+        "source_url": null,
+        "level": 40,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Fog: +44%",
+        "slug": "resist-fog-44",
+        "source_url": null,
+        "level": 44,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Deprotect II",
+        "slug": "deprotect-ii",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Dispel II",
+        "slug": "dispel-ii",
+        "source_url": null,
+        "level": 20,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Deshell II",
+        "slug": "deshell-ii",
+        "source_url": null,
+        "level": 34,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Heavy Deprotega",
+        "slug": "heavy-deprotega",
+        "source_url": null,
+        "level": 43,
+        "default": false,
+        "infusable": false
+      }
+    ]
+  }
+}

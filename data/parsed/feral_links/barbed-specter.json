@@ -1,0 +1,35 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "biohazard-injection",
+  "name": "Biohazard Injection",
+  "role": "Saboteur",
+  "monster": {
+    "name": "Barbed Specter",
+    "slug": "barbed-specter",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Barbed_Specter_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Multiple",
+    "ps3": [
+      "X",
+      "X",
+      "Triangle",
+      "Square"
+    ],
+    "xbox": [
+      "A",
+      "A",
+      "Y",
+      "X"
+    ]
+  },
+  "description": "Deal physical damage and inflict debuffing ailments.",
+  "details": "Inflicts Poison.",
+  "type": "Debuff",
+  "damage_modifier": null,
+  "charge_time_seconds": 150,
+  "max_sync_pct": 400,
+  "effects": [
+    "Poison"
+  ]
+}

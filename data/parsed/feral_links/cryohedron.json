@@ -1,0 +1,27 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "elemental-overdrive",
+  "name": "Elemental Overdrive",
+  "role": "Ravager",
+  "monster": {
+    "name": "Cryohedron",
+    "slug": "cryohedron",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Cryohedron_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Stick rotation",
+    "ps3": [
+      "Rotate left stick clockwise"
+    ],
+    "xbox": [
+      "Rotate left stick clockwise"
+    ]
+  },
+  "description": "Inflict magic damage on target and nearby foes.",
+  "details": null,
+  "type": "Magic",
+  "damage_modifier": null,
+  "charge_time_seconds": 120,
+  "max_sync_pct": 300,
+  "effects": []
+}

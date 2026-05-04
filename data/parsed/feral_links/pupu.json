@@ -1,0 +1,37 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "items-please",
+  "name": "Items Please!",
+  "role": "Medic",
+  "monster": {
+    "name": "PuPu",
+    "slug": "pupu",
+    "source_url": "https://finalfantasy.fandom.com/wiki/PuPu_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Complex",
+    "ps3": [
+      "Square",
+      "Square",
+      "X"
+    ],
+    "xbox": [
+      "Rotate left stick clockwise",
+      "X",
+      "Button tap",
+      "X",
+      "X",
+      "A",
+      "Rotate left stick clockwise",
+      "A",
+      "Button tap"
+    ]
+  },
+  "description": "Inflict magic damage and increase the odds of obtaining items after battle.",
+  "details": null,
+  "type": "Magic",
+  "damage_modifier": null,
+  "charge_time_seconds": 180,
+  "max_sync_pct": 999,
+  "effects": []
+}

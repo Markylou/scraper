@@ -1,0 +1,173 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "managarmr",
+  "name": "Mánagarmr",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/7/74/FFXIII_enemy_M%C3%A1nagarmr.png/revision/latest/scale-to-width-down/268?cb=20140221144304",
+  "role": "Commando",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 45,
+  "growth": "Well-grown",
+  "special_notes": "Well Grown - Sparktouch - Spoiled",
+  "paradigm_pack_notes": "Mánagarmr is a Commando. Its Feral Link, Sonic Fangs, deals physical damage to a target. With Strength Materials and passives, he can surpass 1200 in Strength, making him the strongest Commandos in his monster group.",
+  "stats": {
+    "hp_min": 1804,
+    "hp_max": 1804,
+    "str_min": 190,
+    "str_max": 190,
+    "mag_min": 124,
+    "mag_max": 124
+  },
+  "feral_link": {
+    "name": "Sonic Fangs",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Academia -500 AF-",
+      "slug": "academia-500-af",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Wind"
+    ],
+    "halved": [
+      "Lightning",
+      "Physical",
+      "Magical"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Resist Lightning +10%",
+        "slug": "resist-lightning-10",
+        "source_url": null,
+        "level": 22,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Resist Lightning +33%",
+        "slug": "resist-lightning-33",
+        "source_url": null,
+        "level": 38,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Resist Lightning +45%",
+        "slug": "resist-lightning-45",
+        "source_url": null,
+        "level": 45,
+        "default": false,
+        "red_locked": true
+      }
+    ],
+    "skills": [
+      {
+        "name": "Attack",
+        "slug": "attack",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Ruin",
+        "slug": "ruin",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Blitz",
+        "slug": "blitz",
+        "source_url": null,
+        "level": 2,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Curse Chaser",
+        "slug": "curse-chaser",
+        "source_url": null,
+        "level": 3,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Launch",
+        "slug": "launch",
+        "source_url": null,
+        "level": 5,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Powerchain",
+        "slug": "powerchain",
+        "source_url": null,
+        "level": 8,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Stagger: Wound",
+        "slug": "stagger-wound",
+        "source_url": null,
+        "level": 11,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Imperil Chaser",
+        "slug": "imperil-chaser",
+        "source_url": null,
+        "level": 18,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Bloodthirsty",
+        "slug": "bloodthirsty",
+        "source_url": null,
+        "level": 28,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Ravage",
+        "slug": "ravage",
+        "source_url": null,
+        "level": 32,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Adrenaline",
+        "slug": "adrenaline",
+        "source_url": null,
+        "level": 40,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

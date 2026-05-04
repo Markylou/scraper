@@ -1,0 +1,31 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "abyssal-breath",
+  "name": "Abyssal Breath",
+  "role": "Synergist",
+  "monster": {
+    "name": "Sahagin Prince",
+    "slug": "sahagin-prince",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Sahagin_Prince_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Multiple",
+    "ps3": [
+      "X",
+      "X",
+      "Circle"
+    ],
+    "xbox": [
+      "A",
+      "A",
+      "B"
+    ]
+  },
+  "description": "Inflict long-lasting status ailments on target and nearby foes.",
+  "details": "Inflicts Deprotect, Deshell, and Imperil, and deals wound damage.",
+  "type": "Other",
+  "damage_modifier": null,
+  "charge_time_seconds": 100,
+  "max_sync_pct": 350,
+  "effects": []
+}

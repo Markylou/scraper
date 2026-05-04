@@ -1,0 +1,29 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "flame-cyclone",
+  "name": "Flame Cyclone",
+  "role": "Commando",
+  "monster": {
+    "name": "Dreadnought",
+    "slug": "dreadnought",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Dreadnought_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Button tap",
+    "ps3": [
+      "Square",
+      "Circle"
+    ],
+    "xbox": [
+      "X",
+      "B"
+    ]
+  },
+  "description": "Inflict fire-attribute magic damage on target and nearby foes.",
+  "details": null,
+  "type": "Magic",
+  "damage_modifier": null,
+  "charge_time_seconds": 120,
+  "max_sync_pct": 300,
+  "effects": []
+}

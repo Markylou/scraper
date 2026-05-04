@@ -1,0 +1,148 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "flanborg",
+  "name": "Flanborg",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/a/a9/FFXIII_enemy_Flanborg.png/revision/latest/scale-to-width-down/268?cb=20140221141314",
+  "role": "Commando",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 40,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Thunderproof - Rough",
+  "paradigm_pack_notes": "The Flanborg is a Commando. It possesses good all-round stats and learns both Blitz and Ruinga. However, like many flan-type monsters, it is hampered by an extremely slow attack and casting speed.",
+  "stats": {
+    "hp_min": 792,
+    "hp_max": 792,
+    "str_min": 69,
+    "str_max": 69,
+    "mag_min": 101,
+    "mag_max": 101
+  },
+  "feral_link": {
+    "name": "Twin Fists",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Augusta Tower -300AF-",
+      "slug": "augusta-tower-300af",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Fire",
+      "Wind"
+    ],
+    "halved": [],
+    "resistant": [
+      "Lightning"
+    ],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Resist Imperil: +10%",
+        "slug": "resist-imperil-10",
+        "source_url": null,
+        "level": 8,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Imperil: +44%",
+        "slug": "resist-imperil-44",
+        "source_url": null,
+        "level": 20,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Kill: Libra",
+        "slug": "kill-libra",
+        "source_url": null,
+        "level": 26,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Attack",
+        "slug": "attack",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Ruin",
+        "slug": "ruin",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Blitz",
+        "slug": "blitz",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Armor Breaker",
+        "slug": "armor-breaker",
+        "source_url": null,
+        "level": 4,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Bloodthirsty",
+        "slug": "bloodthirsty",
+        "source_url": null,
+        "level": 13,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Deprotect Chaser",
+        "slug": "deprotect-chaser",
+        "source_url": null,
+        "level": 30,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Stagger: Drain",
+        "slug": "stagger-drain",
+        "source_url": null,
+        "level": 37,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Ruinga",
+        "slug": "ruinga",
+        "source_url": null,
+        "level": 40,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "friendly-fire",
+  "name": "Friendly Fire",
+  "role": "Ravager",
+  "monster": {
+    "name": "Circuitron",
+    "slug": "circuitron",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Circuitron_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Multiple",
+    "ps3": [
+      "Left stick down",
+      "Left stick up"
+    ],
+    "xbox": [
+      "Left stick down",
+      "Left stick up"
+    ]
+  },
+  "description": "Enhances all allies' attributes.",
+  "details": "Restores max HP and bestows Faith, Veil, Vigilance and Enthunder.",
+  "type": "Buff",
+  "damage_modifier": null,
+  "charge_time_seconds": 150,
+  "max_sync_pct": 300,
+  "effects": [
+    "Vigilance",
+    "Enthunder"
+  ]
+}

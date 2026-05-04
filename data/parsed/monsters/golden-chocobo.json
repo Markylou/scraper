@@ -1,0 +1,151 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "golden-chocobo",
+  "name": "Golden Chocobo",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/1/1a/13-2_golden_chocobo.PNG/revision/latest?cb=20120718031203",
+  "role": "Commando",
+  "speed": null,
+  "tame_rate_pct": null,
+  "max_level": 45,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Rare - Calm",
+  "paradigm_pack_notes": "The Golden Chocobo is a Commando, much like its peers the Chocobo and Red Chocobo. It learns Armor Breaker—which boosts its Strength by 30% against opponents that resist or halve physical damage—and Stagger: Drain—which helps it maintain its HP—and combined with its respectable strength, HP, no elemental weaknesses, and with a maximum of five ATB bars, the Golden Chocobo can be a great Commando. Its Feral Link, Kweh, and the distinctive sequence of input commands it has, can easily boost its sync rate to the maximum of 500%, making it good for capturing monsters.\n\nIn comparison to the Chocobo and the Red Chocobo, it doesn't get the full 6 ATB slots, and if the player wants all five ATB slots, they must give up COM Bonus Boost. The Golden Chocobo learns fewer abilities than its peers, but is more cost efficient to develop. Its Stagger: Drain overrides Armor Breaker, an ability considered superior in most circumstances. Like other Strength-based chocobos, the Golden Chocobo suffers from a slow attack speed against moving opponents, as it must reorient itself between Attacks.",
+  "stats": {
+    "hp_min": 3204,
+    "hp_max": 3204,
+    "str_min": 264,
+    "str_max": 264,
+    "mag_min": 192,
+    "mag_max": 192
+  },
+  "feral_link": {
+    "name": "Kweh",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Coliseum -??? AF- (Coliseum)",
+      "slug": "coliseum-af-coliseum",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Critical: Tetradefense",
+        "slug": "critical-tetradefense",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Stagger Maintenance",
+        "slug": "stagger-maintenance",
+        "source_url": null,
+        "level": 2,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Attack",
+        "slug": "attack",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Ruin",
+        "slug": "ruin",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Area Sweep",
+        "slug": "area-sweep",
+        "source_url": null,
+        "level": 5,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Lifesiphon",
+        "slug": "lifesiphon",
+        "source_url": null,
+        "level": 9,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Smite",
+        "slug": "smite",
+        "source_url": null,
+        "level": 14,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Blindside",
+        "slug": "blindside",
+        "source_url": null,
+        "level": 29,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Stagger: Drain",
+        "slug": "stagger-drain",
+        "source_url": null,
+        "level": 37,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Armor Breaker",
+        "slug": "armor-breaker",
+        "source_url": null,
+        "level": 40,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Ruinga",
+        "slug": "ruinga",
+        "source_url": null,
+        "level": 44,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Scourge",
+        "slug": "scourge",
+        "source_url": null,
+        "level": 45,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

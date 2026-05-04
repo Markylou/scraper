@@ -1,0 +1,137 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "vespid",
+  "name": "Vespid",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/2/20/FFXIII_enemy_Vespid.png/revision/latest/scale-to-width-down/268?cb=20140221153134",
+  "role": "Ravager",
+  "speed": null,
+  "tame_rate_pct": 15,
+  "max_level": 45,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Pinch Hitter - Beautiful",
+  "paradigm_pack_notes": "The Vespid is a Ravager. Its moveset is entirely based on Wind- and Fire-related attacks, although it only reaches tier two in both categories. It reaches favorable stats at the end of its development along with some Critical statuses.",
+  "stats": {
+    "hp_min": 951,
+    "hp_max": 951,
+    "str_min": 115,
+    "str_max": 115,
+    "mag_min": 148,
+    "mag_max": 148
+  },
+  "feral_link": {
+    "name": "Sniping Thrust",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Vile Peaks -200 AF-",
+      "slug": "vile-peaks-200-af",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [],
+    "resistant": [
+      "Wind"
+    ],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Critical: Faith",
+        "slug": "critical-faith",
+        "source_url": null,
+        "level": 19,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Critical: Shell",
+        "slug": "critical-shell",
+        "source_url": null,
+        "level": 39,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Kill: ATB Charge",
+        "slug": "kill-atb-charge",
+        "source_url": null,
+        "level": 45,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Aero",
+        "slug": "aero",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Galestrike",
+        "slug": "galestrike",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Overwhelm",
+        "slug": "overwhelm",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Fearsiphon",
+        "slug": "fearsiphon",
+        "source_url": null,
+        "level": 4,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Aerora",
+        "slug": "aerora",
+        "source_url": null,
+        "level": 27,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Fire",
+        "slug": "fire",
+        "source_url": null,
+        "level": 36,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Fira",
+        "slug": "fira",
+        "source_url": null,
+        "level": 42,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

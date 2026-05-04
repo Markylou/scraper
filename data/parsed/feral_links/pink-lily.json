@@ -1,0 +1,27 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "spinning-jump",
+  "name": "Spinning Jump",
+  "role": "Ravager",
+  "monster": {
+    "name": "Pink Lily",
+    "slug": "pink-lily",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Pink_Lily"
+  },
+  "input": {
+    "type": "Stick rotation",
+    "ps3": [
+      "Rotate left stick clockwise"
+    ],
+    "xbox": [
+      "Rotate left stick clockwise"
+    ]
+  },
+  "description": "Inflict magic damage on target and nearby foes.",
+  "details": "Provokes enemies.",
+  "type": "Magic",
+  "damage_modifier": null,
+  "charge_time_seconds": 120,
+  "max_sync_pct": 300,
+  "effects": []
+}

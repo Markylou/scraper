@@ -1,0 +1,246 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "valfodr",
+  "name": "Valfodr",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/a/a6/Valfodr.jpg/revision/latest/scale-to-width-down/268?cb=20120419171647",
+  "role": "Ravager",
+  "speed": null,
+  "tame_rate_pct": null,
+  "max_level": 99,
+  "growth": "Late Bloomer",
+  "special_notes": "Late Bloomer - Stoic - Resolute",
+  "paradigm_pack_notes": "While Valfodr can be tamed by defeating him at any level, he will most likely relinquish his crystal once defeated at level 99. A Ravager, his initial stats are impressive, and with the right infusing methods they rise much beyond that as he levels up. Valfodr is useful when facing enemies with an elemental weakness or inflicted with Imperil, as he is the only monster that learns all the Fel-type abilities, as well as Weak Spot. Due to those unique trademarks, his damage output is comparable to that of COMs. His spellcasting is also incredibly fast. Valfodr is the most powerful Ravager, with 6 ATB, respectable HP with a Mana-focused build, and the highest Magic in the game.\n\nHis main fault is that he is expensive to develop—he requires 269 crystals to reach level 99. As defeating Valfodr at his most powerful is one of the biggest challenges in Final Fantasy XIII-2, if the player only obtains his crystal from Valfodr Lv. 99, there may be no other challenges on offer for the player to utilize him.",
+  "stats": {
+    "hp_min": 6828,
+    "hp_max": 6828,
+    "str_min": 584,
+    "str_max": 584,
+    "mag_min": 602,
+    "mag_max": 602
+  },
+  "feral_link": {
+    "name": "Gagnrath",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Coliseum -??? AF- (Coliseum)",
+      "slug": "coliseum-af-coliseum",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [
+      "Fire",
+      "Ice",
+      "Lightning",
+      "Wind",
+      "Physical",
+      "Magical"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Chain Bonus Boost",
+        "slug": "chain-bonus-boost",
+        "source_url": null,
+        "level": 8,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Weak Spot",
+        "slug": "weak-spot",
+        "source_url": null,
+        "level": 35,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Stagger Maintenance II",
+        "slug": "stagger-maintenance-ii",
+        "source_url": null,
+        "level": 37,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Chain Bonus Boost II",
+        "slug": "chain-bonus-boost-ii",
+        "source_url": null,
+        "level": 66,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resilience: +40%",
+        "slug": "resilience-40",
+        "source_url": null,
+        "level": 70,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Elements: +30%",
+        "slug": "resist-elements-30",
+        "source_url": null,
+        "level": 99,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Fire",
+        "slug": "fire",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Thunder",
+        "slug": "thunder",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Flamestrike",
+        "slug": "flamestrike",
+        "source_url": null,
+        "level": 3,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Sparkstrike",
+        "slug": "sparkstrike",
+        "source_url": null,
+        "level": 5,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Fira",
+        "slug": "fira",
+        "source_url": null,
+        "level": 10,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Blizzard",
+        "slug": "blizzard",
+        "source_url": null,
+        "level": 14,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Aero",
+        "slug": "aero",
+        "source_url": null,
+        "level": 15,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Thundara",
+        "slug": "thundara",
+        "source_url": null,
+        "level": 16,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Firaga",
+        "slug": "firaga",
+        "source_url": null,
+        "level": 18,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Thundaga",
+        "slug": "thundaga",
+        "source_url": null,
+        "level": 23,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Heat Blitz",
+        "slug": "heat-blitz",
+        "source_url": null,
+        "level": 30,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Felflame",
+        "slug": "felflame",
+        "source_url": null,
+        "level": 40,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Overwhelm",
+        "slug": "overwhelm",
+        "source_url": null,
+        "level": 45,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Felspark",
+        "slug": "felspark",
+        "source_url": null,
+        "level": 56,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Fearsiphon",
+        "slug": "fearsiphon",
+        "source_url": null,
+        "level": 60,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Felfrost",
+        "slug": "felfrost",
+        "source_url": null,
+        "level": 78,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Felgust",
+        "slug": "felgust",
+        "source_url": null,
+        "level": 82,
+        "default": false,
+        "infusable": false
+      }
+    ]
+  }
+}

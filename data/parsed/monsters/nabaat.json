@@ -1,0 +1,194 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "nabaat",
+  "name": "Nabaat",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/d/d5/Jihl_Nabaat_XIII-2_Battle_Render.png/revision/latest/scale-to-width-down/268?cb=20120309012102",
+  "role": "Saboteur",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 13,
+  "growth": "Early Peaker",
+  "special_notes": "Early Peaker - Painproof - Egomaniac",
+  "paradigm_pack_notes": "Nabaat is a useful Saboteur, whose attacks complement Serah and Noel's limited skillsets. She is quick with both physical and magical movements, helped by her good Strength and Magic. Her HP is average.\n\nNabaat's Feral Link, Sadistic Surge, is strengthened with a control stick input and magically hits one foe multiple times. The attack is best used during an enemy's stagger period, as it does minimal damage otherwise.\n\nNabaat and Dendrobium are the only Paradigm Pack allies with access to Poisonga; all others have only the Strength-based, physical-damage Heavy Poisonga. She is the only Saboteur with both Improved Debuffing and Improved Debilitation II. Thus, she is the most adept at reducing both the effectiveness of both enemy defenses (Debuffing) and abilities (Debilitation). All of her Debilitation spells are of the physical-damage \"Heavy\" or \"II\" type.\n\nNabaat has a unique purpose other Saboteurs cannot replicate: by Cursing her opponent and then steadily attacking it, Nabaat can catch a target in a stun-lock via her Pressure II passive ability. Her downside is that Nabaat will attempt to inflict most of the debuffs she knows on a target before moving on to Wound, which has the best Cut (hitstun value). This strategy is ineffective against many bosses and Coliseum opponents.\n\nAll-Mana build is good for her to capitalize on the Wound damage and to strengthen her Magic-based Feral Link, but using Potent materials is viable as well. Due to her unique role as a stun-locker, Nabaat becomes less effective the more spells one teaches her.\n\nNabaat's Feral Link, Sadistic Surge, is powerful, good at keeping the opponent stun-locked, and bestows additional bonuses to Nabaat depending on the Paradigm Pack's role composition:",
+  "stats": {
+    "hp_min": 4928,
+    "hp_max": 4928,
+    "str_min": 448,
+    "str_max": 448,
+    "mag_min": 454,
+    "mag_max": 454
+  },
+  "feral_link": {
+    "name": "Sadistic Surge",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Coliseum -??? AF- (Coliseum)",
+      "slug": "coliseum-af-coliseum",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [
+      "Physical",
+      "Magical"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Pressure II",
+        "slug": "pressure-ii",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Improved Debilitation",
+        "slug": "improved-debilitation",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Improved Debuffing",
+        "slug": "improved-debuffing",
+        "source_url": null,
+        "level": 12,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Improved Debilitation II",
+        "slug": "improved-debilitation-ii",
+        "source_url": null,
+        "level": 13,
+        "default": false,
+        "red_locked": true
+      }
+    ],
+    "skills": [
+      {
+        "name": "Poison",
+        "slug": "poison",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Curse II",
+        "slug": "curse-ii",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Pain II",
+        "slug": "pain-ii",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Fog II",
+        "slug": "fog-ii",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Imperil",
+        "slug": "imperil",
+        "source_url": null,
+        "level": 3,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Wound",
+        "slug": "wound",
+        "source_url": null,
+        "level": 4,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Heavy Painga",
+        "slug": "heavy-painga",
+        "source_url": null,
+        "level": 5,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Heavy Fogga",
+        "slug": "heavy-fogga",
+        "source_url": null,
+        "level": 6,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Endless Nightmare",
+        "slug": "endless-nightmare",
+        "source_url": null,
+        "level": 7,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Imperilga",
+        "slug": "imperilga",
+        "source_url": null,
+        "level": 8,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Heavy Cursega",
+        "slug": "heavy-cursega",
+        "source_url": null,
+        "level": 9,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Woundga",
+        "slug": "woundga",
+        "source_url": null,
+        "level": 10,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Poisonga",
+        "slug": "poisonga",
+        "source_url": null,
+        "level": 11,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

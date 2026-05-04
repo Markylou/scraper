@@ -1,0 +1,180 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "cactuar",
+  "name": "Cactuar",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/9/9d/FFXIII_enemy_Cactuar.png/revision/latest?cb=20140221131315",
+  "role": "Commando",
+  "speed": null,
+  "tame_rate_pct": 33.3,
+  "max_level": 45,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Strong - Wild",
+  "paradigm_pack_notes": "The Cactuar can surpass 1500 Strength with Power Materials and the +35% Strength Passive. This can make him a strong addition to Serah and Noel's team.",
+  "stats": {
+    "hp_min": 992,
+    "hp_max": 992,
+    "str_min": 142,
+    "str_max": 142,
+    "mag_min": 62,
+    "mag_max": 62
+  },
+  "feral_link": {
+    "name": "1000 Needles",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Archylte Steppe -??? AF- (Sanctorium) (Plains of Eternity-Sunny Weather)",
+      "slug": "archylte-steppe-af-sanctorium-plains-of-eternity-sunny-weather",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Fire"
+    ],
+    "halved": [
+      "Physical",
+      "Magical"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Critical: Bravery",
+        "slug": "critical-bravery",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Slow: +10%",
+        "slug": "resist-slow-10",
+        "source_url": null,
+        "level": 10,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Slow: +44%",
+        "slug": "resist-slow-44",
+        "source_url": null,
+        "level": 17,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Slow: +66%",
+        "slug": "resist-slow-66",
+        "source_url": null,
+        "level": 30,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Auto-Bravery",
+        "slug": "auto-bravery",
+        "source_url": null,
+        "level": 45,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Attack",
+        "slug": "attack",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Ruin",
+        "slug": "ruin",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Launch",
+        "slug": "launch",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Bravery Feeder",
+        "slug": "bravery-feeder",
+        "source_url": null,
+        "level": 7,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Stagger: Wound",
+        "slug": "stagger-wound",
+        "source_url": null,
+        "level": 13,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Deprotect Chaser",
+        "slug": "deprotect-chaser",
+        "source_url": null,
+        "level": 23,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Protect Feeder",
+        "slug": "protect-feeder",
+        "source_url": null,
+        "level": 25,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Powerchain",
+        "slug": "powerchain",
+        "source_url": null,
+        "level": 38,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Scourge",
+        "slug": "scourge",
+        "source_url": null,
+        "level": 40,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Ruinga",
+        "slug": "ruinga",
+        "source_url": null,
+        "level": 43,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "multicast",
+  "name": "Multicast",
+  "role": "Ravager",
+  "monster": {
+    "name": "Notsugo",
+    "slug": "notsugo",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Notsugo"
+  },
+  "input": {
+    "type": "Multiple",
+    "ps3": [
+      "Left stick down",
+      "Circle",
+      "Circle",
+      "Circle"
+    ],
+    "xbox": [
+      "Left stick down",
+      "B",
+      "B",
+      "B"
+    ]
+  },
+  "description": "Deal magic damage to target.",
+  "details": "Casts a barrage of fire spells.",
+  "type": "Magic",
+  "damage_modifier": null,
+  "charge_time_seconds": 135,
+  "max_sync_pct": 375,
+  "effects": []
+}

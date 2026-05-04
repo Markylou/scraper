@@ -1,0 +1,201 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "gorgonopsid",
+  "name": "Gorgonopsid",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/0/07/FFXIII_enemy_Gorgonopsid.png/revision/latest/scale-to-width-down/268?cb=20140221141847",
+  "role": "Commando",
+  "speed": null,
+  "tame_rate_pct": 15,
+  "max_level": 99,
+  "growth": "Late Bloomer",
+  "special_notes": "Late Bloomer - Strong - Flameprone",
+  "paradigm_pack_notes": "The Gorgonopsid is a Commando. A Late Bloomer, it learns a wide variety of abilities, most notably Poison Chaser.\n\nIts stat development is exponential, and it develops very slowly until it passes level 80. It also requires many monster materials to develop.",
+  "stats": {
+    "hp_min": 430,
+    "hp_max": 430,
+    "str_min": 60,
+    "str_max": 60,
+    "mag_min": 30,
+    "mag_max": 30
+  },
+  "feral_link": {
+    "name": "Sonic Fangs",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "New Bodhum -003 AF- (Beachfront, Winding Way)",
+      "slug": "new-bodhum-003-af-beachfront-winding-way",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Fire"
+    ],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Resist Poison: +10%",
+        "slug": "resist-poison-10",
+        "source_url": null,
+        "level": 9,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Magic: +10%",
+        "slug": "magic-10",
+        "source_url": null,
+        "level": 13,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Poison: +44%",
+        "slug": "resist-poison-44",
+        "source_url": null,
+        "level": 29,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Magic: +16%",
+        "slug": "magic-16",
+        "source_url": null,
+        "level": 33,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Bloodthirsty",
+        "slug": "bloodthirsty",
+        "source_url": null,
+        "level": 38,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Poison: +66%",
+        "slug": "resist-poison-66",
+        "source_url": null,
+        "level": 56,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Magic: +20%",
+        "slug": "magic-20",
+        "source_url": null,
+        "level": 68,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Attack",
+        "slug": "attack",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Ruin",
+        "slug": "ruin",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Slow Chaser",
+        "slug": "slow-chaser",
+        "source_url": null,
+        "level": 2,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Powerchain",
+        "slug": "powerchain",
+        "source_url": null,
+        "level": 5,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Poison Chaser",
+        "slug": "poison-chaser",
+        "source_url": null,
+        "level": 17,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Launch",
+        "slug": "launch",
+        "source_url": null,
+        "level": 23,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Lifesiphon",
+        "slug": "lifesiphon",
+        "source_url": null,
+        "level": 41,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Faultsiphon",
+        "slug": "faultsiphon",
+        "source_url": null,
+        "level": 49,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Adrenaline",
+        "slug": "adrenaline",
+        "source_url": null,
+        "level": 67,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Scourge",
+        "slug": "scourge",
+        "source_url": null,
+        "level": 82,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Ruinga",
+        "slug": "ruinga",
+        "source_url": null,
+        "level": 97,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

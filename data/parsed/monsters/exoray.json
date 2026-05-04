@@ -1,0 +1,123 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "exoray",
+  "name": "Exoray",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/0/0b/FFXIII2_enemy_Exoray.png/revision/latest?cb=20120728212724",
+  "role": "Medic",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 40,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Resourceful - Smooth",
+  "paradigm_pack_notes": "The Exoray is a Medic. Its HP increases rapidly at low levels, but its growth significantly slows after it reaches level 10, while its Strength and Magic are more linear. If fed Potent materials, the Exoray will have around 3,400 HP, 160 Strength and 240 Magic at level 40, making it a mediocre Medic. It learns Curasa, a necessity late game, but lacks Raise and needs it infused. The Exoray is the most powerful Medic monster early to mid game until the party encounters Caterchipillars.",
+  "stats": {
+    "hp_min": 415,
+    "hp_max": 415,
+    "str_min": 25,
+    "str_max": 25,
+    "mag_min": 70,
+    "mag_max": 70
+  },
+  "feral_link": {
+    "name": "Explosive Thrust",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "New Bodhum -003 AF- (Beachfront, Tidal Shallows)",
+      "slug": "new-bodhum-003-af-beachfront-tidal-shallows",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Lightning"
+    ],
+    "halved": [
+      "Physical"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Improved Cure",
+        "slug": "improved-cure",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": false
+      },
+      {
+        "name": "Critical: Shell",
+        "slug": "critical-shell",
+        "source_url": null,
+        "level": 20,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Improved Cure II",
+        "slug": "improved-cure-ii",
+        "source_url": null,
+        "level": 39,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Item Collector",
+        "slug": "item-collector",
+        "source_url": null,
+        "level": 40,
+        "default": false,
+        "red_locked": true
+      }
+    ],
+    "skills": [
+      {
+        "name": "Cure",
+        "slug": "cure",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Curasa",
+        "slug": "curasa",
+        "source_url": null,
+        "level": 3,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Cura",
+        "slug": "cura",
+        "source_url": null,
+        "level": 8,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Esuna",
+        "slug": "esuna",
+        "source_url": null,
+        "level": 12,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

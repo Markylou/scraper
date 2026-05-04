@@ -1,0 +1,33 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "tornado",
+  "name": "Tornado",
+  "role": "Ravager",
+  "monster": {
+    "name": "Pleuston",
+    "slug": "pleuston",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Pleuston"
+  },
+  "input": {
+    "type": "Multiple",
+    "ps3": [
+      "Left stick right",
+      "Left stick up",
+      "Left stick left",
+      "Left stick right"
+    ],
+    "xbox": [
+      "Left stick right",
+      "Left stick up",
+      "Left stick left",
+      "Left stick right"
+    ]
+  },
+  "description": "Deal magic damage to target and surrounding foes and launch them into the air.",
+  "details": null,
+  "type": "Magic",
+  "damage_modifier": null,
+  "charge_time_seconds": 120,
+  "max_sync_pct": 350,
+  "effects": []
+}

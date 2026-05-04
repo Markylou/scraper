@@ -1,0 +1,29 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "explosive-trigger",
+  "name": "Explosive Trigger",
+  "role": "Synergist",
+  "monster": {
+    "name": "Testudo",
+    "slug": "testudo",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Testudo_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Button tap",
+    "ps3": [
+      "Square",
+      "Circle"
+    ],
+    "xbox": [
+      "X",
+      "B"
+    ]
+  },
+  "description": "Inflict magic damage on target and nearby foes.",
+  "details": null,
+  "type": "Magic",
+  "damage_modifier": null,
+  "charge_time_seconds": 90,
+  "max_sync_pct": 300,
+  "effects": []
+}

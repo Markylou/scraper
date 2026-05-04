@@ -1,0 +1,122 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "buccaboo",
+  "name": "Buccaboo",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/2/2a/FFXIII2_enemy_Buccaboo.png/revision/latest?cb=20120730035300",
+  "role": "Ravager",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 20,
+  "growth": "Early Peaker",
+  "special_notes": "Early Peaker - Frostproof - Stylish",
+  "paradigm_pack_notes": "Once tamed, the Buccaboo becomes a Ravager. It is an Early Peaker that learns attacks of the Ice and Wind elements. Since the Buccaboo has access to the Chain Bonus Boost and Gilfinder II abilities, it is a worthy candidate for infusion.",
+  "stats": {
+    "hp_min": 1429,
+    "hp_max": 1429,
+    "str_min": 115,
+    "str_max": 115,
+    "mag_min": 91,
+    "mag_max": 91
+  },
+  "feral_link": {
+    "name": "Batter Up",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Archylte Steppe -??? AF- (Stonestump Wastelands, Grave Ridge (Sunny, Rainy))",
+      "slug": "archylte-steppe-af-stonestump-wastelands-grave-ridge-sunny-rainy",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [
+      "Ice",
+      "Wind"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Chain Bonus Boost",
+        "slug": "chain-bonus-boost",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Strength: +20%",
+        "slug": "strength-20",
+        "source_url": null,
+        "level": 4,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Magic: +20%",
+        "slug": "magic-20",
+        "source_url": null,
+        "level": 16,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Gilfinder II",
+        "slug": "gilfinder-ii",
+        "source_url": null,
+        "level": 20,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Blizzard",
+        "slug": "blizzard",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Froststrike",
+        "slug": "froststrike",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Blizzara",
+        "slug": "blizzara",
+        "source_url": null,
+        "level": 10,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Galestrike",
+        "slug": "galestrike",
+        "source_url": null,
+        "level": 19,
+        "default": false,
+        "infusable": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "spirit-infusion",
+  "name": "Spirit Infusion",
+  "role": "Sentinel",
+  "monster": {
+    "name": "Goblin Chieftain",
+    "slug": "goblin-chieftain",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Goblin_Chieftain_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Single button",
+    "ps3": [
+      "Triangle"
+    ],
+    "xbox": [
+      "Y"
+    ]
+  },
+  "description": "Enhance all allies' attributes.",
+  "details": "Restores max HP and bestows Bravery, Protect, Shell, Veil, and Vigilance.",
+  "type": "Buff",
+  "damage_modifier": null,
+  "charge_time_seconds": 150,
+  "max_sync_pct": 300,
+  "effects": []
+}

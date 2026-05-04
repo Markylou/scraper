@@ -1,0 +1,31 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "meteorite",
+  "name": "Meteorite",
+  "role": "Commando",
+  "monster": {
+    "name": "Chichu",
+    "slug": "chichu",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Chichu_%28Final_Fantasy_XIII-2%29"
+  },
+  "input": {
+    "type": "Timing",
+    "ps3": [
+      "Left stick up",
+      "Left stick up",
+      "Left stick down"
+    ],
+    "xbox": [
+      "Left stick up",
+      "Left stick up",
+      "Left stick down"
+    ]
+  },
+  "description": "Deal physical damage to target.",
+  "details": null,
+  "type": "Physical",
+  "damage_modifier": null,
+  "charge_time_seconds": 165,
+  "max_sync_pct": 330,
+  "effects": []
+}

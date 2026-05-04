@@ -1,0 +1,156 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "bloodfang-bass",
+  "name": "Bloodfang Bass",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/a/a6/FFXIII_enemy_Bloodfang_Bass.png/revision/latest/scale-to-width-down/268?cb=20140220223540",
+  "role": "Ravager",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 45,
+  "growth": "Well-grown",
+  "special_notes": "Well-grown - Flameprone - Greedy",
+  "paradigm_pack_notes": null,
+  "stats": {
+    "hp_min": 826,
+    "hp_max": 826,
+    "str_min": 49,
+    "str_max": 49,
+    "mag_min": 98,
+    "mag_max": 98
+  },
+  "feral_link": {
+    "name": "Refreshing Rain",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Oerba -300 AF-",
+      "slug": "oerba-300-af",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Fire",
+      "Lightning"
+    ],
+    "halved": [
+      "Ice"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Gilfinder II",
+        "slug": "gilfinder-ii",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Resist Ice: +10%",
+        "slug": "resist-ice-10",
+        "source_url": null,
+        "level": 6,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Magic: +5%",
+        "slug": "resist-magic-5",
+        "source_url": null,
+        "level": 10,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Ice: +33%",
+        "slug": "resist-ice-33",
+        "source_url": null,
+        "level": 23,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Magic: +15%",
+        "slug": "resist-magic-15",
+        "source_url": null,
+        "level": 29,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Ice: +45%",
+        "slug": "resist-ice-45",
+        "source_url": null,
+        "level": 36,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Magic: +26%",
+        "slug": "resist-magic-26",
+        "source_url": null,
+        "level": 42,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Blizzard",
+        "slug": "blizzard",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Froststrike",
+        "slug": "froststrike",
+        "source_url": null,
+        "level": 5,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Blizzara",
+        "slug": "blizzara",
+        "source_url": null,
+        "level": 25,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Ice Blitz",
+        "slug": "ice-blitz",
+        "source_url": null,
+        "level": 31,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Blizzaga",
+        "slug": "blizzaga",
+        "source_url": null,
+        "level": 44,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

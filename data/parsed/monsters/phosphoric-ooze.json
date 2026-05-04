@@ -1,0 +1,53 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "phosphoric-ooze",
+  "name": "Phosphoric Ooze",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/e/e7/Phosphoric_Ooze_XIII2.png/revision/latest/scale-to-width-down/250?cb=20170511035322",
+  "role": "Commando",
+  "speed": null,
+  "tame_rate_pct": null,
+  "max_level": 45,
+  "growth": null,
+  "special_notes": "None",
+  "paradigm_pack_notes": null,
+  "stats": {
+    "hp_min": 1,
+    "hp_max": 1,
+    "str_min": 0,
+    "str_max": 0,
+    "mag_min": 0,
+    "mag_max": 0
+  },
+  "feral_link": {
+    "name": "Twin Fists",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Unknown",
+      "slug": "unknown",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [],
+    "skills": []
+  }
+}

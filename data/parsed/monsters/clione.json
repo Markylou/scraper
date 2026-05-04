@@ -1,0 +1,145 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "clione",
+  "name": "Clione",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/b/bf/FFXIII2_enemy_Clione.png/revision/latest?cb=20120802011328",
+  "role": "Synergist",
+  "speed": null,
+  "tame_rate_pct": 20,
+  "max_level": 70,
+  "growth": "Late Bloomer",
+  "special_notes": "Late Bloomer - Flameproof - Bullish",
+  "paradigm_pack_notes": "The Clione is a Synergist. It is capable of bestowing Bravery, Vigilance, and Veil to party members, but possesses poor stat growth for a Late Bloomer.\n\nTherefore, players are advised against spending any materials on this monster unless they are planning to infuse its passive abilities onto another monster.",
+  "stats": {
+    "hp_min": 555,
+    "hp_max": 555,
+    "str_min": 32,
+    "str_max": 32,
+    "mag_min": 46,
+    "mag_max": 46
+  },
+  "feral_link": {
+    "name": "Tornado",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Oerba -200 AF- ( Village Proper ( Available only before defeating Caius. ) )",
+      "slug": "oerba-200-af-village-proper-available-only-before-defeating-caius",
+      "source_url": null
+    },
+    {
+      "name": "Archylte Steppe -??? AF- ( Plains of Eternity ( Available only before defeating the Faeryl; cloudy weather. ) )",
+      "slug": "archylte-steppe-af-plains-of-eternity-available-only-before-defeating-the-faeryl-cloudy-weather",
+      "source_url": null
+    },
+    {
+      "name": "The Void Beyond",
+      "slug": "the-void-beyond",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Resist Fire: +10%",
+        "slug": "resist-fire-10",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Curse: +10%",
+        "slug": "resist-curse-10",
+        "source_url": null,
+        "level": 7,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Fire: +33%",
+        "slug": "resist-fire-33",
+        "source_url": null,
+        "level": 27,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Curse: +44%",
+        "slug": "resist-curse-44",
+        "source_url": null,
+        "level": 35,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Fire: +45%",
+        "slug": "resist-fire-45",
+        "source_url": null,
+        "level": 48,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Curse: +66%",
+        "slug": "resist-curse-66",
+        "source_url": null,
+        "level": 50,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Bravery",
+        "slug": "bravery",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Vigilance",
+        "slug": "vigilance",
+        "source_url": null,
+        "level": 4,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Veil",
+        "slug": "veil",
+        "source_url": null,
+        "level": 22,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Bravega",
+        "slug": "bravega",
+        "source_url": null,
+        "level": 47,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

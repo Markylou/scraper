@@ -1,0 +1,132 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "ultros",
+  "name": "Ultros",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/1/1c/Ultros_XIII-2.png/revision/latest/scale-to-width-down/268?cb=20120405221058",
+  "role": "Synergist",
+  "speed": null,
+  "tame_rate_pct": 100,
+  "max_level": 13,
+  "growth": "Early Peaker",
+  "special_notes": "Early Peaker - Frostproof - Boneless",
+  "paradigm_pack_notes": "Ultros is a Synergist, and like many other Coliseum monsters, has six ATB gauge segments and his level caps at 13. While his stats are impressive, his skillset is not, for he only learns Protect, Shell and Endless Blessings. The player would need to make many infusions for Ultros to get more abilities; this can be an advantage, as the player can customize him to their liking.\n\nUltros's Magic stat can potentially exceed 1,000, making his Feral Link powerful: Octopus Ink causes Magic-based damage and attempts to apply Curse, Pain, and Slow —a status ailment unavailable as a spell—on a group of foes. He has has Feral, Surge but not Feral Fatigue, meaning the moment his Feral Link gauge fills he is bestowed with Bravery, Faith, Vigilance, Veil, Protect, Shell, and Haste.\n\nUltros is a slow caster and sometimes suffers from repositioning issues, slowing him down further. However, the player is free to customize his skillset. One build is to give him all the defense-oriented buffs, as he is the only monster to have Defense Maintenance II, a passive ability that lengthens defensive buff duration. The player can also guarantee Bravega and Faithga if those are the only other spells one teaches him, or guarantee that he casts the longer-lasting single-target versions if one teaches him only those.",
+  "stats": {
+    "hp_min": 5168,
+    "hp_max": 5168,
+    "str_min": 487,
+    "str_max": 487,
+    "mag_min": 531,
+    "mag_max": 531
+  },
+  "feral_link": {
+    "name": "Octopus Ink",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Coliseum -??? AF- (Coliseum)",
+      "slug": "coliseum-af-coliseum",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Fire",
+      "Lightning"
+    ],
+    "halved": [],
+    "resistant": [
+      "Ice"
+    ],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Defense Maintenance II",
+        "slug": "defense-maintenance-ii",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Feral Surge",
+        "slug": "feral-surge",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "First Strike",
+        "slug": "first-strike",
+        "source_url": null,
+        "level": 6,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Auto-Veil",
+        "slug": "auto-veil",
+        "source_url": null,
+        "level": 10,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Random: Nullify Ice",
+        "slug": "random-nullify-ice",
+        "source_url": null,
+        "level": 12,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Magic: +20%",
+        "slug": "magic-20",
+        "source_url": null,
+        "level": 13,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Protect",
+        "slug": "protect",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Shell",
+        "slug": "shell",
+        "source_url": null,
+        "level": 5,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Endless Blessings",
+        "slug": "endless-blessings",
+        "source_url": null,
+        "level": 11,
+        "default": false,
+        "infusable": false
+      }
+    ]
+  }
+}

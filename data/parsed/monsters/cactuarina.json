@@ -1,0 +1,137 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "cactuarina",
+  "name": "Cactuarina",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/d/d9/XIII2_Cactuarina.png/revision/latest/scale-to-width-down/180?cb=20171029152008",
+  "role": "Medic",
+  "speed": null,
+  "tame_rate_pct": null,
+  "max_level": 45,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Zippy - Yucky",
+  "paradigm_pack_notes": "Cactuarina's stats rise quickly at the start of its crystarium, however its development gradually slows down as it reaches level 45. Its development is heavily geared towards Strength, but as the Cactuarina is a Medic, and its Feral Link is magic based, it has no use for this stat. While its HP growth is unimpressive, Cactuarina's casting animation is very quick.",
+  "stats": {
+    "hp_min": 684,
+    "hp_max": 684,
+    "str_min": 106,
+    "str_max": 106,
+    "mag_min": 77,
+    "mag_max": 77
+  },
+  "feral_link": {
+    "name": "Hypnotic Dance",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "New Bodhum -003 AF- (Meteorite Impact Site)",
+      "slug": "new-bodhum-003-af-meteorite-impact-site",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Fire"
+    ],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Feral Speed II",
+        "slug": "feral-speed-ii",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Improved Raise",
+        "slug": "improved-raise",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Resist Physical: +5%",
+        "slug": "resist-physical-5",
+        "source_url": null,
+        "level": 4,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Physical: +15%",
+        "slug": "resist-physical-15",
+        "source_url": null,
+        "level": 22,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Physical: +26%",
+        "slug": "resist-physical-26",
+        "source_url": null,
+        "level": 32,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Feral Surge",
+        "slug": "feral-surge",
+        "source_url": null,
+        "level": null,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Improved Raise II",
+        "slug": "improved-raise-ii",
+        "source_url": null,
+        "level": 45,
+        "default": false,
+        "red_locked": true
+      }
+    ],
+    "skills": [
+      {
+        "name": "Cure",
+        "slug": "cure",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Raise",
+        "slug": "raise",
+        "source_url": null,
+        "level": 6,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Cheer",
+        "slug": "cheer",
+        "source_url": null,
+        "level": 12,
+        "default": false,
+        "infusable": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "multicast",
+  "name": "Multicast",
+  "role": "Ravager",
+  "monster": {
+    "name": "Koboldroid Yin",
+    "slug": "koboldroid-yin",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Koboldroid_Yin"
+  },
+  "input": {
+    "type": "Multiple",
+    "ps3": [
+      "Left stick right",
+      "Left stick down",
+      "Left stick left",
+      "Left stick left"
+    ],
+    "xbox": [
+      "Left stick right",
+      "Left stick down",
+      "Left stick left",
+      "Left stick left"
+    ]
+  },
+  "description": "Deal magic damage to target.",
+  "details": "Casts a barrage of fire spells.",
+  "type": "Magic",
+  "damage_modifier": null,
+  "charge_time_seconds": 135,
+  "max_sync_pct": 300,
+  "effects": []
+}

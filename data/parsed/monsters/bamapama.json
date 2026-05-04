@@ -1,0 +1,137 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "bamapama",
+  "name": "Bamapama",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/7/77/FFXIII2_enemy_Bamapama.png/revision/latest?cb=20120728211756",
+  "role": "Saboteur",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 45,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Meleeproof - Soft",
+  "paradigm_pack_notes": null,
+  "stats": {
+    "hp_min": 1831,
+    "hp_max": 1831,
+    "str_min": 119,
+    "str_max": 119,
+    "mag_min": 163,
+    "mag_max": 163
+  },
+  "feral_link": {
+    "name": "Multicast",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Academia -500 AF-",
+      "slug": "academia-500-af",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [],
+    "resistant": [
+      "Physical"
+    ],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Resist Physical: +26%",
+        "slug": "resist-physical-26",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Critical: Shell",
+        "slug": "critical-shell",
+        "source_url": null,
+        "level": 16,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Physical: 36%",
+        "slug": "resist-physical-36",
+        "source_url": null,
+        "level": 22,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Improved Debuffing",
+        "slug": "improved-debuffing",
+        "source_url": null,
+        "level": 36,
+        "default": false,
+        "red_locked": true
+      }
+    ],
+    "skills": [
+      {
+        "name": "Deprotect II",
+        "slug": "deprotect-ii",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Wound",
+        "slug": "wound",
+        "source_url": null,
+        "level": 5,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Imperil II",
+        "slug": "imperil-ii",
+        "source_url": null,
+        "level": 8,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Dispel II",
+        "slug": "dispel-ii",
+        "source_url": null,
+        "level": 38,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Fog II",
+        "slug": "fog-ii",
+        "source_url": null,
+        "level": 42,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Deshell II",
+        "slug": "deshell-ii",
+        "source_url": null,
+        "level": 45,
+        "default": false,
+        "infusable": false
+      }
+    ]
+  }
+}

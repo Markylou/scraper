@@ -1,0 +1,27 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "energy-wave",
+  "name": "Energy Wave",
+  "role": "Sentinel",
+  "monster": {
+    "name": "Pulse Soldier",
+    "slug": "pulsework-soldier",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Pulsework_Soldier_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Single button",
+    "ps3": [
+      "X"
+    ],
+    "xbox": [
+      "A"
+    ]
+  },
+  "description": "Inflict lightning-attribute magic damage on target and nearby foes.",
+  "details": "Provokes enemies.",
+  "type": "Magic",
+  "damage_modifier": null,
+  "charge_time_seconds": 135,
+  "max_sync_pct": 300,
+  "effects": []
+}

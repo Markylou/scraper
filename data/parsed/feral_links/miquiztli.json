@@ -1,0 +1,33 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "terra-fantasy",
+  "name": "Terra Fantasy",
+  "role": "Synergist",
+  "monster": {
+    "name": "Miquiztli",
+    "slug": "miquiztli",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Miquiztli"
+  },
+  "input": {
+    "type": "Multiple",
+    "ps3": [
+      "Circle",
+      "Left stick down",
+      "Left stick down",
+      "X"
+    ],
+    "xbox": [
+      "B",
+      "Left stick down",
+      "Left stick down",
+      "A"
+    ]
+  },
+  "description": "Restores HP to all allies.",
+  "details": "Also removes status ailments.",
+  "type": "Other",
+  "damage_modifier": null,
+  "charge_time_seconds": 205,
+  "max_sync_pct": 400,
+  "effects": []
+}

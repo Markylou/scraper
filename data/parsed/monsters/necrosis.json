@@ -1,0 +1,207 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "necrosis",
+  "name": "Necrosis",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/3/38/FFXIII-2_Necrosis.png/revision/latest?cb=20120802004004",
+  "role": "Saboteur",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 99,
+  "growth": "Late Bloomer",
+  "special_notes": "Late Bloomer - Rare - Calm",
+  "paradigm_pack_notes": "The Necrosis is a Saboteur. It does have limited use in battle, as it inflicts the same status ailments that Serah and Noel can, albeit its attacks are physical and it is costly to develop; on par with Twilight Odin and Omega. It does have some useful passive abilities. It is the only source of an inheritable Resilience: +40% passive ability, so players may wish to level Necrosis up to 70, then infuse it into other monsters that would otherwise be susceptible to status ailments.",
+  "stats": {
+    "hp_min": 448,
+    "hp_max": 448,
+    "str_min": 47,
+    "str_max": 47,
+    "mag_min": 98,
+    "mag_max": 98
+  },
+  "feral_link": {
+    "name": "Biohazard Injection",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Yaschas Massif -01X AF- (The Pass of Paddra)",
+      "slug": "yaschas-massif-01x-af-the-pass-of-paddra",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Improved Debuffing",
+        "slug": "improved-debuffing",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Resilience: +10%",
+        "slug": "resilience-10",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Physical: +5%",
+        "slug": "resist-physical-5",
+        "source_url": null,
+        "level": 15,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Physical: +15%",
+        "slug": "resist-physical-15",
+        "source_url": null,
+        "level": 30,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "HP: +10%",
+        "slug": "hp-10",
+        "source_url": null,
+        "level": 36,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resilience: +20%",
+        "slug": "resilience-20",
+        "source_url": null,
+        "level": 46,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "HP: +16%",
+        "slug": "hp-16",
+        "source_url": null,
+        "level": 50,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "HP: +25%",
+        "slug": "hp-25",
+        "source_url": null,
+        "level": 66,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resilience: +40%",
+        "slug": "resilience-40",
+        "source_url": null,
+        "level": 70,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "HP: +30%",
+        "slug": "hp-30",
+        "source_url": null,
+        "level": 72,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Improved Debuffing II",
+        "slug": "improved-debuffing-ii",
+        "source_url": null,
+        "level": 86,
+        "default": false,
+        "red_locked": true
+      }
+    ],
+    "skills": [
+      {
+        "name": "Deprotect II",
+        "slug": "deprotect-ii",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Poison II",
+        "slug": "poison-ii",
+        "source_url": null,
+        "level": 9,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Deshell II",
+        "slug": "deshell-ii",
+        "source_url": null,
+        "level": 12,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Heavy Deshellga",
+        "slug": "heavy-deshellga",
+        "source_url": null,
+        "level": 24,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Imperil II",
+        "slug": "imperil-ii",
+        "source_url": null,
+        "level": 28,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Heavy Deprotega",
+        "slug": "heavy-deprotega",
+        "source_url": null,
+        "level": 39,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Imperilga",
+        "slug": "imperilga",
+        "source_url": null,
+        "level": 52,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Heavy Poisonga",
+        "slug": "heavy-poisonga",
+        "source_url": null,
+        "level": 80,
+        "default": false,
+        "infusable": false
+      }
+    ]
+  }
+}

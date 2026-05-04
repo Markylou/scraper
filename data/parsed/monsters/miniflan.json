@@ -1,0 +1,212 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "miniflan",
+  "name": "Miniflan",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/a/a9/FFXIII-2_Miniflan.png/revision/latest?cb=20140516225904",
+  "role": "Commando",
+  "speed": null,
+  "tame_rate_pct": 33,
+  "max_level": 99,
+  "growth": "Late Bloomer",
+  "special_notes": "Late Bloomer - Meleeproof - Tiny",
+  "paradigm_pack_notes": "Powerchain at level 9 may be useful for infusion. Blindside takes a lot of materials and acquires some less desirable passive abilities on the way to level 50, and there are eight non- DLC monsters that have it at level 20 or below, including Dragoon at level 2. He may look harmless but with Magic Materials and Passives his Magic Stat can surpass 1300 making him quite formidable.",
+  "stats": {
+    "hp_min": 540,
+    "hp_max": 540,
+    "str_min": 44,
+    "str_max": 44,
+    "mag_min": 64,
+    "mag_max": 64
+  },
+  "feral_link": {
+    "name": "Spit",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Sunleth Waterscape -300 AF- (Base of the Crystal)",
+      "slug": "sunleth-waterscape-300-af-base-of-the-crystal",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Wind"
+    ],
+    "halved": [
+      "Fire",
+      "Physical"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Pressure II",
+        "slug": "pressure-ii",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Strength: +10%",
+        "slug": "strength-10",
+        "source_url": null,
+        "level": 2,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Magic: +10%",
+        "slug": "magic-10",
+        "source_url": null,
+        "level": 3,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Strength: +16%",
+        "slug": "strength-16",
+        "source_url": null,
+        "level": 16,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Magic: +16%",
+        "slug": "magic-16",
+        "source_url": null,
+        "level": 27,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Critical: Vigilance",
+        "slug": "critical-vigilance",
+        "source_url": null,
+        "level": 33,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Strength: +20%",
+        "slug": "strength-20",
+        "source_url": null,
+        "level": 40,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Magic: +20%",
+        "slug": "magic-20",
+        "source_url": null,
+        "level": 63,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Role Resonance",
+        "slug": "role-resonance",
+        "source_url": null,
+        "level": 96,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Attack",
+        "slug": "attack",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Ruin",
+        "slug": "ruin",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Blitz",
+        "slug": "blitz",
+        "source_url": null,
+        "level": 4,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Powerchain",
+        "slug": "powerchain",
+        "source_url": null,
+        "level": 9,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Ravage",
+        "slug": "ravage",
+        "source_url": null,
+        "level": 20,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Deshell Chaser",
+        "slug": "deshell-chaser",
+        "source_url": null,
+        "level": 42,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Blindside",
+        "slug": "blindside",
+        "source_url": null,
+        "level": 50,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Stagger: Drain",
+        "slug": "stagger-drain",
+        "source_url": null,
+        "level": 70,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Scourge",
+        "slug": "scourge",
+        "source_url": null,
+        "level": 89,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Ruinga",
+        "slug": "ruinga",
+        "source_url": null,
+        "level": 99,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

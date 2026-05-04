@@ -1,0 +1,136 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "orion",
+  "name": "Orion",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/0/07/FFXIII_enemy_Orion.png/revision/latest/scale-to-width-down/268?cb=20140221145123",
+  "role": "Commando",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 20,
+  "growth": "Early Peaker",
+  "special_notes": "Early Peaker - Sparktouch - Stylish",
+  "paradigm_pack_notes": "Orion joins the party as a Commando when tamed. As it is an Early Peaker, it is inexpensive to develop, learns a few useful Chaser abilities and has a decent HP total. However, its stats and skillset are inferior to the Dragoon, another Early Peaker Commando found in the same area as Orions.",
+  "stats": {
+    "hp_min": 1718,
+    "hp_max": 1718,
+    "str_min": 133,
+    "str_max": 133,
+    "mag_min": 31,
+    "mag_max": 31
+  },
+  "feral_link": {
+    "name": "Dual Bolt",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Augusta Tower -200 AF- (50th Floor (Fixed), 51st Floor, 52nd Floor)",
+      "slug": "augusta-tower-200-af-50th-floor-fixed-51st-floor-52nd-floor",
+      "source_url": null
+    },
+    {
+      "name": "Augusta Tower -300 AF- (13/14th Floor)",
+      "slug": "augusta-tower-300-af-13-14th-floor",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Fire"
+    ],
+    "halved": [
+      "Lightning"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Quick Stagger",
+        "slug": "quick-stagger",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      }
+    ],
+    "skills": [
+      {
+        "name": "Attack",
+        "slug": "attack",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Ruin",
+        "slug": "ruin",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Deshell Chaser",
+        "slug": "deshell-chaser",
+        "source_url": null,
+        "level": 6,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Deprotect Chaser",
+        "slug": "deprotect-chaser",
+        "source_url": null,
+        "level": 9,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Adrenaline",
+        "slug": "adrenaline",
+        "source_url": null,
+        "level": 13,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Scourge",
+        "slug": "scourge",
+        "source_url": null,
+        "level": 16,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Curse Chaser",
+        "slug": "curse-chaser",
+        "source_url": null,
+        "level": 19,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Pain Chaser",
+        "slug": "pain-chaser",
+        "source_url": null,
+        "level": 20,
+        "default": false,
+        "infusable": false
+      }
+    ]
+  }
+}

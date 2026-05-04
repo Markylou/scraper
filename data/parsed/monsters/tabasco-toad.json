@@ -1,0 +1,177 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "tabasco-toad",
+  "name": "Tabasco Toad",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/e/e9/FFXIII-2_Tabasco_Toad.png/revision/latest?cb=20120802015222",
+  "role": "Ravager",
+  "speed": null,
+  "tame_rate_pct": 15,
+  "max_level": 99,
+  "growth": "Late Bloomer",
+  "special_notes": "Late Bloomer - Strong - Spicy",
+  "paradigm_pack_notes": "The Tabasco Toad is a Ravager. It learns many Fire -based attacks, including the rare Heat Blitz. While the Tabasco Toad's HP and Magic development is relatively uniform, its Strength stat is exponential. Strength is initially the Tabasco Toad's lowest stat, but it becomes the monster's highest once its Crystarium is complete. At its maximum level, the Tabasco Toad has the second highest Strength stat of all Ravagers. The Tabasco Toad also lacks red locked skills, thus it can acquire 10 of the player's choice via Infusion.\n\nThe Tabasco Toad's Feral Link is \"Cleansing Overture.\" It is best used at the start of battle, as it dispels buffs and debuffs from allies and enemies alike.",
+  "stats": {
+    "hp_min": 333,
+    "hp_max": 333,
+    "str_min": 24,
+    "str_max": 24,
+    "mag_min": 32,
+    "mag_max": 32
+  },
+  "feral_link": {
+    "name": "Cleansing Overture",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "New Bodhum -003 AF- (Tidal Shallows)",
+      "slug": "new-bodhum-003-af-tidal-shallows",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Lightning"
+    ],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Strength: +10%",
+        "slug": "strength-10",
+        "source_url": null,
+        "level": 4,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Physical: +5%",
+        "slug": "resist-physical-5",
+        "source_url": null,
+        "level": 9,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Physical: +15%",
+        "slug": "resist-physical-15",
+        "source_url": null,
+        "level": 23,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Strength: +16%",
+        "slug": "strength-16",
+        "source_url": null,
+        "level": 34,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Strength: +20%",
+        "slug": "strength-20",
+        "source_url": null,
+        "level": 44,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Physical: +26%",
+        "slug": "resist-physical-26",
+        "source_url": null,
+        "level": 49,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Physical: +36%",
+        "slug": "resist-physical-36",
+        "source_url": null,
+        "level": 68,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Strength: +25%",
+        "slug": "strength-25",
+        "source_url": null,
+        "level": 78,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Rapid Recovery",
+        "slug": "rapid-recovery",
+        "source_url": null,
+        "level": 99,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Fire",
+        "slug": "fire",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Flamestrike",
+        "slug": "flamestrike",
+        "source_url": null,
+        "level": 3,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Overwhelm",
+        "slug": "overwhelm",
+        "source_url": null,
+        "level": 14,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Fira",
+        "slug": "fira",
+        "source_url": null,
+        "level": 34,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Fearsiphon",
+        "slug": "fearsiphon",
+        "source_url": null,
+        "level": 53,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Heat Blitz",
+        "slug": "heat-blitz",
+        "source_url": null,
+        "level": 60,
+        "default": false,
+        "infusable": false
+      }
+    ]
+  }
+}

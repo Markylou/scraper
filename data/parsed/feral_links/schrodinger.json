@@ -1,0 +1,27 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "kitty-clock",
+  "name": "Kitty Clock",
+  "role": "Saboteur",
+  "monster": {
+    "name": "Schrodinger",
+    "slug": "schrodinger",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Schrodinger_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Button tap",
+    "ps3": [
+      "X"
+    ],
+    "xbox": [
+      "A"
+    ]
+  },
+  "description": "Deal physical damage to target.",
+  "details": null,
+  "type": "Physical",
+  "damage_modifier": null,
+  "charge_time_seconds": 180,
+  "max_sync_pct": 300,
+  "effects": []
+}

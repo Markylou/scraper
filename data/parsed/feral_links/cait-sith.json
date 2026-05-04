@@ -1,0 +1,29 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "kitty-clock",
+  "name": "Kitty Clock",
+  "role": "Medic",
+  "monster": {
+    "name": "Cait Sith",
+    "slug": "cait-sith",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Cait_Sith_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Multiple",
+    "ps3": [
+      "Triangle",
+      "Square"
+    ],
+    "xbox": [
+      "Y",
+      "X"
+    ]
+  },
+  "description": "Deal physical damage to target.",
+  "details": null,
+  "type": "Physical",
+  "damage_modifier": null,
+  "charge_time_seconds": 180,
+  "max_sync_pct": 300,
+  "effects": []
+}

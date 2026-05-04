@@ -1,0 +1,169 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "forked-cat",
+  "name": "Forked Cat",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/9/90/FFXIII2_enemy_ForkedCat.png/revision/latest?cb=20120730014414",
+  "role": "Saboteur",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 70,
+  "growth": "Late Bloomer",
+  "special_notes": "Late Bloomer - Magical - Elegant",
+  "paradigm_pack_notes": "Forked Cat, with over 1,000 Magic, is second highest among Saboteurs, just below Ahriman's 1,100+. The \"HP +30%\" it gains at level 54 is often infused into other monsters, a much cheaper alternative to Necrosis at level 72. Conversely, Curse, Fog, and Pain (that Serah cannot cast and is therefore the best reason for using a tamed monster in that role) can be infused into it from other monsters; Ahriman, Viking and Dendrobium, respectively. Monsters are commonly infused with up to the maximum of ten passive abilities, and infusion of role abilities is a much simpler process.\n\nForked Cat learns the valuable Improved Debuffing II at level 41. Debuffing reduces enemy's defenses (Deprotect, Deshell, Imperil, Poison) as opposed to Debilitation, which negates enemy actions (Pain, Fog, Curse). Its Feral Link casts Protect and Shell on the party and heals them.\n\nIt uses 24 Grade two (Sliver) monster materials to get to level 15, 32 grade three (Orbs) to level 30, 59 grade 4 (Essences) to level 45, and 52 grade 5 (Crystal) monster materials to its final level of 70.\n\nForked Cat rarely if ever makes the list of the top three or four best Saboteurs, despite its advantages; part of the reason is surely players' reliance on it for HP +30%. However, provided that the player can infuse into it only passive abilities that are useful on all potential recipients of HP +30% (or that can be removed), and is prepared to pay the additional cost of leveling Forked Cat to level 70 rather than 54, there is no reason it cannot be both an infusion source and a working member of the Paradigm Pack. Black Chocobo is typically listed alone as the best Saboteur. Necrosis, second most mentioned, has the same disadvantage as Forked Cat, but unlike Forked Cat, Necrosis is the sole infusion source of the tactically powerful Resilience +40%; like Dendrobium, Necrosis' Feral Link poisons. Chelicerata has enough benefits to put it in the top four, arguably tied with Dendrobium, which gives access to six status ailments, where the others have five.",
+  "stats": {
+    "hp_min": 953,
+    "hp_max": 953,
+    "str_min": 47,
+    "str_max": 47,
+    "mag_min": 111,
+    "mag_max": 111
+  },
+  "feral_link": {
+    "name": "Precious Prayer",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Oerba -400AF- (Village Proper, The Ashensand)",
+      "slug": "oerba-400af-village-proper-the-ashensand",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [
+      "Physical"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Improved Debuffing",
+        "slug": "improved-debuffing",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "HP: +10%",
+        "slug": "hp-10",
+        "source_url": null,
+        "level": 7,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Magic: +16%",
+        "slug": "magic-16",
+        "source_url": null,
+        "level": 15,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "HP: +16%",
+        "slug": "hp-16",
+        "source_url": null,
+        "level": 30,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Improved Debuffing II",
+        "slug": "improved-debuffing-ii",
+        "source_url": null,
+        "level": 41,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "HP: +25%",
+        "slug": "hp-25",
+        "source_url": null,
+        "level": 44,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "HP: +30%",
+        "slug": "hp-30",
+        "source_url": null,
+        "level": 54,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Deshell",
+        "slug": "deshell",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Deprotect",
+        "slug": "deprotect",
+        "source_url": null,
+        "level": 9,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Wound",
+        "slug": "wound",
+        "source_url": null,
+        "level": 23,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Dispel",
+        "slug": "dispel",
+        "source_url": null,
+        "level": 28,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Woundga",
+        "slug": "woundga",
+        "source_url": null,
+        "level": 50,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Dispelga",
+        "slug": "dispelga",
+        "source_url": null,
+        "level": 60,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Deprotega",
+        "slug": "deprotega",
+        "source_url": null,
+        "level": 70,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

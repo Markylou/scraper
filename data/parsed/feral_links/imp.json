@@ -1,0 +1,31 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "giant-drop",
+  "name": "Giant Drop",
+  "role": "Synergist",
+  "monster": {
+    "name": "Imp",
+    "slug": "imp",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Imp_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Multiple",
+    "ps3": [
+      "Circle",
+      "Circle",
+      "Triangle"
+    ],
+    "xbox": [
+      "B",
+      "B",
+      "Y"
+    ]
+  },
+  "description": "Inflict magic damage on target and nearby foes.",
+  "details": "First hit is weak physical attack; second hit is magical.",
+  "type": "Magic",
+  "damage_modifier": null,
+  "charge_time_seconds": 90,
+  "max_sync_pct": 350,
+  "effects": []
+}

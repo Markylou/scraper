@@ -1,0 +1,158 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "vodianoi",
+  "name": "Vodianoi",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/e/e3/FFXIII-2_Vodianoi.png/revision/latest?cb=20120802045456",
+  "role": "Commando",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 20,
+  "growth": "Early Peaker",
+  "special_notes": "Early Peaker - Meleeproof - Big-boned",
+  "paradigm_pack_notes": "Vodianoi is a good Early Peaker when the player arrives in the Archylte Steppe, though it is expensive to max out. It has a good HP growth, and ends up with an incredibly high Strength stat (Over 1300 with Strength Materials). It is limited to just 3 ATB segments, but this can be excused because of its fast attack speed. It learns Poison, Curse and Slow chasers, and as such pairs well with Samovira or any Saboteur that can cast these three ailments to maximize its potential. Its Feral Link has outrageous damage output when the enemy is staggered. Thus it can be one of the best, if not the very best, Commando in the game, though some players may feel it falls out of favor upon acquiring a maxed-out Chichu or Twilight Odin.",
+  "stats": {
+    "hp_min": 1283,
+    "hp_max": 1283,
+    "str_min": 69,
+    "str_max": 69,
+    "mag_min": 100,
+    "mag_max": 100
+  },
+  "feral_link": {
+    "name": "Spinning Step",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Archylte Steppe -??? AF- (Grave Ridge (Cloudy))",
+      "slug": "archylte-steppe-af-grave-ridge-cloudy",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Fire"
+    ],
+    "halved": [
+      "Ice",
+      "Lightning",
+      "Wind",
+      "Physical"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Auto-Bravery",
+        "slug": "auto-bravery",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Resist Curse: +10%",
+        "slug": "resist-curse-10",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Curse: +44%",
+        "slug": "resist-curse-44",
+        "source_url": null,
+        "level": 5,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Strength: +20%",
+        "slug": "strength-20",
+        "source_url": null,
+        "level": 19,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Deprotect: +44%",
+        "slug": "resist-deprotect-44",
+        "source_url": null,
+        "level": 20,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Attack",
+        "slug": "attack",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Ruin",
+        "slug": "ruin",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Blitz",
+        "slug": "blitz",
+        "source_url": null,
+        "level": 3,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Fog Chaser",
+        "slug": "fog-chaser",
+        "source_url": null,
+        "level": 6,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Slow Chaser",
+        "slug": "slow-chaser",
+        "source_url": null,
+        "level": 8,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Curse Chaser",
+        "slug": "curse-chaser",
+        "source_url": null,
+        "level": 10,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Blindside",
+        "slug": "blindside",
+        "source_url": null,
+        "level": 17,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

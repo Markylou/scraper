@@ -1,0 +1,139 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "illuyankas",
+  "name": "Illuyankas",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/2/29/FFXIII-2_Illuyankas.png/revision/latest?cb=20120802010423",
+  "role": "Saboteur",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 40,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Rare - Wild",
+  "paradigm_pack_notes": null,
+  "stats": {
+    "hp_min": 1628,
+    "hp_max": 1628,
+    "str_min": 180,
+    "str_max": 180,
+    "mag_min": 48,
+    "mag_max": 48
+  },
+  "feral_link": {
+    "name": "Tail Whip",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Sunleth Waterscape -400 AF- (Isle of Arboreal Embrace, Assembly Area, Hidden Woodland Area, Base of the Crystal, Undergrown Path, Bow Isle)",
+      "slug": "sunleth-waterscape-400-af-isle-of-arboreal-embrace-assembly-area-hidden-woodland-area-base-of-the-crystal-undergrown-path-bow-isle",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [
+      "Fire",
+      "Wind",
+      "Magical"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Improved Debilitation",
+        "slug": "improved-debilitation",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Feral Speed II",
+        "slug": "feral-speed-ii",
+        "source_url": null,
+        "level": 12,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Kill: ATB Charge",
+        "slug": "kill-atb-charge",
+        "source_url": null,
+        "level": 27,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Imperil II",
+        "slug": "imperil-ii",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Fog II",
+        "slug": "fog-ii",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Heavy Fogga",
+        "slug": "heavy-fogga",
+        "source_url": null,
+        "level": 21,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Heavy Painga",
+        "slug": "heavy-painga",
+        "source_url": null,
+        "level": 26,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Heavy Poisonga",
+        "slug": "heavy-poisonga",
+        "source_url": null,
+        "level": 33,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Endless Nightmare",
+        "slug": "endless-nightmare",
+        "source_url": null,
+        "level": 37,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Woundga",
+        "slug": "woundga",
+        "source_url": null,
+        "level": 40,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

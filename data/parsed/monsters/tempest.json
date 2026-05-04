@@ -1,0 +1,129 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "tempest",
+  "name": "Tempest",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/c/c7/FFXIII-2_Tempest.png/revision/latest?cb=20120802043106",
+  "role": "Ravager",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 20,
+  "growth": "Early Peaker",
+  "special_notes": "Early Peaker - Wind Proof - Vicious",
+  "paradigm_pack_notes": null,
+  "stats": {
+    "hp_min": 951,
+    "hp_max": 951,
+    "str_min": 41,
+    "str_max": 41,
+    "mag_min": 190,
+    "mag_max": 190
+  },
+  "feral_link": {
+    "name": "Elemental Overdrive",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Bresha Ruins -100 AF-",
+      "slug": "bresha-ruins-100-af",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [],
+    "resistant": [
+      "Wind"
+    ],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Auto-Enaero",
+        "slug": "auto-enaero",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Resist Wind: +10%",
+        "slug": "resist-wind-10",
+        "source_url": null,
+        "level": 8,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Critical: Faith",
+        "slug": "critical-faith",
+        "source_url": null,
+        "level": 12,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Magic: +20%",
+        "slug": "magic-20",
+        "source_url": null,
+        "level": 19,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Aerora",
+        "slug": "aerora",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Galestrike",
+        "slug": "galestrike",
+        "source_url": null,
+        "level": 5,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Aeroga",
+        "slug": "aeroga",
+        "source_url": null,
+        "level": 15,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Overwhelm",
+        "slug": "overwhelm",
+        "source_url": null,
+        "level": 17,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Felgust",
+        "slug": "felgust",
+        "source_url": null,
+        "level": 20,
+        "default": false,
+        "infusable": false
+      }
+    ]
+  }
+}

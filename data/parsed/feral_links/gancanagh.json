@@ -1,0 +1,35 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "goblin-rush",
+  "name": "Goblin Rush",
+  "role": "Saboteur",
+  "monster": {
+    "name": "Gancanagh",
+    "slug": "gancanagh",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Gancanagh"
+  },
+  "input": {
+    "type": "Complex",
+    "ps3": [
+      "Left stick up",
+      "Left stick right",
+      "Left stick down",
+      "Left stick left"
+    ],
+    "xbox": [
+      "Triangle",
+      "Left stick up",
+      "Left stick right",
+      "Left stick down",
+      "Left stick left",
+      "Y"
+    ]
+  },
+  "description": "Deal physical damage to target.",
+  "details": null,
+  "type": "Physical",
+  "damage_modifier": null,
+  "charge_time_seconds": 150,
+  "max_sync_pct": 400,
+  "effects": []
+}

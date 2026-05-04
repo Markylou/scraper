@@ -1,0 +1,27 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "kweh",
+  "name": "Kweh",
+  "role": "Medic",
+  "monster": {
+    "name": "White Chocobo",
+    "slug": "white-chocobo",
+    "source_url": "https://finalfantasy.fandom.com/wiki/White_Chocobo_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Timing",
+    "ps3": [
+      "Left stick left"
+    ],
+    "xbox": [
+      "Left stick left"
+    ]
+  },
+  "description": "Deal physical damage to target.",
+  "details": null,
+  "type": "Physical",
+  "damage_modifier": null,
+  "charge_time_seconds": 205,
+  "max_sync_pct": 300,
+  "effects": []
+}

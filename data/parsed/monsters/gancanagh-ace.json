@@ -1,0 +1,132 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "gancanagh-ace",
+  "name": "Gancanagh Ace",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/a/a8/FFXIII2_enemy_GancanaghAce.png/revision/latest?cb=20120802171916",
+  "role": "Synergist",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 40,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Frostproof - Bright",
+  "paradigm_pack_notes": "The Gancanagh Ace is a Synergist. It only learns offensive spells, and only Faith, Faithga and some En- spells. Thus, it is useful when it comes to fighting monsters with a weakness to Magic damage. Instead of infusing Bravery into it, acquire its counterpart, the mechanical caster of Bravery and Bravega, Thexteron.",
+  "stats": {
+    "hp_min": 2370,
+    "hp_max": 2370,
+    "str_min": 180,
+    "str_max": 180,
+    "mag_min": 350,
+    "mag_max": 350
+  },
+  "feral_link": {
+    "name": "Neo Goblin Rush",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Archylte Steppe -??? AF- (Stonestump Wastelands (Rainy, Sunny), Clearwater Marshes (Cloudy, Sunny))",
+      "slug": "archylte-steppe-af-stonestump-wastelands-rainy-sunny-clearwater-marshes-cloudy-sunny",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [
+      "Ice",
+      "Physical"
+    ],
+    "resistant": [
+      "Wind"
+    ],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Feral Speed II",
+        "slug": "feral-speed-ii",
+        "source_url": null,
+        "level": 4,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Deshell: +66%",
+        "slug": "resist-deshell-66",
+        "source_url": null,
+        "level": 20,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Deprotect: +44%",
+        "slug": "resist-deprotect-44",
+        "source_url": null,
+        "level": 28,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Item Collector",
+        "slug": "item-collector",
+        "source_url": null,
+        "level": 40,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Faith",
+        "slug": "faith",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Enaero",
+        "slug": "enaero",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Enfrost",
+        "slug": "enfrost",
+        "source_url": null,
+        "level": 6,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Veil",
+        "slug": "veil",
+        "source_url": null,
+        "level": 12,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Veilga",
+        "slug": "veilga",
+        "source_url": null,
+        "level": 34,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

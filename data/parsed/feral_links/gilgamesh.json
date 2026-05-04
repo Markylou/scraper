@@ -1,0 +1,31 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "divider",
+  "name": "Divider",
+  "role": "Commando",
+  "monster": {
+    "name": "Gilgamesh",
+    "slug": "gilgamesh",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Gilgamesh_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Timing",
+    "ps3": [
+      "Circle"
+    ],
+    "xbox": [
+      "Circle",
+      "Circle",
+      "B",
+      "B",
+      "B"
+    ]
+  },
+  "description": "Deal physical damage.",
+  "details": null,
+  "type": "Physical",
+  "damage_modifier": null,
+  "charge_time_seconds": 180,
+  "max_sync_pct": 350,
+  "effects": []
+}

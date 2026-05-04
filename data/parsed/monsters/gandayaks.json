@@ -1,0 +1,127 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "gandayaks",
+  "name": "Gandayaks",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/d/d3/Gandayaks_ffxiii-2.jpg/revision/latest?cb=20120720211652",
+  "role": "Commando",
+  "speed": null,
+  "tame_rate_pct": 25,
+  "max_level": 20,
+  "growth": "Early Peaker",
+  "special_notes": "Early Peaker - Strong - Vicious",
+  "paradigm_pack_notes": "The Gandayaks is a Commando when tamed. An Early Peaker, it is incredibly cheap to train to its maximum level of 20, and is a powerful ally in the early stages of the game, although its stats flat-line once it passes level 10. It also possesses some useful abilities in its skillset, most notably Area Sweep and Armor Breaker. It also learns Strength: +16%, which can be infused into another monster once the player obtains a more powerful Commando.",
+  "stats": {
+    "hp_min": 1894,
+    "hp_max": 1894,
+    "str_min": 277,
+    "str_max": 277,
+    "mag_min": 196,
+    "mag_max": 196
+  },
+  "feral_link": {
+    "name": "Heel Kick",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Yaschas Massif -010 AF- (The Pass of Paddra)",
+      "slug": "yaschas-massif-010-af-the-pass-of-paddra",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Pressure II",
+        "slug": "pressure-ii",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Strength: +10%",
+        "slug": "strength-10",
+        "source_url": null,
+        "level": 2,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Strength: +16%",
+        "slug": "strength-16",
+        "source_url": null,
+        "level": 18,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Attack",
+        "slug": "attack",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Ruin",
+        "slug": "ruin",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Area Sweep",
+        "slug": "area-sweep",
+        "source_url": null,
+        "level": 6,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Smite",
+        "slug": "smite",
+        "source_url": null,
+        "level": 12,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Bloodthirsty",
+        "slug": "bloodthirsty",
+        "source_url": null,
+        "level": 19,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Armor Breaker",
+        "slug": "armor-breaker",
+        "source_url": null,
+        "level": 20,
+        "default": false,
+        "infusable": false
+      }
+    ]
+  }
+}

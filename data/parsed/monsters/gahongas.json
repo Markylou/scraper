@@ -1,0 +1,180 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "gahongas",
+  "name": "Gahongas",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/c/c4/FFXIII2_enemy_Gahongas.png/revision/latest?cb=20120720211835",
+  "role": "Synergist",
+  "speed": null,
+  "tame_rate_pct": 20,
+  "max_level": 99,
+  "growth": "Late Bloomer",
+  "special_notes": "Late Bloomer - Stoic - Big-boned",
+  "paradigm_pack_notes": "The Gahongas becomes a Synergist when tamed. It has an extremely slow growth at low to mid levels, and its stats only skyrocket once it passes level 70. It skillset is rather limited for a Level 99 monster, although it does possess Bravery and Faith, its eagerness to cast defensive buffs such as Shell and Veilga first hinders the party's offensive capabilities.",
+  "stats": {
+    "hp_min": 631,
+    "hp_max": 631,
+    "str_min": 21,
+    "str_max": 21,
+    "mag_min": 77,
+    "mag_max": 77
+  },
+  "feral_link": {
+    "name": "Fanatical Dance",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Yaschas Massif -010 AF- (The Pass of Paddra)",
+      "slug": "yaschas-massif-010-af-the-pass-of-paddra",
+      "source_url": null
+    },
+    {
+      "name": "Yaschas Massif -01X AF- (The Pass of Paddra)",
+      "slug": "yaschas-massif-01x-af-the-pass-of-paddra",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Resist Deprotect: +10%",
+        "slug": "resist-deprotect-10",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Deshell: +10%",
+        "slug": "resist-deshell-10",
+        "source_url": null,
+        "level": 2,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Magic: +10%",
+        "slug": "magic-10",
+        "source_url": null,
+        "level": 11,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Deprotect: +44%",
+        "slug": "resist-deprotect-44",
+        "source_url": null,
+        "level": 26,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Deshell: +44%",
+        "slug": "resist-deshell-44",
+        "source_url": null,
+        "level": 32,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Magic: +16%",
+        "slug": "magic-16",
+        "source_url": null,
+        "level": 36,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Magic: +20%",
+        "slug": "magic-20",
+        "source_url": null,
+        "level": 46,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Deprotect: +66%",
+        "slug": "resist-deprotect-66",
+        "source_url": null,
+        "level": 59,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Deshell: +66%",
+        "slug": "resist-deshell-66",
+        "source_url": null,
+        "level": 66,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Magic: +36%",
+        "slug": "resist-magic-36",
+        "source_url": null,
+        "level": 76,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Bravery",
+        "slug": "bravery",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Faith",
+        "slug": "faith",
+        "source_url": null,
+        "level": 6,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Vigilance",
+        "slug": "vigilance",
+        "source_url": null,
+        "level": 13,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Shell",
+        "slug": "shell",
+        "source_url": null,
+        "level": 44,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Veilga",
+        "slug": "veilga",
+        "source_url": null,
+        "level": 91,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

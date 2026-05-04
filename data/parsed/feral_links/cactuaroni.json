@@ -1,0 +1,41 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "piercing-rain",
+  "name": "Piercing Rain",
+  "role": "Commando",
+  "monster": {
+    "name": "Cactuaroni",
+    "slug": "cactuaroni",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Cactuaroni"
+  },
+  "input": {
+    "type": "Multiple",
+    "ps3": [
+      "Left stick up",
+      "Left stick up",
+      "Left stick down",
+      "Left stick down"
+    ],
+    "xbox": [
+      "X",
+      "X",
+      "Left stick down",
+      "Left stick up",
+      "Left stick up",
+      "Left stick up",
+      "Left stick down",
+      "Left stick down",
+      "A",
+      "A",
+      "Left stick down",
+      "Left stick up"
+    ]
+  },
+  "description": "Deliver fixed amount of physical damage to target and nearby foes.",
+  "details": "Inflicts 100 damage ten times and various status ailments, each one at low probability.",
+  "type": "Physical",
+  "damage_modifier": null,
+  "charge_time_seconds": 180,
+  "max_sync_pct": 777,
+  "effects": []
+}

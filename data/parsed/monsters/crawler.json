@@ -1,0 +1,138 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "crawler",
+  "name": "Crawler",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/d/d1/FFXIII_enemy_Crawler.png/revision/latest?cb=20140221140525",
+  "role": "Commando",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 45,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Resourceful - Craven",
+  "paradigm_pack_notes": "Low HP, Strength, and Magic for a LV45 Monster make the Crawler rather useless as a team member. Infusing it into other Monsters also does not give any unique benefits. Its only redeeming factor is the built-in Drain Attack.",
+  "stats": {
+    "hp_min": 937,
+    "hp_max": 937,
+    "str_min": 49,
+    "str_max": 49,
+    "mag_min": 86,
+    "mag_max": 86
+  },
+  "feral_link": {
+    "name": "Slurp",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Yaschas Massif -100 AF- (The Pass of Paddra)",
+      "slug": "yaschas-massif-100-af-the-pass-of-paddra",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Ice",
+      "Lightning"
+    ],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Gilfinder II",
+        "slug": "gilfinder-ii",
+        "source_url": null,
+        "level": 5,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Magic: +16%",
+        "slug": "magic-16",
+        "source_url": null,
+        "level": 15,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Magic: +20%",
+        "slug": "magic-20",
+        "source_url": null,
+        "level": 30,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Kill: Libra",
+        "slug": "kill-libra",
+        "source_url": null,
+        "level": 34,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Item Collector",
+        "slug": "item-collector",
+        "source_url": null,
+        "level": 36,
+        "default": false,
+        "red_locked": true
+      }
+    ],
+    "skills": [
+      {
+        "name": "Ruin",
+        "slug": "ruin",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Drain Attack",
+        "slug": "drain-attack",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Bravery Feeder",
+        "slug": "bravery-feeder",
+        "source_url": null,
+        "level": 9,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Bloodthirsty",
+        "slug": "bloodthirsty",
+        "source_url": null,
+        "level": 20,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Stagger: Drain",
+        "slug": "stagger-drain",
+        "source_url": null,
+        "level": 45,
+        "default": false,
+        "infusable": false
+      }
+    ]
+  }
+}

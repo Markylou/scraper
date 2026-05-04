@@ -1,0 +1,134 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "cryohedron",
+  "name": "Cryohedron",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/8/85/FFXIII_enemy_Cryohedron.png/revision/latest?cb=20140221140608",
+  "role": "Ravager",
+  "speed": null,
+  "tame_rate_pct": 13,
+  "max_level": 20,
+  "growth": "Early Peaker",
+  "special_notes": "Early Peaker - Frostproof - Deafening",
+  "paradigm_pack_notes": null,
+  "stats": {
+    "hp_min": 493,
+    "hp_max": 493,
+    "str_min": 19,
+    "str_max": 19,
+    "mag_min": 96,
+    "mag_max": 96
+  },
+  "feral_link": {
+    "name": "Elemental Overdrive",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Vile Peaks -010 AF- (Wrack and Ruin)",
+      "slug": "vile-peaks-010-af-wrack-and-ruin",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Fire"
+    ],
+    "halved": [
+      "Lightning",
+      "Wind"
+    ],
+    "resistant": [
+      "Ice"
+    ],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Auto-Enfrost",
+        "slug": "auto-enfrost",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Resist Ice: +10%",
+        "slug": "resist-ice-10",
+        "source_url": null,
+        "level": 8,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Critical: Faith",
+        "slug": "critical-faith",
+        "source_url": null,
+        "level": 12,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Magic: +20%",
+        "slug": "magic-20",
+        "source_url": null,
+        "level": 19,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Blizzara",
+        "slug": "blizzara",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Froststrike",
+        "slug": "froststrike",
+        "source_url": null,
+        "level": 5,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Blizzaga",
+        "slug": "blizzaga",
+        "source_url": null,
+        "level": 15,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Fearsiphon",
+        "slug": "fearsiphon",
+        "source_url": null,
+        "level": 17,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Felfrost",
+        "slug": "felfrost",
+        "source_url": null,
+        "level": 20,
+        "default": false,
+        "infusable": false
+      }
+    ]
+  }
+}

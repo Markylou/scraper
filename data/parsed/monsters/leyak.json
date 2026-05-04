@@ -1,0 +1,189 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "leyak",
+  "name": "Leyak",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/d/d3/FFXIII_enemy_Leyak.png/revision/latest/scale-to-width-down/268?cb=20140221142719",
+  "role": "Synergist",
+  "speed": null,
+  "tame_rate_pct": null,
+  "max_level": 70,
+  "growth": "Late Bloomer",
+  "special_notes": "Late Bloomer - Frostprone - Fuzzy",
+  "paradigm_pack_notes": null,
+  "stats": {
+    "hp_min": 913,
+    "hp_max": 913,
+    "str_min": 59,
+    "str_max": 59,
+    "mag_min": 82,
+    "mag_max": 82
+  },
+  "feral_link": {
+    "name": "Giant Drop",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Coliseum -??? AF- (Coliseum)",
+      "slug": "coliseum-af-coliseum",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Ice"
+    ],
+    "halved": [
+      "Magical"
+    ],
+    "resistant": [
+      "Wind"
+    ],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Feral Surge",
+        "slug": "feral-surge",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Feral Fatigue",
+        "slug": "feral-fatigue",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Resist Fog: +10%",
+        "slug": "resist-fog-10",
+        "source_url": null,
+        "level": 9,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Physical: +5%",
+        "slug": "resist-physical-5",
+        "source_url": null,
+        "level": 13,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Physical: +15%",
+        "slug": "resist-physical-15",
+        "source_url": null,
+        "level": 31,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Fog: +44%",
+        "slug": "resist-fog-44",
+        "source_url": null,
+        "level": 38,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Physical: +26%",
+        "slug": "resist-physical-26",
+        "source_url": null,
+        "level": 49,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Fog: +66%",
+        "slug": "resist-fog-66",
+        "source_url": null,
+        "level": 50,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Protect",
+        "slug": "protect",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Vigilance",
+        "slug": "vigilance",
+        "source_url": null,
+        "level": 5,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Shell",
+        "slug": "shell",
+        "source_url": null,
+        "level": 17,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Veil",
+        "slug": "veil",
+        "source_url": null,
+        "level": 24,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Enfrost",
+        "slug": "enfrost",
+        "source_url": null,
+        "level": 43,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Bravega",
+        "slug": "bravega",
+        "source_url": null,
+        "level": 56,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Endless Blessings",
+        "slug": "endless-blessings",
+        "source_url": null,
+        "level": 60,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Vigilaga",
+        "slug": "vigilaga",
+        "source_url": null,
+        "level": 70,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

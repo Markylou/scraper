@@ -1,0 +1,35 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "neo-goblin-rush",
+  "name": "Neo Goblin Rush",
+  "role": "Synergist",
+  "monster": {
+    "name": "Gancanagh Ace",
+    "slug": "gancanagh-ace",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Gancanagh_Ace"
+  },
+  "input": {
+    "type": "Complex",
+    "ps3": [
+      "Triangle",
+      "Square",
+      "X",
+      "Circle"
+    ],
+    "xbox": [
+      "Left stick up",
+      "Y",
+      "X",
+      "A",
+      "B",
+      "Left stick up"
+    ]
+  },
+  "description": "Deal physical damage to target.",
+  "details": null,
+  "type": "Physical",
+  "damage_modifier": null,
+  "charge_time_seconds": 90,
+  "max_sync_pct": 350,
+  "effects": []
+}

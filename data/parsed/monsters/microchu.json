@@ -1,0 +1,173 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "microchu",
+  "name": "Microchu",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/e/e7/FF13-2_Microchu.png/revision/latest?cb=20130811124833",
+  "role": "Synergist",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 45,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Resourceful - Tiny",
+  "paradigm_pack_notes": "Microchu has Bravery and Faith, which Noel and Serah cannot use. Microchu and Calautidon are the only creatures with Item Scavenger II available for infusion; Cactrot, Silver Chocobo, and Breshan Bass have it as red-locked. Microchu has it at level 18, and is a much more common enemy than Calautidon, but the latter gets it much earlier, at level 1. Item Scavenger II multiplies common drops by x4.5 and does not stack with other Item Scavenger sources. Item Scavenger MAX, only available with the Durable Collector Catalog equipped, gives x6 normal drops.\n\nMicrochu has Auto-Vigilance and Rapid Recovery, which have the penultimate ranking of 8; the former and to a lesser extent the latter arguably have less utility than their rank would suggest. To remove either, infusion sources of lower-ranked abilities (that are all unusually difficult to obtain) must be obtained again to yellow-lock those lower-ranked abilities. This makes Microchu a poor source of Bravega, which is not obtained until level 40.",
+  "stats": {
+    "hp_min": 1614,
+    "hp_max": 1614,
+    "str_min": 353,
+    "str_max": 353,
+    "mag_min": 243,
+    "mag_max": 243
+  },
+  "feral_link": {
+    "name": "Mimicking Screech",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Archylte Steppe -??? AF- (Clearwater Marshes (Rainy))",
+      "slug": "archylte-steppe-af-clearwater-marshes-rainy",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Fire",
+      "Lightning",
+      "Wind"
+    ],
+    "halved": [],
+    "resistant": [
+      "Ice"
+    ],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Critical: Vigilance",
+        "slug": "critical-vigilance",
+        "source_url": null,
+        "level": 5,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Deprotect: +10%",
+        "slug": "resist-deprotect-10",
+        "source_url": null,
+        "level": 15,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Item Scavenger II",
+        "slug": "item-scavenger-ii",
+        "source_url": null,
+        "level": 18,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Rapid Recovery",
+        "slug": "rapid-recovery",
+        "source_url": null,
+        "level": 24,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Auto-Vigilance",
+        "slug": "auto-vigilance",
+        "source_url": null,
+        "level": 35,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Protect",
+        "slug": "protect",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Vigilance",
+        "slug": "vigilance",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Veil",
+        "slug": "veil",
+        "source_url": null,
+        "level": 9,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Protectga",
+        "slug": "protectga",
+        "source_url": null,
+        "level": 19,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Vigilaga",
+        "slug": "vigilaga",
+        "source_url": null,
+        "level": 29,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Faith",
+        "slug": "faith",
+        "source_url": null,
+        "level": 30,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Bravery",
+        "slug": "bravery",
+        "source_url": null,
+        "level": 34,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Bravega",
+        "slug": "bravega",
+        "source_url": null,
+        "level": 40,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Endless Blessings",
+        "slug": "endless-blessings",
+        "source_url": null,
+        "level": 45,
+        "default": false,
+        "infusable": false
+      }
+    ]
+  }
+}

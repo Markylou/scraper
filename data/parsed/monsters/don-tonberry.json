@@ -1,0 +1,183 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "don-tonberry",
+  "name": "Don Tonberry",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/6/6c/FFXIII2_enemy_DonTonberry.png/revision/latest?cb=20120730022811",
+  "role": "Commando",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 30,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Rare - Last Boss",
+  "paradigm_pack_notes": "Don Tonberry is a quick-hitting Commando. Since its Strength and Magic are nearly equal, it can function as a Magic-based Commando with good spellcasting speed, but cannot use its useful Drain Attack or its Chaser abilities with Ruin or Ruinga. While its HP is lower than most Paradigm Pack Commandos' without HP +30%, it naturally resists status ailments and halves physical and magic damage. Its Feral Link, Hateful Gouge, capitalizes on Strength and inflicts Deprotect, Imperil, Curse, and Slow with a maximum synchronization rate of 300%.\n\nDon Tonberry only has one Crystarium expansion. While versatile, Chichu and Cactuar are better Strength-based Commandos, and the Red Chocobo a better Magic-based one. Don Tonberry learns Quick Stagger and Bonus CP, but it has Perpetual Poison as a passive ability, which means one has to heal it every once in a while. If the player teaches it some Critical:Buff abilities, in HP Critical Don Tonberry can be blessed with a myriad of buffs, allowing it to serve in a Synergist -like fashion, as it can share its buffs with the rest of the Paradigm Pack.\n\nWhile Don Tonberry has higher base stats, the regular Tonberry is perhaps slightly better.",
+  "stats": {
+    "hp_min": 1098,
+    "hp_max": 1098,
+    "str_min": 78,
+    "str_max": 78,
+    "mag_min": 60,
+    "mag_max": 60
+  },
+  "feral_link": {
+    "name": "Hateful Gouge",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Bresha Ruins -100 AF- (Echoes of the Past)",
+      "slug": "bresha-ruins-100-af-echoes-of-the-past",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Fire",
+      "Ice",
+      "Lightning",
+      "Wind"
+    ],
+    "halved": [
+      "Physical",
+      "Magical"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Perpetual Poison",
+        "slug": "perpetual-poison",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Quick Stagger",
+        "slug": "quick-stagger",
+        "source_url": null,
+        "level": 26,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Bonus CP",
+        "slug": "bonus-cp",
+        "source_url": null,
+        "level": 30,
+        "default": false,
+        "red_locked": true
+      }
+    ],
+    "skills": [
+      {
+        "name": "Ruin",
+        "slug": "ruin",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Drain Attack",
+        "slug": "drain-attack",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Bloodthirsty",
+        "slug": "bloodthirsty",
+        "source_url": null,
+        "level": 2,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Stagger: Wound",
+        "slug": "stagger-wound",
+        "source_url": null,
+        "level": 4,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Fog Chaser",
+        "slug": "fog-chaser",
+        "source_url": null,
+        "level": 6,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Poison Chaser",
+        "slug": "poison-chaser",
+        "source_url": null,
+        "level": 8,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Pain Chaser",
+        "slug": "pain-chaser",
+        "source_url": null,
+        "level": 10,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Curse Chaser",
+        "slug": "curse-chaser",
+        "source_url": null,
+        "level": 12,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Imperil Chaser",
+        "slug": "imperil-chaser",
+        "source_url": null,
+        "level": 14,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Deshell Chaser",
+        "slug": "deshell-chaser",
+        "source_url": null,
+        "level": 16,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Deprotect Chaser",
+        "slug": "deprotect-chaser",
+        "source_url": null,
+        "level": 18,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Slow Chaser",
+        "slug": "slow-chaser",
+        "source_url": null,
+        "level": 20,
+        "default": false,
+        "infusable": false
+      }
+    ]
+  }
+}

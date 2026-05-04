@@ -1,0 +1,194 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "rangda",
+  "name": "Rangda",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/7/7c/FFXIII_enemy_Rangda.png/revision/latest/scale-to-width-down/250?cb=20140221151214",
+  "role": "Saboteur",
+  "speed": null,
+  "tame_rate_pct": null,
+  "max_level": 70,
+  "growth": "Late Bloomer",
+  "special_notes": "Late Bloomer - Frostprone - Cute",
+  "paradigm_pack_notes": "Rangda is a Saboteur and its development is weighted towards magic, it learning many magic abilities. Rangda casts same magic that Serah can access, with the sole exception of Endless Nightmare. Rangda's stat development begins quickly, then slows down midway through, before accelerating again towards the end.\n\nRangda's main asset is its innate resistance against magic attacks and all status effects, plus it learns additional passive resistance against Fog and magic during its development. It also has the red-locked (meaning it can't be overwritten or gotten rid of) Feral Fatigue passive ability, so the player is advised only to use its Feral Link near the end of battle.",
+  "stats": {
+    "hp_min": 956,
+    "hp_max": 956,
+    "str_min": 61,
+    "str_max": 61,
+    "mag_min": 81,
+    "mag_max": 81
+  },
+  "feral_link": {
+    "name": "Multicast",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "New Bodhum -003 AF- (Town Square)",
+      "slug": "new-bodhum-003-af-town-square",
+      "source_url": null
+    },
+    {
+      "name": "Coliseum -??? AF- (Coliseum)",
+      "slug": "coliseum-af-coliseum",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Fire"
+    ],
+    "halved": [
+      "Magical"
+    ],
+    "resistant": [
+      "Wind"
+    ],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Feral Surge",
+        "slug": "feral-surge",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Feral Fatigue",
+        "slug": "feral-fatigue",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Resist Fog: +5%",
+        "slug": "resist-fog-5",
+        "source_url": null,
+        "level": 9,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Magic: +5%",
+        "slug": "resist-magic-5",
+        "source_url": null,
+        "level": 13,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Magic: +15%",
+        "slug": "resist-magic-15",
+        "source_url": null,
+        "level": 31,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Fog: +44%",
+        "slug": "resist-fog-44",
+        "source_url": null,
+        "level": 38,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Magic: +26%",
+        "slug": "resist-magic-26",
+        "source_url": null,
+        "level": 49,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Fog: +66%",
+        "slug": "resist-fog-66",
+        "source_url": null,
+        "level": 50,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Wound",
+        "slug": "wound",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Deprotect",
+        "slug": "deprotect",
+        "source_url": null,
+        "level": 5,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Deshell",
+        "slug": "deshell",
+        "source_url": null,
+        "level": 18,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Dispel",
+        "slug": "dispel",
+        "source_url": null,
+        "level": 24,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Deprotega",
+        "slug": "deprotega",
+        "source_url": null,
+        "level": 43,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Imperilga",
+        "slug": "imperilga",
+        "source_url": null,
+        "level": 56,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Endless Nightmare",
+        "slug": "endless-nightmare",
+        "source_url": null,
+        "level": 60,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Woundga",
+        "slug": "woundga",
+        "source_url": null,
+        "level": 70,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

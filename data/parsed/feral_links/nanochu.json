@@ -1,0 +1,27 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "meteorite",
+  "name": "Meteorite",
+  "role": "Synergist",
+  "monster": {
+    "name": "Nanochu",
+    "slug": "nanochu",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Nanochu_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Stick rotation",
+    "ps3": [
+      "Rotate left stick clockwise"
+    ],
+    "xbox": [
+      "Rotate left stick clockwise"
+    ]
+  },
+  "description": "Deal physical damage to target.",
+  "details": null,
+  "type": "Physical",
+  "damage_modifier": null,
+  "charge_time_seconds": 90,
+  "max_sync_pct": 300,
+  "effects": []
+}

@@ -1,0 +1,154 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "white-chocobo",
+  "name": "White Chocobo",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/1/1c/White_Chocobo.png/revision/latest?cb=20120802155614",
+  "role": "Medic",
+  "speed": null,
+  "tame_rate_pct": 15,
+  "max_level": 99,
+  "growth": "Late Bloomer",
+  "special_notes": "Late Bloomer - Brainy - Elegant",
+  "paradigm_pack_notes": "The White Chocobo is a Medic that learns all available Cure-spells, (as Curaja is a hidden ability) as well as Esuna and Esunada. It learns Raise and has a strong Magic stat, and takes half damage from both Physical and Magic attacks. In the end, the choice is up to the player whether they prefer the Green or the White Chocobo.\n\nWhite Chocobo has Feral Surge, which enhances all attributes while the Feral Link gauge is full (the icon is visible on the screen). Feral Fatigue is, for fighting, a detriment, but its counterpart in Chocobo Racing is helpful.\n\nThe two red locks the White Chocobo has are more than compensated for by its 50% resistance to Magic and Physical, as one of the red locks is beneficial, and even 36% resistance to Magic and Physical would require an additional two of the ten passive ability slots. Green Chocobo still has two red locks, and while either could be infused into the White if desired, neither is unequivocally desirable.\n\nGreen Chocobo has Improved Cure, but White can use one of its two \"saved\" slots for Improved Cure II from a level 39 Exoray. It ends up a better healer with its 1000 Magic plus Surge boost plus Improved Cure II vs Green's 800 Magic plus Improved Cure I. It has more defense, even after Green has spent two slots. And it still has one slot free for the same Critical: Faith ability that Green has red-locked, or any other passive ability.",
+  "stats": {
+    "hp_min": 658,
+    "hp_max": 658,
+    "str_min": 54,
+    "str_max": 54,
+    "mag_min": 69,
+    "mag_max": 69
+  },
+  "feral_link": {
+    "name": "Kweh",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Oerba -300 AF-",
+      "slug": "oerba-300-af",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [
+      "Physical",
+      "Magical"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Feral Surge",
+        "slug": "feral-surge",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Feral Fatigue",
+        "slug": "feral-fatigue",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Magic: +10%",
+        "slug": "magic-10",
+        "source_url": null,
+        "level": 6,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Feral Speed II",
+        "slug": "feral-speed-ii",
+        "source_url": null,
+        "level": 7,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Magic: +16%",
+        "slug": "magic-16",
+        "source_url": null,
+        "level": 46,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Magic: +20%",
+        "slug": "magic-20",
+        "source_url": null,
+        "level": 90,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Cure",
+        "slug": "cure",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Curasa",
+        "slug": "curasa",
+        "source_url": null,
+        "level": 3,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Esuna",
+        "slug": "esuna",
+        "source_url": null,
+        "level": 15,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Cura",
+        "slug": "cura",
+        "source_url": null,
+        "level": 30,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Esunada",
+        "slug": "esunada",
+        "source_url": null,
+        "level": 77,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Raise",
+        "slug": "raise",
+        "source_url": null,
+        "level": 99,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

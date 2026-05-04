@@ -1,0 +1,157 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "fachan",
+  "name": "Fachan",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/f/fc/FFXIII2_enemy_Fachan.png/revision/latest?cb=20120730020405",
+  "role": "Synergist",
+  "speed": null,
+  "tame_rate_pct": 25,
+  "max_level": 70,
+  "growth": "Late Bloomer",
+  "special_notes": "Late Bloomer - Windprone - Smooth",
+  "paradigm_pack_notes": "Once it has been tamed, the Fachan becomes a Synergist. It learns four commands, and its passive skillset lacks rare abilities. Its low stat growth makes it limited in use, and its two notable abilities, Enfrost and Enaero, are not learned until late in its development.",
+  "stats": {
+    "hp_min": 555,
+    "hp_max": 555,
+    "str_min": 33,
+    "str_max": 33,
+    "mag_min": 45,
+    "mag_max": 45
+  },
+  "feral_link": {
+    "name": "Multicast",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Sunleth Waterscape -300 AF- (Hidden Woodland Area)",
+      "slug": "sunleth-waterscape-300-af-hidden-woodland-area",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Wind"
+    ],
+    "halved": [
+      "Lightning",
+      "Physical",
+      "Magical"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Resist Physical: +5%",
+        "slug": "resist-physical-5",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Fog: +10%",
+        "slug": "resist-fog-10",
+        "source_url": null,
+        "level": 16,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Resist Lightning: +10%",
+        "slug": "resist-lightning-10",
+        "source_url": null,
+        "level": 24,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Lightning: +33%",
+        "slug": "resist-lightning-33",
+        "source_url": null,
+        "level": 37,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Fog: +44%",
+        "slug": "resist-fog-44",
+        "source_url": null,
+        "level": 41,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Resist Lightning: +45%",
+        "slug": "resist-lightning-45",
+        "source_url": null,
+        "level": 54,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Fog: +66%",
+        "slug": "resist-fog-66",
+        "source_url": null,
+        "level": 58,
+        "default": false,
+        "red_locked": true
+      }
+    ],
+    "skills": [
+      {
+        "name": "Protect",
+        "slug": "protect",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Vigilance",
+        "slug": "vigilance",
+        "source_url": null,
+        "level": 10,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Veil",
+        "slug": "veil",
+        "source_url": null,
+        "level": 30,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Enfrost",
+        "slug": "enfrost",
+        "source_url": null,
+        "level": 49,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Enaero",
+        "slug": "enaero",
+        "source_url": null,
+        "level": 67,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

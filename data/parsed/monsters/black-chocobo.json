@@ -1,0 +1,223 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "black-chocobo",
+  "name": "Black Chocobo",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/6/6b/FFXIII2_enemy_Black_Chocobo.png/revision/latest?cb=20120730032550",
+  "role": "Saboteur",
+  "speed": null,
+  "tame_rate_pct": 15,
+  "max_level": 99,
+  "growth": "Late Bloomer",
+  "special_notes": "Late Bloomer - Magical - Wild",
+  "paradigm_pack_notes": "The Black Chocobo is a Saboteur. It maintains decent stats, but the skillset contain spells identical with that of the player's, although it learns some II-varieties and Endless Nightmare, along resistance to Pain. It also has an otherwise moderate stat pool at the end of its development, along with a decent casting speed, making the Black Chocobo an overall acceptable Saboteur end- and post-game.",
+  "stats": {
+    "hp_min": 623,
+    "hp_max": 623,
+    "str_min": 48,
+    "str_max": 48,
+    "mag_min": 60,
+    "mag_max": 60
+  },
+  "feral_link": {
+    "name": "Kweh Kweh",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Vile Peaks -010 AF-",
+      "slug": "vile-peaks-010-af",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "ATB Advantage",
+        "slug": "atb-advantage",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Magic: +10%",
+        "slug": "magic-10",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Pain: +10%",
+        "slug": "resist-pain-10",
+        "source_url": null,
+        "level": 14,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Magic: +16%",
+        "slug": "magic-16",
+        "source_url": null,
+        "level": 18,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Pain: +44%",
+        "slug": "resist-pain-44",
+        "source_url": null,
+        "level": 50,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Magic: +20%",
+        "slug": "magic-20",
+        "source_url": null,
+        "level": 56,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Pain: +66%",
+        "slug": "resist-pain-66",
+        "source_url": null,
+        "level": 69,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Magic: +25%",
+        "slug": "magic-25",
+        "source_url": null,
+        "level": 77,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Magic: +15%",
+        "slug": "resist-magic-15",
+        "source_url": null,
+        "level": 83,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Improved Debuffing",
+        "slug": "improved-debuffing",
+        "source_url": null,
+        "level": 86,
+        "default": false,
+        "red_locked": true
+      }
+    ],
+    "skills": [
+      {
+        "name": "Deprotect",
+        "slug": "deprotect",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Deshell",
+        "slug": "deshell",
+        "source_url": null,
+        "level": 6,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Imperil",
+        "slug": "imperil",
+        "source_url": null,
+        "level": 7,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Wound",
+        "slug": "wound",
+        "source_url": null,
+        "level": 27,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Imperil II",
+        "slug": "imperil-ii",
+        "source_url": null,
+        "level": 37,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Endless Nightmare",
+        "slug": "endless-nightmare",
+        "source_url": null,
+        "level": 45,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Woundga",
+        "slug": "woundga",
+        "source_url": null,
+        "level": 62,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Heavy Imperilga",
+        "slug": "heavy-imperilga",
+        "source_url": null,
+        "level": 63,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Deprotega",
+        "slug": "deprotega",
+        "source_url": null,
+        "level": 70,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Pain II",
+        "slug": "pain-ii",
+        "source_url": null,
+        "level": 74,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Heavy Painga",
+        "slug": "heavy-painga",
+        "source_url": null,
+        "level": 90,
+        "default": false,
+        "infusable": false
+      }
+    ]
+  }
+}

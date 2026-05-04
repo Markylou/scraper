@@ -1,0 +1,31 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "sniping-thrust",
+  "name": "Sniping Thrust",
+  "role": "Commando",
+  "monster": {
+    "name": "Mandrake",
+    "slug": "mandrake",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Mandrake_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Multiple",
+    "ps3": [
+      "Left stick down",
+      "Left stick left",
+      "X"
+    ],
+    "xbox": [
+      "Left stick down",
+      "Left stick left",
+      "A"
+    ]
+  },
+  "description": "Deal physical damage to target.",
+  "details": null,
+  "type": "Physical",
+  "damage_modifier": null,
+  "charge_time_seconds": 165,
+  "max_sync_pct": 350,
+  "effects": []
+}

@@ -1,0 +1,31 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "fresh-breath",
+  "name": "Fresh Breath",
+  "role": "Commando",
+  "monster": {
+    "name": "Svarog",
+    "slug": "svarog",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Svarog_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Multiple",
+    "ps3": [
+      "Left stick right",
+      "Left stick down",
+      "Left stick down"
+    ],
+    "xbox": [
+      "Left stick right",
+      "Left stick down",
+      "Left stick down"
+    ]
+  },
+  "description": "Inflict physical damage on target and nearby foes.",
+  "details": null,
+  "type": "Physical",
+  "damage_modifier": null,
+  "charge_time_seconds": 120,
+  "max_sync_pct": 300,
+  "effects": []
+}

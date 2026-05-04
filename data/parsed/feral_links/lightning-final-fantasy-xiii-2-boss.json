@@ -1,0 +1,37 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "army-of-one",
+  "name": "Army of One",
+  "role": "Ravager",
+  "monster": {
+    "name": "Lightning",
+    "slug": "lightning-final-fantasy-xiii-2-boss",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Lightning_(Final_Fantasy_XIII-2_boss)"
+  },
+  "input": {
+    "type": "Multiple",
+    "ps3": [
+      "Left stick right",
+      "Circle"
+    ],
+    "xbox": [
+      "Left stick down",
+      "X",
+      "Left stick left",
+      "Circle",
+      "Left stick right",
+      "B",
+      "Left stick down",
+      "A",
+      "Left stick left",
+      "B"
+    ]
+  },
+  "description": "Unleash a devastating flurry of blows. Chain bonus effect varies by situation.",
+  "details": null,
+  "type": "Other",
+  "damage_modifier": null,
+  "charge_time_seconds": 205,
+  "max_sync_pct": 300,
+  "effects": []
+}

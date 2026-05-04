@@ -1,0 +1,27 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "1000-needles",
+  "name": "1000 Needles",
+  "role": "Commando",
+  "monster": {
+    "name": "Cactuar",
+    "slug": "cactuar",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Cactuar_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Timing",
+    "ps3": [
+      "X"
+    ],
+    "xbox": [
+      "A"
+    ]
+  },
+  "description": "Deal fixed amount of physical damage.",
+  "details": null,
+  "type": "Physical",
+  "damage_modifier": null,
+  "charge_time_seconds": 180,
+  "max_sync_pct": 777,
+  "effects": []
+}

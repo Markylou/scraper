@@ -1,0 +1,31 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "shred",
+  "name": "Shred",
+  "role": "Ravager",
+  "monster": {
+    "name": "Albino Lobo",
+    "slug": "albino-lobo",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Albino_Lobo"
+  },
+  "input": {
+    "type": "Multiple",
+    "ps3": [
+      "Left stick left",
+      "Circle",
+      "Left stick left"
+    ],
+    "xbox": [
+      "Left stick left",
+      "B",
+      "Left stick left"
+    ]
+  },
+  "description": "Deal physical damage to target.",
+  "details": null,
+  "type": "Physical",
+  "damage_modifier": null,
+  "charge_time_seconds": 165,
+  "max_sync_pct": 300,
+  "effects": []
+}

@@ -1,0 +1,177 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "dendrobium",
+  "name": "Dendrobium",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/a/a6/FFXIII2_enemy_Dendrobium.png/revision/latest?cb=20120730020843",
+  "role": "Saboteur",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 99,
+  "growth": "Late Bloomer",
+  "special_notes": "Late Bloomer - Fogproof - Fuzzy",
+  "paradigm_pack_notes": "The Dendrobium is a Saboteur; its skillset allows Dendrobium to inflict Fog (at level 39; requires grade 3 monster materials) and Pain (at level 56; requires level 4 materials), which neither Serah nor Noel can do. It is the best source of the role ability Poison for infusion, as it has it at level 1. Expensive though it may be, it is also the best source of Pain. However, it is a much more expensive infusion source of Painga than Pantopoda (except perhaps if the player is also infusing Pain), and it is harder to find.\n\nLike the other Stalker type Saboteurs— Barbed Specter, Clematis and Necrosis —Dendrobium has the Biohazard Injection Feral Link, which casts Poison on the target (and is therefore quite useful for bosses, including Yomi). It has higher HP than Black Chocobo, but is still fourth in HP, behind Samovira, Necrosis and Deathgaze. Dendrobium is specialized in Magic, and benefits well from leveling with Mana monster materials.\n\nIt requires 25 Grade one Biological (Droplet) monster materials to get to level 15; 42 grade two (Slivers) to reach level 30; 32 Grade three (Orb) to advance to level 45; 76 grade four Essences to level 70, and 76 grade five Crystals to its maximum level of 99. It has largely consistent stat growth.",
+  "stats": {
+    "hp_min": 417,
+    "hp_max": 417,
+    "str_min": 48,
+    "str_max": 48,
+    "mag_min": 106,
+    "mag_max": 106
+  },
+  "feral_link": {
+    "name": "Biohazard Injection",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Bresha Ruins -005 AF- (Echoes of the Past)",
+      "slug": "bresha-ruins-005-af-echoes-of-the-past",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Wind"
+    ],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Resist Fog: +10%",
+        "slug": "resist-fog-10",
+        "source_url": null,
+        "level": 6,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Imperil: +10%",
+        "slug": "resist-imperil-10",
+        "source_url": null,
+        "level": 15,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Fog: +44%",
+        "slug": "resist-fog-44",
+        "source_url": null,
+        "level": 30,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Imperil: +44%",
+        "slug": "resist-imperil-44",
+        "source_url": null,
+        "level": 36,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Chain Bonus Boost",
+        "slug": "chain-bonus-boost",
+        "source_url": null,
+        "level": 54,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Fog: +66%",
+        "slug": "resist-fog-66",
+        "source_url": null,
+        "level": 66,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Imperil: +66%",
+        "slug": "resist-imperil-66",
+        "source_url": null,
+        "level": 67,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Poison",
+        "slug": "poison",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Wound",
+        "slug": "wound",
+        "source_url": null,
+        "level": 9,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Dispel",
+        "slug": "dispel",
+        "source_url": null,
+        "level": 24,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Imperil",
+        "slug": "imperil",
+        "source_url": null,
+        "level": 28,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Fog",
+        "slug": "fog",
+        "source_url": null,
+        "level": 39,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Pain",
+        "slug": "pain",
+        "source_url": null,
+        "level": 56,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Poisonga",
+        "slug": "poisonga",
+        "source_url": null,
+        "level": 80,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Painga",
+        "slug": "painga",
+        "source_url": null,
+        "level": 90,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

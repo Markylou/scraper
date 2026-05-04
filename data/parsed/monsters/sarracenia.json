@@ -1,0 +1,172 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "sarracenia",
+  "name": "Sarracenia",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/0/02/FFXIII-2_Sarracenia.png/revision/latest?cb=20120802022238",
+  "role": "Commando",
+  "speed": null,
+  "tame_rate_pct": 20,
+  "max_level": 60,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Wimpy - Loyal",
+  "paradigm_pack_notes": "The Sarracenia is a Commando. Its stat development is slow at first, but its HP and Strength increases rapidly between levels 20 and 30 before slowing down again. If fed with Potent materials, its Strength stat overtakes its Magic stat around level 18.\n\nWhile its raw stats do not compare favorably to other monster Commandos, it does possess the useful Drain Attack ability, its non-inheritable Feeder abilities can be useful against powerful enemies that like to protect themselves with status enhancements, and it learns many passive and auto abilities that improve its otherwise modest Strength and Magic stats during battle.",
+  "stats": {
+    "hp_min": 300,
+    "hp_max": 300,
+    "str_min": 15,
+    "str_max": 15,
+    "mag_min": 30,
+    "mag_max": 30
+  },
+  "feral_link": {
+    "name": "Slurp",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "New Bodhum -003 AF- (Tidal Shallows)",
+      "slug": "new-bodhum-003-af-tidal-shallows",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Ice",
+      "Lightning"
+    ],
+    "halved": [
+      "Physical"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Feral Surge",
+        "slug": "feral-surge",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Ally KO: Power Surge",
+        "slug": "ally-ko-power-surge",
+        "source_url": null,
+        "level": 3,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Pack Mentality",
+        "slug": "pack-mentality",
+        "source_url": null,
+        "level": 16,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Auto-Shell",
+        "slug": "auto-shell",
+        "source_url": null,
+        "level": 47,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Role Resonance",
+        "slug": "role-resonance",
+        "source_url": null,
+        "level": 54,
+        "default": false,
+        "red_locked": true
+      }
+    ],
+    "skills": [
+      {
+        "name": "Ruin",
+        "slug": "ruin",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Drain Attack",
+        "slug": "drain-attack",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Protect Feeder",
+        "slug": "protect-feeder",
+        "source_url": null,
+        "level": 2,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Shell Feeder",
+        "slug": "shell-feeder",
+        "source_url": null,
+        "level": 5,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Powerchain",
+        "slug": "powerchain",
+        "source_url": null,
+        "level": 6,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Bravery Feeder",
+        "slug": "bravery-feeder",
+        "source_url": null,
+        "level": 9,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Adrenaline",
+        "slug": "adrenaline",
+        "source_url": null,
+        "level": 22,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Bloodthirsty",
+        "slug": "bloodthirsty",
+        "source_url": null,
+        "level": 50,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Scourge",
+        "slug": "scourge",
+        "source_url": null,
+        "level": 60,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

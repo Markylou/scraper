@@ -1,0 +1,33 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "spinning-step",
+  "name": "Spinning Step",
+  "role": "Commando",
+  "monster": {
+    "name": "Yaksha",
+    "slug": "yaksha",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Yaksha_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Complex",
+    "ps3": [
+      "Left stick left",
+      "Left stick left",
+      "Left stick right"
+    ],
+    "xbox": [
+      "Left stick left",
+      "Left stick right",
+      "Left stick right",
+      "Left stick right",
+      "Timing"
+    ]
+  },
+  "description": "Inflict physical damage on target and nearby foes.",
+  "details": null,
+  "type": "Physical",
+  "damage_modifier": null,
+  "charge_time_seconds": 120,
+  "max_sync_pct": 500,
+  "effects": []
+}

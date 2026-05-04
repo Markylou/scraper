@@ -1,0 +1,190 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "calautidon",
+  "name": "Calautidon",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/f/fc/FFXIII2_enemy_Calautidon.png/revision/latest?cb=20120730035058",
+  "role": "Sentinel",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 99,
+  "growth": "Late Bloomer",
+  "special_notes": "Late Bloomer - Hearty - Greedy",
+  "paradigm_pack_notes": "The Calautidon is a Sentinel. It halves all attacks and elements, and its HP can exceede 10,000 if Vitality or Potent materials are used, as well as HP: +30% infused into it. This makes it one of the most powerful monster Sentinels. However, it is also one of the most expensive monsters to develop in terms of material cost.\n\nCalautidon has the Item Scavenger II and Gilfinder II abilities at level 1. Item Scavenger II multiplies common drops by 4.5 times normal, does not stack with other Item Scavenger sources, and is available for infusion (Microchu has it at level 18, and is a much more common enemy). Gilfinder II gives 50% more Gil, stacks with other sources of Gilfinder, and is red-locked.\n\nJungle Law increases the Calautidon's Strength and Magic if the Calautidon is facing an opponent with less HP than it, and decreases the same if the opponent has more HP. Most importantly, Jungle Law's benefit or detriment is much less significant for a Sentinel than for other Roles, but it does affect its Shell Spin Feral Link. The player must decide whether the additional 159 Hit Points from getting from level 89 to the Calautidon's final level of 90 are worth the price.\n\nWith a Sentinel's high HP, the chance of receiving a detriment should be much less, but most bosses have more HP than Calautidon can reach, and as early as Academia 400 AF, even regular enemies like the Taxim have 13,000 HP. By 500 AF, Jungle Law will be reducing Calautidon's Strength and Magic the majority of the time.",
+  "stats": {
+    "hp_min": 1067,
+    "hp_max": 1067,
+    "str_min": 39,
+    "str_max": 39,
+    "mag_min": 19,
+    "mag_max": 19
+  },
+  "feral_link": {
+    "name": "Shell Spin",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Sunleth Waterscape -300 AF- (Overgrown Forest, Isle of Arboreal Embrace, Assembly Area, Warpwood)",
+      "slug": "sunleth-waterscape-300-af-overgrown-forest-isle-of-arboreal-embrace-assembly-area-warpwood",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [
+      "Fire",
+      "Ice",
+      "Lightning",
+      "Wind",
+      "Physical",
+      "Magical"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Critical: Shell",
+        "slug": "critical-shell",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Gilfinder II",
+        "slug": "gilfinder-ii",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Item Scavenger II",
+        "slug": "item-scavenger-ii",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Physical: +5%",
+        "slug": "resist-physical-5",
+        "source_url": null,
+        "level": 18,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Fire: +10%",
+        "slug": "resist-fire-10",
+        "source_url": null,
+        "level": 22,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Physical: +15%",
+        "slug": "resist-physical-15",
+        "source_url": null,
+        "level": 29,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Physical: +26%",
+        "slug": "resist-physical-26",
+        "source_url": null,
+        "level": 38,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Fire: +33%",
+        "slug": "resist-fire-33",
+        "source_url": null,
+        "level": 47,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Fire: +45%",
+        "slug": "resist-fire-45",
+        "source_url": null,
+        "level": 69,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Jungle Law",
+        "slug": "jungle-law",
+        "source_url": null,
+        "level": 90,
+        "default": false,
+        "red_locked": true
+      }
+    ],
+    "skills": [
+      {
+        "name": "Provoke",
+        "slug": "provoke",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Vendetta",
+        "slug": "vendetta",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Steelguard",
+        "slug": "steelguard",
+        "source_url": null,
+        "level": 6,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Fringeward",
+        "slug": "fringeward",
+        "source_url": null,
+        "level": 14,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Mediguard",
+        "slug": "mediguard",
+        "source_url": null,
+        "level": 54,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Challenge",
+        "slug": "challenge",
+        "source_url": null,
+        "level": 80,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

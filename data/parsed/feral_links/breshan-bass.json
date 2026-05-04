@@ -1,0 +1,23 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "refreshing-rain",
+  "name": "Refreshing Rain",
+  "role": "Saboteur",
+  "monster": {
+    "name": "Breshan Bass",
+    "slug": "breshan-bass",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Breshan_Bass_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "None",
+    "ps3": [],
+    "xbox": []
+  },
+  "description": "Restore HP to all allies.",
+  "details": "Also bestows Regen.",
+  "type": "Recovery",
+  "damage_modifier": null,
+  "charge_time_seconds": 75,
+  "max_sync_pct": 100,
+  "effects": []
+}

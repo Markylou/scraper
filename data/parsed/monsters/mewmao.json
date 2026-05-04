@@ -1,0 +1,154 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "mewmao",
+  "name": "Mewmao",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/6/6a/FFXIII-2_Mewmao.png/revision/latest?cb=20120802041757",
+  "role": "Synergist",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 40,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Magical - Paw Pads",
+  "paradigm_pack_notes": "Mewmao has amazing potential as a Synergist because it has a limited skillset consisting of Shell, Veil and the En- spells. Thus it can be customized to the player's liking with infusion. It has high HP and a decent Magic stat, making it an efficient endgame Synergist. Mewmao is commonly used to infuse the Resist Magic +36% ability, but along the way to that is the less-than-perfect HP +25% ability (the maximum is HP +30%). This 25% is relatively common, so if the same coincidental addition of a 25% reoccurs, it will become yellow-locked and require a third HP +25% to remove the lock.",
+  "stats": {
+    "hp_min": 1888,
+    "hp_max": 1888,
+    "str_min": 95,
+    "str_max": 95,
+    "mag_min": 229,
+    "mag_max": 229
+  },
+  "feral_link": {
+    "name": "Precious Prayer",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Archylte Steppe -??? AF- (Clearwater Marshes)",
+      "slug": "archylte-steppe-af-clearwater-marshes",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [
+      "Ice",
+      "Magical"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Rapid Recovery",
+        "slug": "rapid-recovery",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Resist Magic: +15%",
+        "slug": "resist-magic-15",
+        "source_url": null,
+        "level": 4,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "HP: +25%",
+        "slug": "hp-25",
+        "source_url": null,
+        "level": 10,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Magic: +26%",
+        "slug": "resist-magic-26",
+        "source_url": null,
+        "level": 16,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Magic: +36%",
+        "slug": "resist-magic-36",
+        "source_url": null,
+        "level": 23,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Feral Surge",
+        "slug": "feral-surge",
+        "source_url": null,
+        "level": 26,
+        "default": false,
+        "red_locked": true
+      }
+    ],
+    "skills": [
+      {
+        "name": "Shell",
+        "slug": "shell",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Veil",
+        "slug": "veil",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Enfire",
+        "slug": "enfire",
+        "source_url": null,
+        "level": 3,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Enfrost",
+        "slug": "enfrost",
+        "source_url": null,
+        "level": 20,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Enaero",
+        "slug": "enaero",
+        "source_url": null,
+        "level": 30,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Enthunder",
+        "slug": "enthunder",
+        "source_url": null,
+        "level": 35,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "haguma",
+  "name": "Haguma",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/b/bd/FFXIII2_enemy_Haguma.png/revision/latest?cb=20120730015434",
+  "role": "Medic",
+  "speed": null,
+  "tame_rate_pct": 5,
+  "max_level": 99,
+  "growth": "Late Bloomer",
+  "special_notes": "Late Bloomer - Brainy - Beautiful",
+  "paradigm_pack_notes": "The Haguma is a late bloomer, which means it is more costly to raise than Early Peakers and such of the same Grade, and its development may be slow at first. However, being a late bloomer also grants it more ATB or Role Boost upgrades, and its Magic power increases rapidly at the last stage to over 900. It also boasts a max level health threshold of around 8000. It is about second in Magic power, slightly behind White Chocobo, and slightly ahead of Cait Sith.\n\nIt is the fastest spell caster in the game, which is especially important for Medics. It is recommended to infuse Raise to it to make it an even better healer; Spiranthes can infuse it at only level seven, Improved Raise at level 15, and Improved Raise II at level 30. It gets Esunada, which Green Chocobo lacks, but not until level 99. Its damaging Feral Link is not as powerful as Flanitor's party heal, but is Magic-based, and so does more damage than the physical Feral Links of the Chocobos and Cait Sith. Because of its combined high Magic stat, impressive skillset, amazing HP and unrivaled casting speed, it can be considered the best Medic in the game.",
+  "stats": {
+    "hp_min": 616,
+    "hp_max": 616,
+    "str_min": 23,
+    "str_max": 23,
+    "mag_min": 94,
+    "mag_max": 94
+  },
+  "feral_link": {
+    "name": "Hypnotic Star",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Vile Peaks -010 AF- (Another Man's Treasure, Wrack and Ruin)",
+      "slug": "vile-peaks-010-af-another-man-s-treasure-wrack-and-ruin",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Lightning"
+    ],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Feral Speed II",
+        "slug": "feral-speed-ii",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Improved Cure II",
+        "slug": "improved-cure-ii",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Resist Deprotect: +10%",
+        "slug": "resist-deprotect-10",
+        "source_url": null,
+        "level": 6,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Deshell: +10%",
+        "slug": "resist-deshell-10",
+        "source_url": null,
+        "level": 10,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Magic: +10%",
+        "slug": "magic-10",
+        "source_url": null,
+        "level": 21,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Deprotect: +44%",
+        "slug": "resist-deprotect-44",
+        "source_url": null,
+        "level": 26,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Deshell: +44%",
+        "slug": "resist-deshell-44",
+        "source_url": null,
+        "level": 32,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Magic: +16%",
+        "slug": "magic-16",
+        "source_url": null,
+        "level": 36,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Magic: +20%",
+        "slug": "magic-20",
+        "source_url": null,
+        "level": 46,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Deprotect: +66%",
+        "slug": "resist-deprotect-66",
+        "source_url": null,
+        "level": 59,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Deshell: +66%",
+        "slug": "resist-deshell-66",
+        "source_url": null,
+        "level": 66,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Magic: +25%",
+        "slug": "magic-25",
+        "source_url": null,
+        "level": 76,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Rapid Recovery",
+        "slug": "rapid-recovery",
+        "source_url": null,
+        "level": 92,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Cure",
+        "slug": "cure",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Curasa",
+        "slug": "curasa",
+        "source_url": null,
+        "level": 13,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Cura",
+        "slug": "cura",
+        "source_url": null,
+        "level": 24,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Esuna",
+        "slug": "esuna",
+        "source_url": null,
+        "level": 44,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Esunada",
+        "slug": "esunada",
+        "source_url": null,
+        "level": 99,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

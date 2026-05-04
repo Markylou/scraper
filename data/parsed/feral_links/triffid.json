@@ -1,0 +1,27 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "sniping-thrust",
+  "name": "Sniping Thrust",
+  "role": "Synergist",
+  "monster": {
+    "name": "Triffid",
+    "slug": "triffid",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Triffid_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Timing",
+    "ps3": [
+      "Left stick left"
+    ],
+    "xbox": [
+      "Left stick left"
+    ]
+  },
+  "description": "Deal physical damage to target.",
+  "details": null,
+  "type": "Physical",
+  "damage_modifier": null,
+  "charge_time_seconds": 90,
+  "max_sync_pct": 300,
+  "effects": []
+}

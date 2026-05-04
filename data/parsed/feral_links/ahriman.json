@@ -1,0 +1,30 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "multicast",
+  "name": "Multicast",
+  "role": "Saboteur",
+  "monster": {
+    "name": "Ahriman",
+    "slug": "ahriman",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Ahriman_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Multiple",
+    "ps3": [
+      "Left stick right",
+      "Circle",
+      "Circle"
+    ],
+    "xbox": [
+      "Left stick right",
+      "B"
+    ]
+  },
+  "description": "Deal magic damage to target.",
+  "details": "Casts a barrage of wound spells.",
+  "type": "Magic",
+  "damage_modifier": null,
+  "charge_time_seconds": 120,
+  "max_sync_pct": 300,
+  "effects": []
+}

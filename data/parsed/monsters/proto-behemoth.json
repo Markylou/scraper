@@ -1,0 +1,167 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "proto-behemoth",
+  "name": "Proto-behemoth",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/8/82/FFXIII_enemy_Proto-Behemoth.png/revision/latest/scale-to-width-down/267?cb=20140221145447",
+  "role": "Commando",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 40,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Pinch Hitter - Vicious",
+  "paradigm_pack_notes": "Proto-behemoth is tricky to acquire due to them only appearing once naturally at the end of the floating maze in Academia 500 AF with two Schrodingers, requiring the player to target the Proto-behemoth first and retry the fight if they do not receive its crystal, or saving and reloading, or closing the gate.\n\nProto-behemoth is a Commando. It is easy to max out by the time it can be recruited, only requiring Essence grade materials to complete growth at highest levels (can be bought from Chocolina), and a level cap of 40 instead of the usual Behemoth species's level cap of 70. It has less potential for growth and with three red-locked abilities it loses out in the long run to a maxed Narasimha who also has 4 ATB bars available if only Commando role bonuses are chosen during growth. Only one Commando bonus boost is available in contrast to other higher level Commandos with a level cap of 70 or more.\n\nIts Feral Link, Sunder, hits its target plus any targets in its way. It has a maximum synchronization rate of 300%. Its sword lets it hit opponents without the need to get close, and it can attack launched opponents without magic. After Chichu, Proto-behemoth is the second best Armor Breaker user outside of DLC content, since other Commandos with it forgo Armor Breaker in favor of Stagger: Wound or Stagger: Drain once an opponent has been staggered. It also learns Bravery Feeder. Due to its three red-locked passive abilities, Proto-behemoth functions in Synergist -like fashion in critical condition.\n\nProto-behemoth is a very powerful Commando especially for one who doesn't care for hours of farming Power Crystals to power up Twilight Odin, Narasimha, or Chichu.",
+  "stats": {
+    "hp_min": 2462,
+    "hp_max": 2462,
+    "str_min": 260,
+    "str_max": 260,
+    "mag_min": 90,
+    "mag_max": 90
+  },
+  "feral_link": {
+    "name": "Sunder",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Academia -500 AF-",
+      "slug": "academia-500-af",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Critical: Faith",
+        "slug": "critical-faith",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Critical: Bravery",
+        "slug": "critical-bravery",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Critical: Vigilance",
+        "slug": "critical-vigilance",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      }
+    ],
+    "skills": [
+      {
+        "name": "Attack",
+        "slug": "attack",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Ruin",
+        "slug": "ruin",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Launch",
+        "slug": "launch",
+        "source_url": null,
+        "level": 4,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Blitz",
+        "slug": "blitz",
+        "source_url": null,
+        "level": 5,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Ravage",
+        "slug": "ravage",
+        "source_url": null,
+        "level": 9,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Scourge",
+        "slug": "scourge",
+        "source_url": null,
+        "level": 12,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Smite",
+        "slug": "smite",
+        "source_url": null,
+        "level": 19,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Blindside",
+        "slug": "blindside",
+        "source_url": null,
+        "level": 21,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Armor Breaker",
+        "slug": "armor-breaker",
+        "source_url": null,
+        "level": 27,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Bloodthirsty",
+        "slug": "bloodthirsty",
+        "source_url": null,
+        "level": 34,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Bravery Feeder",
+        "slug": "bravery-feeder",
+        "source_url": null,
+        "level": 40,
+        "default": false,
+        "infusable": false
+      }
+    ]
+  }
+}

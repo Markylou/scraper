@@ -1,0 +1,143 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "luminous-puma",
+  "name": "Luminous Puma",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/0/04/FFXIII-2_Luminous_Puma.png/revision/latest?cb=20120802040146",
+  "role": "Synergist",
+  "speed": null,
+  "tame_rate_pct": 20,
+  "max_level": 40,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Magical - Vicious",
+  "paradigm_pack_notes": null,
+  "stats": {
+    "hp_min": 1214,
+    "hp_max": 1214,
+    "str_min": 118,
+    "str_max": 118,
+    "mag_min": 118,
+    "mag_max": 118
+  },
+  "feral_link": {
+    "name": "Sonic Fangs",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Augusta Tower -200 AF- (49th Floor, 51st Floor)",
+      "slug": "augusta-tower-200-af-49th-floor-51st-floor",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Pressure II",
+        "slug": "pressure-ii",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "HP: +10%",
+        "slug": "hp-10",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": false
+      },
+      {
+        "name": "HP: +16%",
+        "slug": "hp-16",
+        "source_url": null,
+        "level": 13,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "HP: +25%",
+        "slug": "hp-25",
+        "source_url": null,
+        "level": 24,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Protect",
+        "slug": "protect",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Shell",
+        "slug": "shell",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Veil",
+        "slug": "veil",
+        "source_url": null,
+        "level": 3,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Enfrost",
+        "slug": "enfrost",
+        "source_url": null,
+        "level": 7,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Shellga",
+        "slug": "shellga",
+        "source_url": null,
+        "level": 18,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Enthunder",
+        "slug": "enthunder",
+        "source_url": null,
+        "level": 30,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Protectga",
+        "slug": "protectga",
+        "source_url": null,
+        "level": 40,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

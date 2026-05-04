@@ -1,0 +1,165 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "apkallu",
+  "name": "Apkallu",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/6/66/FFXIII2_enemy_Apkallu.png/revision/latest?cb=20120802171026",
+  "role": "Commando",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 45,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Flameprone - Fishy",
+  "paradigm_pack_notes": "The Apkallu is a Commando. It has attack speed nearly on par with Chichu's, and if maxed out with Power materials, can have Strength in excess of 1,500. Apkallu's Attack animation consists of two pecks per attack; if taught these abilities, it can restore its ATB via Siphon Boost II and Attack: ATB Charge II, resulting in continuous attacking.\n\nIts Area Sweep can wipe out large groups of enemies, such as farming Microchu in the Archylte Steppe or even PuPu. It naturally halves Ice and Wind damage. Its Feral Link, Abyssal Breath, can inflict Deprotect and Deshell and has a synchronization rate of 300%, but is magical and thus does not benefit from Apkallu's good Strength stat.\n\nIts downsides include not being able to physically attack launched and flying opponents, resorting to Ruin and Ruinga; it has poor Magic, but good casting speed. Apkallu is weak to Fire and Lightning and lacks beneficial Chaser and Feeder abilities; its Slow Chaser is not so useful as Slow is a rare status ailment only inflicted via another Paradigm Pack ally's Feral Link.\n\nIt is still highly recommended to pick up an Apkallu as it is a cheap and powerful Commando.",
+  "stats": {
+    "hp_min": 1967,
+    "hp_max": 1967,
+    "str_min": 100,
+    "str_max": 100,
+    "mag_min": 62,
+    "mag_max": 62
+  },
+  "feral_link": {
+    "name": "Abyssal Breath",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Academia -500 AF-",
+      "slug": "academia-500-af",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Fire",
+      "Lightning"
+    ],
+    "halved": [
+      "Ice",
+      "Wind"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Attack: ATB Charge",
+        "slug": "attack-atb-charge",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": false
+      },
+      {
+        "name": "Strength: +16%",
+        "slug": "strength-16",
+        "source_url": null,
+        "level": 12,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Strength: +20%",
+        "slug": "strength-20",
+        "source_url": null,
+        "level": 27,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Dispel: +10%",
+        "slug": "resist-dispel-10",
+        "source_url": null,
+        "level": 35,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Strength: +25%",
+        "slug": "strength-25",
+        "source_url": null,
+        "level": 41,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Dispel: +44%",
+        "slug": "resist-dispel-44",
+        "source_url": null,
+        "level": 42,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Attack",
+        "slug": "attack",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Ruin",
+        "slug": "ruin",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Area Sweep",
+        "slug": "area-sweep",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Powerchain",
+        "slug": "powerchain",
+        "source_url": null,
+        "level": 5,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Slow Chaser",
+        "slug": "slow-chaser",
+        "source_url": null,
+        "level": 18,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Scourge",
+        "slug": "scourge",
+        "source_url": null,
+        "level": 21,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Ruinga",
+        "slug": "ruinga",
+        "source_url": null,
+        "level": 45,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

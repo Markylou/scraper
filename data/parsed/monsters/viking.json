@@ -1,0 +1,131 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "viking",
+  "name": "Viking",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/c/c0/Viking.png/revision/latest/scale-to-width-down/268?cb=20140221153159",
+  "role": "Saboteur",
+  "speed": null,
+  "tame_rate_pct": 15,
+  "max_level": 20,
+  "growth": "Early Peaker",
+  "special_notes": "Early Peaker - Firetouch - Oily",
+  "paradigm_pack_notes": null,
+  "stats": {
+    "hp_min": 2018,
+    "hp_max": 2018,
+    "str_min": 153,
+    "str_max": 153,
+    "mag_min": 36,
+    "mag_max": 36
+  },
+  "feral_link": {
+    "name": "Drill Flame",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Vile Peaks -200 AF-",
+      "slug": "vile-peaks-200-af",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Lightning"
+    ],
+    "halved": [
+      "Fire"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Resist Fire: +10%",
+        "slug": "resist-fire-10",
+        "source_url": null,
+        "level": 5,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Fire: +33%",
+        "slug": "resist-fire-33",
+        "source_url": null,
+        "level": 10,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Fire: +45%",
+        "slug": "resist-fire-45",
+        "source_url": null,
+        "level": 19,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Wound",
+        "slug": "wound",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Pain II",
+        "slug": "pain-ii",
+        "source_url": null,
+        "level": 3,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Imperil",
+        "slug": "imperil",
+        "source_url": null,
+        "level": 4,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Dispel II",
+        "slug": "dispel-ii",
+        "source_url": null,
+        "level": 7,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Curse II",
+        "slug": "curse-ii",
+        "source_url": null,
+        "level": 15,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Fog II",
+        "slug": "fog-ii",
+        "source_url": null,
+        "level": 20,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

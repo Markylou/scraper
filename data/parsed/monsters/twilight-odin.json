@@ -1,0 +1,183 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "twilight-odin",
+  "name": "Twilight Odin",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/2/25/Twilight_Odin.png/revision/latest/scale-to-width-down/268?cb=20140208115304",
+  "role": "Commando",
+  "speed": null,
+  "tame_rate_pct": null,
+  "max_level": 99,
+  "growth": "Late Bloomer",
+  "special_notes": "Late Bloomer - Rare - Aloof",
+  "paradigm_pack_notes": "Once Twilight Odin is defeated in the Vile Peaks 200 AF, it will join the player party as a Commando. Its development is slow at first, but its stats (particularly HP) rapidly accelerate during the last stage. Twilight Odin is expensive to develop, requiring 269 Crystals to reach level 99. Once it reaches its maximum level, Twilight Odin is one of the most powerful monsters outside of DLC.\n\nTwilight Odin has slow animation speeds, especially when casting magic, and the length of his Attack animation results in relatively low damage-per-second rates. By Wounding enemies, Twilight Odin's Bloodthirsty auto-ability will bolster its attacks, resulting in signficiantly higher damage per ATB segment than other Commandos with comparable Strength stats. Due to its size, Twilight Odin's Blitz has a signficiantly greater area of effect than Serah or Noel's. Twilight Odin is good for recruiting monster crystals, as its Zantetsuken Feral Link gets close to 999% synchronization when performed perfectly.\n\nTwilight Odin's animation for normal Attacks is Flourish of Steel; this deals four separate hits with each individual action, meaning that infusing Attack: ATB Charge II and Siphon Boost II will allow Odin to restore an entire ATB segment per action. Launch takes the form of Skyward Swing, which hits three times per action; Blindside, Powerchain, and Scourge take the form of Crushing Blow; and Blitz takes the form of Seismic Strike. Twilight Odin cannot Attack airborne enemies and will resort to using Ruin if the enemy is out of range of his weapon.\n\nTwilight Odin is a one-of-a-kind monster. If the player releases it or infuses it into another monster, the player will be unable to obtain another Twilight Odin unless they have downloaded Snow's DLC episode, in which a Level 99 Valfodr has Twilight Odin as a rare drop.",
+  "stats": {
+    "hp_min": 899,
+    "hp_max": 899,
+    "str_min": 89,
+    "str_max": 89,
+    "mag_min": 13,
+    "mag_max": 13
+  },
+  "feral_link": {
+    "name": "Zantetsuken",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Vile Peaks -010 AF-",
+      "slug": "vile-peaks-010-af",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Critical: Tetradefense",
+        "slug": "critical-tetradefense",
+        "source_url": null,
+        "level": 9,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Elements: +20%",
+        "slug": "resist-elements-20",
+        "source_url": null,
+        "level": 68,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Attack: ATB Charge II",
+        "slug": "attack-atb-charge-ii",
+        "source_url": null,
+        "level": 79,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Attack",
+        "slug": "attack",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Ruin",
+        "slug": "ruin",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Powerchain",
+        "slug": "powerchain",
+        "source_url": null,
+        "level": 7,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Poison Chaser",
+        "slug": "poison-chaser",
+        "source_url": null,
+        "level": 10,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Launch",
+        "slug": "launch",
+        "source_url": null,
+        "level": 15,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Blitz",
+        "slug": "blitz",
+        "source_url": null,
+        "level": 24,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Bloodthirsty",
+        "slug": "bloodthirsty",
+        "source_url": null,
+        "level": 38,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Lifesiphon",
+        "slug": "lifesiphon",
+        "source_url": null,
+        "level": 40,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Faultsiphon",
+        "slug": "faultsiphon",
+        "source_url": null,
+        "level": 49,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Adrenaline",
+        "slug": "adrenaline",
+        "source_url": null,
+        "level": 67,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Scourge",
+        "slug": "scourge",
+        "source_url": null,
+        "level": 76,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Stagger: Drain",
+        "slug": "stagger-drain",
+        "source_url": null,
+        "level": 85,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Ruinga",
+        "slug": "ruinga",
+        "source_url": null,
+        "level": 90,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "flangonzola",
+  "name": "Flangonzola",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/1/1a/FFXIII2_enemy_Flangonzola.png/revision/latest?cb=20120802045701",
+  "role": "Commando",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 70,
+  "growth": "Late Bloomer",
+  "special_notes": "Late Bloomer - Strong - Sweaty",
+  "paradigm_pack_notes": "Flangonzola is a rare monster found in the Archylte Steppe. It costs a lot of materials to max out (269 Crystals) and even still does not have very good stats. Its casting speed and attack animation are slow, and it learns Jungle Law at level 3, which further hinders it.",
+  "stats": {
+    "hp_min": 623,
+    "hp_max": 623,
+    "str_min": 49,
+    "str_max": 49,
+    "mag_min": 73,
+    "mag_max": 73
+  },
+  "feral_link": {
+    "name": "Twin Fists",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Archylte Steppe -??? AF- (Sanctorium, Plains of Eternity (Sunny))",
+      "slug": "archylte-steppe-af-sanctorium-plains-of-eternity-sunny",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Lightning",
+      "Wind"
+    ],
+    "halved": [
+      "Ice",
+      "Magical"
+    ],
+    "resistant": [
+      "Fire",
+      "Physical"
+    ],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Jungle Law",
+        "slug": "jungle-law",
+        "source_url": null,
+        "level": 3,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Strength: +10%",
+        "slug": "strength-10",
+        "source_url": null,
+        "level": 9,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Strength: +16%",
+        "slug": "strength-16",
+        "source_url": null,
+        "level": 30,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Strength: +20%",
+        "slug": "strength-20",
+        "source_url": null,
+        "level": 34,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Quick Stagger",
+        "slug": "quick-stagger",
+        "source_url": null,
+        "level": 44,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Strength: +25%",
+        "slug": "strength-25",
+        "source_url": null,
+        "level": 49,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Critical: Power Surge",
+        "slug": "critical-power-surge",
+        "source_url": null,
+        "level": 54,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Critical: Power Surge II",
+        "slug": "critical-power-surge-ii",
+        "source_url": null,
+        "level": 68,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Attack",
+        "slug": "attack",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Ruin",
+        "slug": "ruin",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Bloodthirsty",
+        "slug": "bloodthirsty",
+        "source_url": null,
+        "level": 12,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Blitz",
+        "slug": "blitz",
+        "source_url": null,
+        "level": 24,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Faultsiphon",
+        "slug": "faultsiphon",
+        "source_url": null,
+        "level": 31,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Haste Feeder",
+        "slug": "haste-feeder",
+        "source_url": null,
+        "level": 50,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Bravery Feeder",
+        "slug": "bravery-feeder",
+        "source_url": null,
+        "level": 62,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Blindside",
+        "slug": "blindside",
+        "source_url": null,
+        "level": 67,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Ruinga",
+        "slug": "ruinga",
+        "source_url": null,
+        "level": 69,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Ravage",
+        "slug": "ravage",
+        "source_url": null,
+        "level": 70,
+        "default": false,
+        "infusable": false
+      }
+    ]
+  }
+}

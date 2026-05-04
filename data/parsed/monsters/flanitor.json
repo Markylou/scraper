@@ -1,0 +1,172 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "flanitor",
+  "name": "Flanitor",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/e/ec/FFXIII_enemy_Flanitor.png/revision/latest/scale-to-width-down/268?cb=20140221141336",
+  "role": "Medic",
+  "speed": null,
+  "tame_rate_pct": 15,
+  "max_level": 40,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Loyal - Gentle",
+  "paradigm_pack_notes": "Once tamed, the Flanitor becomes a Medic. Its development is relatively quick, and it has a high Magic stat. The Flanitor learns the useful Improved Cure II ability, as well as Esunada. It is most effective against foes that frequently cast debuffs. Its one negative quality is its low HP.",
+  "stats": {
+    "hp_min": 694,
+    "hp_max": 694,
+    "str_min": 59,
+    "str_max": 59,
+    "mag_min": 145,
+    "mag_max": 145
+  },
+  "feral_link": {
+    "name": "Hyper Rescue",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Augusta Tower -300 AF-",
+      "slug": "augusta-tower-300-af",
+      "source_url": null
+    },
+    {
+      "name": "-200 AF- (49th Floor, 51st Floor, 52nd Floor)",
+      "slug": "200-af-49th-floor-51st-floor-52nd-floor",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Ally KO: Power Surge",
+        "slug": "ally-ko-power-surge",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Improved Cure",
+        "slug": "improved-cure",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Resist Magic: +15%",
+        "slug": "resist-magic-15",
+        "source_url": null,
+        "level": 12,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Fog: +10%",
+        "slug": "resist-fog-10",
+        "source_url": null,
+        "level": 18,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Fog: +44%",
+        "slug": "resist-fog-44",
+        "source_url": null,
+        "level": 25,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Magic: +26%",
+        "slug": "resist-magic-26",
+        "source_url": null,
+        "level": 28,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Improved Cure II",
+        "slug": "improved-cure-ii",
+        "source_url": null,
+        "level": 33,
+        "default": false,
+        "red_locked": true
+      }
+    ],
+    "skills": [
+      {
+        "name": "Cure",
+        "slug": "cure",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Curasa",
+        "slug": "curasa",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Esuna",
+        "slug": "esuna",
+        "source_url": null,
+        "level": 6,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Cheer",
+        "slug": "cheer",
+        "source_url": null,
+        "level": 9,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Cura",
+        "slug": "cura",
+        "source_url": null,
+        "level": 23,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Esunada",
+        "slug": "esunada",
+        "source_url": null,
+        "level": 34,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Raise",
+        "slug": "raise",
+        "source_url": null,
+        "level": 40,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

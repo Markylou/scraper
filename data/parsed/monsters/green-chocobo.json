@@ -1,0 +1,164 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "green-chocobo",
+  "name": "Green Chocobo",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/f/f8/FFXIII2_enemy_GreenChocobo.png/revision/latest?cb=20120730032208",
+  "role": "Medic",
+  "speed": null,
+  "tame_rate_pct": 15,
+  "max_level": 99,
+  "growth": "Late Bloomer",
+  "special_notes": "Late Bloomer - Meleeproof - Quiet",
+  "paradigm_pack_notes": "The Green Chocobo is a Medic that learns every Medic ability a monster is capable of learning, except for Esuna and Esunada (as Curaja is a hidden ability), and learns its abilities early on in its development. Its Improved Cure and Critical: Faith passive abilities allow it to boost its healing capabilities considerably.\n\nIts stat growth is linear for a Late Bloomer, allowing the player to make good use of the Green Chocobo even in its early stages, although it does not possess particularly high stats at level 99 like other chocobos do, meaning it is not the best choice to go racing in Serendipity.\n\nBecause of the racing minigame a player with one Green Chocobo and its crystal may obtain another Green Chocobo crystal; this is true of the other colors also. All other tameable monsters are limited to one each.",
+  "stats": {
+    "hp_min": 546,
+    "hp_max": 546,
+    "str_min": 38,
+    "str_max": 38,
+    "mag_min": 60,
+    "mag_max": 60
+  },
+  "feral_link": {
+    "name": "Kweh Kweh",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "The Yaschas Massif -100 AF- (The Pass of Paddra)",
+      "slug": "the-yaschas-massif-100-af-the-pass-of-paddra",
+      "source_url": null
+    },
+    {
+      "name": "The Yaschas Massif -110 AF-",
+      "slug": "the-yaschas-massif-110-af",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Improved Cure",
+        "slug": "improved-cure",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Resist Physical: +5%",
+        "slug": "resist-physical-5",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": false
+      },
+      {
+        "name": "Critical: Faith",
+        "slug": "critical-faith",
+        "source_url": null,
+        "level": 9,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Resist Physical: +15%",
+        "slug": "resist-physical-15",
+        "source_url": null,
+        "level": 13,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Physical: +26%",
+        "slug": "resist-physical-26",
+        "source_url": null,
+        "level": 36,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Physical: +36%",
+        "slug": "resist-physical-36",
+        "source_url": null,
+        "level": 48,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Improved Cure II",
+        "slug": "improved-cure-ii",
+        "source_url": null,
+        "level": 60,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Bonus CP",
+        "slug": "bonus-cp",
+        "source_url": null,
+        "level": 99,
+        "default": false,
+        "red_locked": true
+      }
+    ],
+    "skills": [
+      {
+        "name": "Cure",
+        "slug": "cure",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Cheer",
+        "slug": "cheer",
+        "source_url": null,
+        "level": 4,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Curasa",
+        "slug": "curasa",
+        "source_url": null,
+        "level": 16,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Raise",
+        "slug": "raise",
+        "source_url": null,
+        "level": 22,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Cura",
+        "slug": "cura",
+        "source_url": null,
+        "level": 29,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

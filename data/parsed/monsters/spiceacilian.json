@@ -1,0 +1,177 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "spiceacilian",
+  "name": "Spiceacilian",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/e/ea/FFXIII-2_Spiceacilian.png/revision/latest?cb=20120802015139",
+  "role": "Ravager",
+  "speed": null,
+  "tame_rate_pct": 20,
+  "max_level": 99,
+  "growth": "Late Bloomer",
+  "special_notes": "Late Bloomer - Magical - Delectable",
+  "paradigm_pack_notes": "The Spiceacilian is a Ravager, and learns all Wind-elemental abilities. Its development is heavily weighted towards magic, which can increase beyond 1,100 if given Potent or Mana materials. Its stat growth in the crystarium is fairly uniform overall, except that its HP is significantly boosted at the beginning of its development and its Magic stat develops faster during the latter stages of its development.\n\nSpiceacilian doesn't learn many abilities considering that it is a Late Bloomer, and it only learns inheritable auto-abilities. One upside is that it builds up a strong resistance against Magic attacks during its development.",
+  "stats": {
+    "hp_min": 286,
+    "hp_max": 286,
+    "str_min": 17,
+    "str_max": 17,
+    "mag_min": 41,
+    "mag_max": 41
+  },
+  "feral_link": {
+    "name": "Refreshing Rain",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "New Bodhum -003 AF- (Beachfront, Winding Way, Tidal Shallows)",
+      "slug": "new-bodhum-003-af-beachfront-winding-way-tidal-shallows",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Lightning"
+    ],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Magic: +10%",
+        "slug": "magic-10",
+        "source_url": null,
+        "level": 4,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Magic: +5%",
+        "slug": "resist-magic-5",
+        "source_url": null,
+        "level": 9,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Magic: +15%",
+        "slug": "resist-magic-15",
+        "source_url": null,
+        "level": 23,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Magic: +16%",
+        "slug": "magic-16",
+        "source_url": null,
+        "level": 30,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Magic: +20%",
+        "slug": "magic-20",
+        "source_url": null,
+        "level": 44,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Magic: +26%",
+        "slug": "resist-magic-26",
+        "source_url": null,
+        "level": 49,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Magic: +36%",
+        "slug": "resist-magic-36",
+        "source_url": null,
+        "level": 68,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Magic: +25%",
+        "slug": "magic-25",
+        "source_url": null,
+        "level": 78,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Rapid Recovery",
+        "slug": "rapid-recovery",
+        "source_url": null,
+        "level": 99,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Aero",
+        "slug": "aero",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Galestrike",
+        "slug": "galestrike",
+        "source_url": null,
+        "level": 3,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Overwhelm",
+        "slug": "overwhelm",
+        "source_url": null,
+        "level": 14,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Aerora",
+        "slug": "aerora",
+        "source_url": null,
+        "level": 34,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Fearsiphon",
+        "slug": "fearsiphon",
+        "source_url": null,
+        "level": 53,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Aeroga",
+        "slug": "aeroga",
+        "source_url": null,
+        "level": 60,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

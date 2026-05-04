@@ -1,0 +1,145 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "silver-lobo",
+  "name": "Silver Lobo",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/7/76/FFXIII_enemy_Silver_Lobo.png/revision/latest/scale-to-width-down/267?cb=20140221152210",
+  "role": "Saboteur",
+  "speed": null,
+  "tame_rate_pct": 20,
+  "max_level": 45,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Venomproof - Howler",
+  "paradigm_pack_notes": null,
+  "stats": {
+    "hp_min": 654,
+    "hp_max": 654,
+    "str_min": 70,
+    "str_max": 70,
+    "mag_min": 70,
+    "mag_max": 70
+  },
+  "feral_link": {
+    "name": "Shred",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Archylte Steppe",
+      "slug": "archylte-steppe",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Ice"
+    ],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Improved Debilitation",
+        "slug": "improved-debilitation",
+        "source_url": null,
+        "level": 3,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Strength: +10%",
+        "slug": "strength-10",
+        "source_url": null,
+        "level": 4,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Strength: +16%",
+        "slug": "strength-16",
+        "source_url": null,
+        "level": 25,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Strength: +20%",
+        "slug": "strength-20",
+        "source_url": null,
+        "level": 37,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Improved Debilitation II",
+        "slug": "improved-debilitation-ii",
+        "source_url": null,
+        "level": 38,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Strength: +25%",
+        "slug": "strength-25",
+        "source_url": null,
+        "level": 43,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Imperil",
+        "slug": "imperil",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Curse",
+        "slug": "curse",
+        "source_url": null,
+        "level": 21,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Deprotect II",
+        "slug": "deprotect-ii",
+        "source_url": null,
+        "level": 36,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Fog",
+        "slug": "fog",
+        "source_url": null,
+        "level": 40,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Heavy Poisonga",
+        "slug": "heavy-poisonga",
+        "source_url": null,
+        "level": 45,
+        "default": false,
+        "infusable": false
+      }
+    ]
+  }
+}

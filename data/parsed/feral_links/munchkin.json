@@ -1,0 +1,31 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "goblin-rush",
+  "name": "Goblin Rush",
+  "role": "Commando",
+  "monster": {
+    "name": "Munchkin",
+    "slug": "munchkin",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Munchkin_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Multiple",
+    "ps3": [
+      "Circle",
+      "Circle",
+      "X"
+    ],
+    "xbox": [
+      "B",
+      "B",
+      "A"
+    ]
+  },
+  "description": "Deal physical damage to target.",
+  "details": null,
+  "type": "Physical",
+  "damage_modifier": null,
+  "charge_time_seconds": 165,
+  "max_sync_pct": 300,
+  "effects": []
+}

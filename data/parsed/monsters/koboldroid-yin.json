@@ -1,0 +1,161 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "koboldroid-yin",
+  "name": "Koboldroid Yin",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/8/83/FFXIII-2_Koboldroid_Yin.png/revision/latest?cb=20120802012211",
+  "role": "Ravager",
+  "speed": null,
+  "tame_rate_pct": 25,
+  "max_level": 40,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Strong - Practical",
+  "paradigm_pack_notes": null,
+  "stats": {
+    "hp_min": 1017,
+    "hp_max": 1017,
+    "str_min": 72,
+    "str_max": 72,
+    "mag_min": 62,
+    "mag_max": 62
+  },
+  "feral_link": {
+    "name": "Multicast",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Academia -400 AF- (Alley)",
+      "slug": "academia-400-af-alley",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [
+      "Wind"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Critical: Shield",
+        "slug": "critical-shield",
+        "source_url": null,
+        "level": 2,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Strength: +10%",
+        "slug": "strength-10",
+        "source_url": null,
+        "level": 4,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Strength: +16%",
+        "slug": "strength-16",
+        "source_url": null,
+        "level": 10,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Strength: +20%",
+        "slug": "strength-20",
+        "source_url": null,
+        "level": 20,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Resist Magic: +15%",
+        "slug": "resist-magic-15",
+        "source_url": null,
+        "level": 30,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Strength: +25%",
+        "slug": "strength-25",
+        "source_url": null,
+        "level": 36,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Kill: Libra",
+        "slug": "kill-libra",
+        "source_url": null,
+        "level": 38,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Critical: Shield II",
+        "slug": "critical-shield-ii",
+        "source_url": null,
+        "level": 40,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Aero",
+        "slug": "aero",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Galestrike",
+        "slug": "galestrike",
+        "source_url": null,
+        "level": 3,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Aerora",
+        "slug": "aerora",
+        "source_url": null,
+        "level": 8,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Overwhelm",
+        "slug": "overwhelm",
+        "source_url": null,
+        "level": 12,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Aeroga",
+        "slug": "aeroga",
+        "source_url": null,
+        "level": 35,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

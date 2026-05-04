@@ -1,0 +1,167 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "imp",
+  "name": "Imp",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/e/e4/FFXIII_enemy_Imp.png/revision/latest?cb=20140221142446",
+  "role": "Synergist",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 70,
+  "growth": "Late Bloomer",
+  "special_notes": "Late Bloomer - Magical - Stoic",
+  "paradigm_pack_notes": "The Imp is a Synergist. It has high HP and magic growth and halves all magic and elemental attacks. It is vulnerable to physical attacks and is limited to bestowing Shell, Bravery and Faith. It is not a good monster to infuse, as it bears the inheritable Jungle Law passive ability.",
+  "stats": {
+    "hp_min": 963,
+    "hp_max": 963,
+    "str_min": 61,
+    "str_max": 61,
+    "mag_min": 80,
+    "mag_max": 80
+  },
+  "feral_link": {
+    "name": "Giant Drop",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Yaschas Massif -110 AF- (The Pass of Paddra)",
+      "slug": "yaschas-massif-110-af-the-pass-of-paddra",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Physical"
+    ],
+    "halved": [
+      "Fire",
+      "Ice",
+      "Lightning",
+      "Wind",
+      "Magical"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Augment Maintenance",
+        "slug": "augment-maintenance",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Resist Magic: +5%",
+        "slug": "resist-magic-5",
+        "source_url": null,
+        "level": 5,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Magic: +15%",
+        "slug": "resist-magic-15",
+        "source_url": null,
+        "level": 16,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Magic: +26%",
+        "slug": "resist-magic-26",
+        "source_url": null,
+        "level": 22,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Jungle Law",
+        "slug": "jungle-law",
+        "source_url": null,
+        "level": 38,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Augment Maintenance II",
+        "slug": "augment-maintenance-ii",
+        "source_url": null,
+        "level": 46,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Resist Magic: +36%",
+        "slug": "resist-magic-36",
+        "source_url": null,
+        "level": 62,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Shell",
+        "slug": "shell",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Bravery",
+        "slug": "bravery",
+        "source_url": null,
+        "level": 3,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Faith",
+        "slug": "faith",
+        "source_url": null,
+        "level": 8,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Shellga",
+        "slug": "shellga",
+        "source_url": null,
+        "level": 29,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Faithga",
+        "slug": "faithga",
+        "source_url": null,
+        "level": 50,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Bravega",
+        "slug": "bravega",
+        "source_url": null,
+        "level": 54,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

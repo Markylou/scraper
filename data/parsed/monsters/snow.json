@@ -1,0 +1,167 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "snow",
+  "name": "Snow",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/e/ea/Snow_XIII-2_Render.png/revision/latest/scale-to-width-down/267?cb=20111018040407",
+  "role": "Sentinel",
+  "speed": null,
+  "tame_rate_pct": null,
+  "max_level": 13,
+  "growth": "Early Peaker",
+  "special_notes": "Early Peaker - Pinch Hitter - Heroic",
+  "paradigm_pack_notes": "Snow can join the player's Paradigm Pack as a Sentinel if defeated as a boss. Snow is part of a post-release downloadable content, called \" Snow's Story: Perpetual Battlefield \", where he can fought in the Coliseum. As a boss, he performs Sovereign Fist as his instant kill move if he attacks the same target for too long.\n\nIf the player tames his crystal, Snow will join as a Sentinel with the highest HP any monster can achieve, able to exceed 20,000 if Vitality Crystals are used in his development and the HP: +30% passive ability is infused into Snow. One drawback is that while he has high HP, he does not have any innate resistances, meaning he would be no better than other Sentinels with 10,000+ HP that halve all attacks, abilities aside.\n\nBy foregoing excess HP development to boost to his Strength growth, Snow can become the best offensive Sentinels, using counterattacks in random encounters, and Guard and Ward abilities against bosses. His Feral Link is Sovereign Fist, a strong, physical attack that hits Snow's target and any surrounding enemies twice, useful for disrupting coordinated group assaults.",
+  "stats": {
+    "hp_min": 8258,
+    "hp_max": 8258,
+    "str_min": 618,
+    "str_max": 618,
+    "mag_min": 499,
+    "mag_max": 499
+  },
+  "feral_link": {
+    "name": "Sovereign Fist",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Coliseum -??? AF- (Coliseum)",
+      "slug": "coliseum-af-coliseum",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Enhanced Sentinel",
+        "slug": "enhanced-sentinel",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Improved Ward II",
+        "slug": "improved-ward-ii",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Critical: Power Surge II",
+        "slug": "critical-power-surge-ii",
+        "source_url": null,
+        "level": 3,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Improved Guard II",
+        "slug": "improved-guard-ii",
+        "source_url": null,
+        "level": 9,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Improved Counter II",
+        "slug": "improved-counter-ii",
+        "source_url": null,
+        "level": 12,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Critical: Tetradefense",
+        "slug": "critical-tetradefense",
+        "source_url": null,
+        "level": 13,
+        "default": false,
+        "red_locked": true
+      }
+    ],
+    "skills": [
+      {
+        "name": "Provoke",
+        "slug": "provoke",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Mediguard",
+        "slug": "mediguard",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Vendetta",
+        "slug": "vendetta",
+        "source_url": null,
+        "level": 4,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Fringeward",
+        "slug": "fringeward",
+        "source_url": null,
+        "level": 5,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Deathward",
+        "slug": "deathward",
+        "source_url": null,
+        "level": 6,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Element Guard",
+        "slug": "element-guard",
+        "source_url": null,
+        "level": 8,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Challenge",
+        "slug": "challenge",
+        "source_url": null,
+        "level": 10,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Entrench",
+        "slug": "entrench",
+        "source_url": null,
+        "level": 11,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

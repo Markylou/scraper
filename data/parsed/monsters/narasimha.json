@@ -1,0 +1,179 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "narasimha",
+  "name": "Narasimha",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/4/45/Final_Fantasy_XIII-2_-_Narasimha.png/revision/latest?cb=20120806144024",
+  "role": "Commando",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 70,
+  "growth": "Late Bloomer",
+  "special_notes": "Late Bloomer - Rare - Aloof",
+  "paradigm_pack_notes": "When Narasimha joins the party, it will fight in its bipedal form wielding a massive blade. As a Commando, it has high HP and Strength, and its stats grow substantially for the first ten levels, making it a useful addition for much of the storyline. Narasimha is available to acquire early, but due to its strength and rarity, it may not be worth the trouble to recruit one as soon as it becomes available.\n\nNarasimha is hindered by its low Magic stat and its Jungle Law passive ability. Jungle Law is not a red locked ability, and can be removed when higher priority abilities push it off Narasimha's abilities list. If the Commando role bonuses are solely chosen during growth, 4 ATB bars will be available at full potential; more than any of its behemoth brethren under the same circumstances.\n\nIt is harder to raise to full potential than Proto-behemoth, requiring Crystal monster materials to max out growth. With time put in to grow it to full potential, Narasimha is a popular choice for those who prefer a behemoth type in their party by end-game due to ATB superiority and lack of red locked abilities for flexibility in growth.",
+  "stats": {
+    "hp_min": 1630,
+    "hp_max": 1630,
+    "str_min": 176,
+    "str_max": 176,
+    "mag_min": 61,
+    "mag_max": 61
+  },
+  "feral_link": {
+    "name": "Diving Strike",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Yaschas Massif -01X AF- (The Pass of Paddra)",
+      "slug": "yaschas-massif-01x-af-the-pass-of-paddra",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Fire"
+    ],
+    "halved": [
+      "Ice"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Quick Stagger",
+        "slug": "quick-stagger",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Jungle Law",
+        "slug": "jungle-law",
+        "source_url": null,
+        "level": 15,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Auto-Bravery",
+        "slug": "auto-bravery",
+        "source_url": null,
+        "level": 29,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Auto-Veil",
+        "slug": "auto-veil",
+        "source_url": null,
+        "level": 44,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Attack",
+        "slug": "attack",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Ruin",
+        "slug": "ruin",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Area Sweep",
+        "slug": "area-sweep",
+        "source_url": null,
+        "level": 8,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Launch",
+        "slug": "launch",
+        "source_url": null,
+        "level": 24,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Smite",
+        "slug": "smite",
+        "source_url": null,
+        "level": 35,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Stagger: Wound",
+        "slug": "stagger-wound",
+        "source_url": null,
+        "level": 39,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Armor Breaker",
+        "slug": "armor-breaker",
+        "source_url": null,
+        "level": 46,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Blindside",
+        "slug": "blindside",
+        "source_url": null,
+        "level": 49,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Pain Chaser",
+        "slug": "pain-chaser",
+        "source_url": null,
+        "level": 50,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Bravery Feeder",
+        "slug": "bravery-feeder",
+        "source_url": null,
+        "level": 67,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Scourge",
+        "slug": "scourge",
+        "source_url": null,
+        "level": 70,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

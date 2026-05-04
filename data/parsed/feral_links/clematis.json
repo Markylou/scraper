@@ -1,0 +1,31 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "biohazard-injection",
+  "name": "Biohazard Injection",
+  "role": "Saboteur",
+  "monster": {
+    "name": "Clematis",
+    "slug": "clematis",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Clematis"
+  },
+  "input": {
+    "type": "Multiple",
+    "ps3": [
+      "Circle",
+      "Circle",
+      "X"
+    ],
+    "xbox": [
+      "B",
+      "B",
+      "A"
+    ]
+  },
+  "description": "Deal physical damage and inflict debuffing ailments.",
+  "details": "Inflicts Poison.",
+  "type": "Debuff",
+  "damage_modifier": null,
+  "charge_time_seconds": 150,
+  "max_sync_pct": 350,
+  "effects": []
+}

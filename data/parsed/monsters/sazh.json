@@ -1,0 +1,209 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "sazh",
+  "name": "Sazh",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/e/ea/FFXIII-2_Sazh_Render.jpg/revision/latest/scale-to-width-down/200?cb=20140101143736",
+  "role": "Synergist",
+  "speed": null,
+  "tame_rate_pct": null,
+  "max_level": 45,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown, Flameproof, Fatherly",
+  "paradigm_pack_notes": "Sazh appears as downloadable content in the form of a \"recruitable monster\" who joins Serah and Noel after completing his downloadable episode. He wields dual pistols in battle, being a ranged fighter, and combines them into one for a finishing attack.\n\nSazh joins the party as Synergist and can learn most of the spells available from the Crystarium. If given Potent or Vitality materials, his HP can exceed 9,000, making him a useful addition to the Paradigm Pack. An all-Mana build is good as well. His Feral Link is Cold Blood, his full ATB skill in Final Fantasy XIII, and functions the same by raining down 17 bullets onto the enemies. It is like Ravager Lightning's Army of One in that it is excellent for driving up an opponent's post- stagger chain gauge. Cold Blood's damage is calculated by Sazh's Strength, so it doesn't inflict much damage.\n\nFrom Crystarium expansions, he can obtain up to two additional ATB Segments or SYN Bonus Boost (II).\n\nBy infusing him with all Synergist spell variations, Sazh can become a competent all-around Synergist due to his fast casting speed. While it is impossible to prioritize particular buffs, the player can switch Sazh out for another monster so that the rest of the Paradigm Pack benefits from his Auto: Buffs.",
+  "stats": {
+    "hp_min": 1250,
+    "hp_max": 1250,
+    "str_min": 90,
+    "str_max": 90,
+    "mag_min": 90,
+    "mag_max": 90
+  },
+  "feral_link": {
+    "name": "Cold Blood",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Serendipity -??? AF-",
+      "slug": "serendipity-af",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [],
+    "resistant": [
+      "Fire"
+    ],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Augment Maintenance",
+        "slug": "augment-maintenance",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Item Collector",
+        "slug": "item-collector",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Feral Speed",
+        "slug": "feral-speed",
+        "source_url": null,
+        "level": 8,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Augment Maintenance II",
+        "slug": "augment-maintenance-ii",
+        "source_url": null,
+        "level": 38,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Critical: Haste",
+        "slug": "critical-haste",
+        "source_url": null,
+        "level": 42,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Feral Speed II",
+        "slug": "feral-speed-ii",
+        "source_url": null,
+        "level": 45,
+        "default": false,
+        "red_locked": true
+      }
+    ],
+    "skills": [
+      {
+        "name": "Bravery",
+        "slug": "bravery",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Faith",
+        "slug": "faith",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Vigilance",
+        "slug": "vigilance",
+        "source_url": null,
+        "level": 2,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Enfrost",
+        "slug": "enfrost",
+        "source_url": null,
+        "level": 3,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Enthunder",
+        "slug": "enthunder",
+        "source_url": null,
+        "level": 7,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Enfire",
+        "slug": "enfire",
+        "source_url": null,
+        "level": 12,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Enaero",
+        "slug": "enaero",
+        "source_url": null,
+        "level": 14,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Protect",
+        "slug": "protect",
+        "source_url": null,
+        "level": 17,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Shell",
+        "slug": "shell",
+        "source_url": null,
+        "level": 23,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Veil",
+        "slug": "veil",
+        "source_url": null,
+        "level": 25,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Bravega",
+        "slug": "bravega",
+        "source_url": null,
+        "level": 26,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Endless Blessings",
+        "slug": "endless-blessings",
+        "source_url": null,
+        "level": 32,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Vigilaga",
+        "slug": "vigilaga",
+        "source_url": null,
+        "level": 43,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "testudo",
+  "name": "Testudo",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/7/7b/FFXIII-2_Testudo.png/revision/latest?cb=20120802041518",
+  "role": "Synergist",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 20,
+  "growth": "Early Peaker",
+  "special_notes": "Early Peaker - Balanced - Old Model",
+  "paradigm_pack_notes": "An Early Peaker, Testudo is a cheap and early opportunity for a monster at maximum level, adequate if not ideal for finishing the main story. At max level it has around 7000 HP, close to the highest HP of all Synergists and more than three times as much as the player's likely first Sentinel, Pulse Knight.\n\nWithout infusion the only spells Testudo learns are Bravery, Bravega, Faith, and Faithga, all of which are unavailable to Serah and Noel. This degree of focus is rare. Testudo is useful any time there are no elemental weaknesses, making En-spells useless and it never casts spells that may not be needed, like Veil.\n\nThe Mechanical monster materials it requires to level are somewhat rarer than biological, and it begins at Grade 3 materials. An alternative source of Bravega and Faithga is Yakshini, which is biological, starts at Grade 2 materials, and learns those spells at roughly the same level.",
+  "stats": {
+    "hp_min": 2499,
+    "hp_max": 2499,
+    "str_min": 191,
+    "str_max": 191,
+    "mag_min": 22,
+    "mag_max": 22
+  },
+  "feral_link": {
+    "name": "Explosive Trigger",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Archylte Steppe -??? AF- (Stonestump Wastelands (Cloudy), Grave Ridge (Cloudy))",
+      "slug": "archylte-steppe-af-stonestump-wastelands-cloudy-grave-ridge-cloudy",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [
+      "Fire",
+      "Ice"
+    ],
+    "resistant": [
+      "Wind"
+    ],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Augment Maintenance",
+        "slug": "augment-maintenance",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Resist Magic: +15%",
+        "slug": "resist-magic-15",
+        "source_url": null,
+        "level": 4,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "HP: +16%",
+        "slug": "hp-16",
+        "source_url": null,
+        "level": 9,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Bravery",
+        "slug": "bravery",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Faith",
+        "slug": "faith",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Bravega",
+        "slug": "bravega",
+        "source_url": null,
+        "level": 14,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Faithga",
+        "slug": "faithga",
+        "source_url": null,
+        "level": 18,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Endless Blessings",
+        "slug": "endless-blessings",
+        "source_url": null,
+        "level": 20,
+        "default": false,
+        "infusable": false
+      }
+    ]
+  }
+}

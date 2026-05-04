@@ -1,0 +1,153 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "flowering-cactuar",
+  "name": "Flowering Cactuar",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/f/fd/FFXIII_enemy_Flowering_Cactuar.png/revision/latest?cb=20140221141349",
+  "role": "Medic",
+  "speed": null,
+  "tame_rate_pct": 33.3,
+  "max_level": 45,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Resourceful - Stylish",
+  "paradigm_pack_notes": "The Flowering Cactuar is a Medic. It has a ridiculously high Strength compared to the Magic stat, and the two can only be leveled up with Mana materials. It is a very good Medic early-mid game, but because of its low HP stat it could quickly fall out of favor late-game. It must also learn Esuna via infusion. However, it has a quick casting animation, paired with Improved Cure II, and its Feral Link may inflict Curse on targets, which is a debilitation neither Serah nor Noel can possess.",
+  "stats": {
+    "hp_min": 741,
+    "hp_max": 741,
+    "str_min": 104,
+    "str_max": 104,
+    "mag_min": 78,
+    "mag_max": 78
+  },
+  "feral_link": {
+    "name": "Hypnotic Dance",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Archylte Steppe -??? AF- (Sanctorium, Plains of Eternity (Sunny))",
+      "slug": "archylte-steppe-af-sanctorium-plains-of-eternity-sunny",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Fire"
+    ],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Item Scavenger II",
+        "slug": "item-scavenger-ii",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Improved Cure",
+        "slug": "improved-cure",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Magic: +10%",
+        "slug": "magic-10",
+        "source_url": null,
+        "level": 4,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Magic: +16%",
+        "slug": "magic-16",
+        "source_url": null,
+        "level": 22,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Magic: +20%",
+        "slug": "magic-20",
+        "source_url": null,
+        "level": 32,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Item Collector",
+        "slug": "item-collector",
+        "source_url": null,
+        "level": 39,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Improved Cure II",
+        "slug": "improved-cure-ii",
+        "source_url": null,
+        "level": 45,
+        "default": false,
+        "red_locked": true
+      }
+    ],
+    "skills": [
+      {
+        "name": "Cure",
+        "slug": "cure",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Raise",
+        "slug": "raise",
+        "source_url": null,
+        "level": 6,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Cheer",
+        "slug": "cheer",
+        "source_url": null,
+        "level": 12,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Curasa",
+        "slug": "curasa",
+        "source_url": null,
+        "level": 18,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Cura",
+        "slug": "cura",
+        "source_url": null,
+        "level": 28,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

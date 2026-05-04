@@ -1,0 +1,197 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "seeping-brie",
+  "name": "Seeping Brie",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/e/e5/FFXIII-2_Seeping_Brie.png/revision/latest?cb=20120802005726",
+  "role": "Commando",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 70,
+  "growth": "Late Bloomer",
+  "special_notes": "Late Bloomer - Meleeproof - Vicious",
+  "paradigm_pack_notes": "He has a fairly impressive Magic stat if raised with Magic Materials. His Attack animation and Speed are slow and he fails to be a good Commando choice because of that.",
+  "stats": {
+    "hp_min": 977,
+    "hp_max": 977,
+    "str_min": 79,
+    "str_max": 79,
+    "mag_min": 114,
+    "mag_max": 114
+  },
+  "feral_link": {
+    "name": "Hundred Fists",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Sunleth Waterscape -400 AF-",
+      "slug": "sunleth-waterscape-400-af",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [
+      "Wind"
+    ],
+    "halved": [
+      "Magical"
+    ],
+    "resistant": [
+      "Physical"
+    ],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Resist Physical: +5%",
+        "slug": "resist-physical-5",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": false
+      },
+      {
+        "name": "Strength: +10%",
+        "slug": "strength-10",
+        "source_url": null,
+        "level": 17,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Physical: +15%",
+        "slug": "resist-physical-15",
+        "source_url": null,
+        "level": 25,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Physical: +26%.",
+        "slug": "resist-physical-26",
+        "source_url": null,
+        "level": 40,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Siphon Boost",
+        "slug": "siphon-boost",
+        "source_url": null,
+        "level": 50,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Kill: ATB Charge",
+        "slug": "kill-atb-charge",
+        "source_url": null,
+        "level": 70,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Attack",
+        "slug": "attack",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Ruin",
+        "slug": "ruin",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": false
+      },
+      {
+        "name": "Mind Piercer",
+        "slug": "mind-piercer",
+        "source_url": null,
+        "level": 3,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Imperil Chaser",
+        "slug": "imperil-chaser",
+        "source_url": null,
+        "level": 9,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Bloodthirsty",
+        "slug": "bloodthirsty",
+        "source_url": null,
+        "level": 21,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Blitz",
+        "slug": "blitz",
+        "source_url": null,
+        "level": 30,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Lifesiphon",
+        "slug": "lifesiphon",
+        "source_url": null,
+        "level": 34,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Ravage",
+        "slug": "ravage",
+        "source_url": null,
+        "level": 41,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Faultsiphon",
+        "slug": "faultsiphon",
+        "source_url": null,
+        "level": 47,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Smite",
+        "slug": "smite",
+        "source_url": null,
+        "level": 53,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Scourge",
+        "slug": "scourge",
+        "source_url": null,
+        "level": 60,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "tail-whip",
+  "name": "Tail Whip",
+  "role": "Commando",
+  "monster": {
+    "name": "Vouivre",
+    "slug": "vouivre",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Vouivre_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Multiple",
+    "ps3": [
+      "Left stick right",
+      "Left stick down",
+      "Left stick left",
+      "Left stick up"
+    ],
+    "xbox": [
+      "Left stick right",
+      "Left stick down",
+      "Left stick left",
+      "Left stick up"
+    ]
+  },
+  "description": "Deal physical damage and launch target into the air.",
+  "details": null,
+  "type": "Physical",
+  "damage_modifier": null,
+  "charge_time_seconds": 120,
+  "max_sync_pct": 450,
+  "effects": []
+}

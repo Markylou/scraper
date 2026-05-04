@@ -1,0 +1,33 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "deathscythe",
+  "name": "Deathscythe",
+  "role": "Saboteur",
+  "monster": {
+    "name": "Pantopoda",
+    "slug": "pantopoda",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Pantopoda"
+  },
+  "input": {
+    "type": "Multiple",
+    "ps3": [
+      "Left stick left",
+      "Left stick down",
+      "Left stick up",
+      "Circle"
+    ],
+    "xbox": [
+      "Left stick left",
+      "Left stick down",
+      "Left stick up",
+      "B"
+    ]
+  },
+  "description": "Deal physical damage to target.",
+  "details": null,
+  "type": "Physical",
+  "damage_modifier": null,
+  "charge_time_seconds": 150,
+  "max_sync_pct": 350,
+  "effects": []
+}

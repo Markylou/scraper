@@ -1,0 +1,140 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "silver-chocobo",
+  "name": "Silver Chocobo",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/8/8f/XIII2_Silver_Chocobo.png/revision/latest/scale-to-width-down/150?cb=20171029152009",
+  "role": "Sentinel",
+  "speed": null,
+  "tame_rate_pct": null,
+  "max_level": 45,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Loyal - Resourceful",
+  "paradigm_pack_notes": null,
+  "stats": {
+    "hp_min": 2878,
+    "hp_max": 2878,
+    "str_min": 216,
+    "str_max": 216,
+    "mag_min": 264,
+    "mag_max": 264
+  },
+  "feral_link": {
+    "name": "Kweh Kweh",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Academia -4XX AF- (Research Facility)",
+      "slug": "academia-4xx-af-research-facility",
+      "source_url": null
+    },
+    {
+      "name": "Coliseum -??? AF- (Coliseum)",
+      "slug": "coliseum-af-coliseum",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Ally KO: Power Surge",
+        "slug": "ally-ko-power-surge",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": false
+      },
+      {
+        "name": "Item Scavenger II",
+        "slug": "item-scavenger-ii",
+        "source_url": null,
+        "level": 9,
+        "default": false,
+        "red_locked": true
+      },
+      {
+        "name": "Ally KO: Power Surge II",
+        "slug": "ally-ko-power-surge-ii",
+        "source_url": null,
+        "level": 44,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Provoke",
+        "slug": "provoke",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Steelguard",
+        "slug": "steelguard",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Fringeward",
+        "slug": "fringeward",
+        "source_url": null,
+        "level": 2,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Vendetta",
+        "slug": "vendetta",
+        "source_url": null,
+        "level": 5,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Challenge",
+        "slug": "challenge",
+        "source_url": null,
+        "level": 14,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Mediguard",
+        "slug": "mediguard",
+        "source_url": null,
+        "level": 29,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Deathward",
+        "slug": "deathward",
+        "source_url": null,
+        "level": 37,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

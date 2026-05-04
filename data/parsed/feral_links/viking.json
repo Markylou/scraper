@@ -1,0 +1,33 @@
+{
+  "source_url": "https://finalfantasy.fandom.com/wiki/Feral_Link",
+  "slug": "drill-flame",
+  "name": "Drill Flame",
+  "role": "Saboteur",
+  "monster": {
+    "name": "Viking",
+    "slug": "viking",
+    "source_url": "https://finalfantasy.fandom.com/wiki/Viking_(Final_Fantasy_XIII-2)"
+  },
+  "input": {
+    "type": "Multiple",
+    "ps3": [
+      "Left stick left",
+      "Left stick up",
+      "Left stick right",
+      "Left stick down"
+    ],
+    "xbox": [
+      "Left stick left",
+      "Left stick up",
+      "Left stick right",
+      "Left stick down"
+    ]
+  },
+  "description": "Inflict fire-attribute physical damage and Wound on target.",
+  "details": null,
+  "type": "Physical",
+  "damage_modifier": null,
+  "charge_time_seconds": 150,
+  "max_sync_pct": 350,
+  "effects": []
+}

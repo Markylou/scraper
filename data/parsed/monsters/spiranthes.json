@@ -1,0 +1,127 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "spiranthes",
+  "name": "Spiranthes",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/c/cf/FFXIII-2_Spiranthes.png/revision/latest?cb=20120802002914",
+  "role": "Medic",
+  "speed": null,
+  "tame_rate_pct": 25,
+  "max_level": 40,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Resourceful - Sticky",
+  "paradigm_pack_notes": "The Spiranthes can be recruited as a Medic. It is a recommended Medic early game, however, its stats are very low, even at its maximum level of 40, and it learns neither Curasa nor Improved Cure that many other Medics have. Due to this it is easily replaced by other Medic monsters later. Its main asset is the non-inheritable Item Collector ability, meaning it may be useful if the player desires an enemy's rare drop.",
+  "stats": {
+    "hp_min": 346,
+    "hp_max": 346,
+    "str_min": 20,
+    "str_max": 20,
+    "mag_min": 60,
+    "mag_max": 60
+  },
+  "feral_link": {
+    "name": "Explosive Thrust",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Yaschas Massif -010 AF- (The Pass of Paddra)",
+      "slug": "yaschas-massif-010-af-the-pass-of-paddra",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Item Collector",
+        "slug": "item-collector",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Improved Raise",
+        "slug": "improved-raise",
+        "source_url": null,
+        "level": 15,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Improved Raise II",
+        "slug": "improved-raise-ii",
+        "source_url": null,
+        "level": 30,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Auto-Shell",
+        "slug": "auto-shell",
+        "source_url": null,
+        "level": 40,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Cure",
+        "slug": "cure",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Raise",
+        "slug": "raise",
+        "source_url": null,
+        "level": 7,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Cheer",
+        "slug": "cheer",
+        "source_url": null,
+        "level": 10,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Cura",
+        "slug": "cura",
+        "source_url": null,
+        "level": 20,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Esuna",
+        "slug": "esuna",
+        "source_url": null,
+        "level": 26,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

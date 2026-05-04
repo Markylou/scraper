@@ -1,0 +1,153 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "goblin-chieftain",
+  "name": "Goblin Chieftain",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/a/a9/FFXIII_enemy_Goblin_Chieftan.png/revision/latest/scale-to-width-down/268?cb=20140221141809",
+  "role": "Sentinel",
+  "speed": null,
+  "tame_rate_pct": 15,
+  "max_level": 40,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Flameproof - Lively",
+  "paradigm_pack_notes": "The Goblin Chieftain is a Sentinel. Its Feral Link, Spirit Infusion, enhances all allies' attributes. The Goblin Chieftain is one of the best Sentinels in the game due to Spirit Infusion. The Goblin Chieftain is also extremely cheap to max out, and if leveled with only Vitality materials, will have around 9100 HP.",
+  "stats": {
+    "hp_min": 1149,
+    "hp_max": 1149,
+    "str_min": 66,
+    "str_max": 66,
+    "mag_min": 68,
+    "mag_max": 68
+  },
+  "feral_link": {
+    "name": "Spirit Infusion",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Archylte Steppe -??? AF- (Sanctorium (Cloudy, Rainy), Plains of Eternity (Cloudy, Rainy, Sunny))",
+      "slug": "archylte-steppe-af-sanctorium-cloudy-rainy-plains-of-eternity-cloudy-rainy-sunny",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [
+      "Fire"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Improved Guard",
+        "slug": "improved-guard",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Defense Maintenance",
+        "slug": "defense-maintenance",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Resist Fire: +10%",
+        "slug": "resist-fire-10",
+        "source_url": null,
+        "level": 10,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Kill: Libra",
+        "slug": "kill-libra",
+        "source_url": null,
+        "level": 22,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Fire: +33%",
+        "slug": "resist-fire-33",
+        "source_url": null,
+        "level": 27,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Fire: +45%",
+        "slug": "resist-fire-45",
+        "source_url": null,
+        "level": 40,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Provoke",
+        "slug": "provoke",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Steelguard",
+        "slug": "steelguard",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Fringeward",
+        "slug": "fringeward",
+        "source_url": null,
+        "level": 2,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Vendetta",
+        "slug": "vendetta",
+        "source_url": null,
+        "level": 4,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Mediguard",
+        "slug": "mediguard",
+        "source_url": null,
+        "level": 34,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Element Guard",
+        "slug": "element-guard",
+        "source_url": null,
+        "level": 36,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

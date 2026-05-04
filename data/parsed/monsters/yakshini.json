@@ -1,0 +1,159 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "yakshini",
+  "name": "Yakshini",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/d/de/FFXIII_enemy_Yakshini.png/revision/latest/scale-to-width-down/268?cb=20140221153518",
+  "role": "Synergist",
+  "speed": null,
+  "tame_rate_pct": 15,
+  "max_level": 70,
+  "growth": "Late Bloomer",
+  "special_notes": "Late Bloomer - Fogproof - Fragrant",
+  "paradigm_pack_notes": "Yakshini is an adaptable multipurpose Synergist. When downloadable scenarios put pressure on players to cover more ground with their Paradigm Packs, more of Yakshini's potential became useful. Fanatical Dance, which bestows Bravery, Faith, Protect, Shell, Veil, and Vigilance on the party as well as heals them, is one of the best Feral Links among Synergists.\n\nYakshini has the highest HP among Synergists. It has slightly below average Magic; the highest is, by far, the Purple Chocobo. Infusing Magic: +35% from a level 22 Tonberry will result in about 827 Magic. Infusing a monster with Augment Maintenance II and Defense Maintenance II will make its buffs last longer than from the default maximum level. Infusing it with Saboteurs whose combined level is 99 or higher will get it Boon, also aiding buff duration. Yakshini has a fast casting animation resulting in little delay between casting spells, but it is not as fast as an Imp.\n\nTo increase its potency, it needs En-spells and Protega and Shellga. Using an Amanojaku leveled high enough for all En-spells is not recommended if the player is considering maximizing its potential, as it would then gain the Auto-Vigilance ability, which is hard to get rid of. If Amanojaku is used, it should be used for Enfire alone, or Enfire and Enfrost. Mewmao is a likely part of an infusion plan, as it has all the En-spells, and also Resist Magic +36%. Gancanagh Ace may be favored, with Enfrost and Enaero, or Oannes, with Enfrost and Enthunder.",
+  "stats": {
+    "hp_min": 1251,
+    "hp_max": 1251,
+    "str_min": 39,
+    "str_max": 39,
+    "mag_min": 142,
+    "mag_max": 142
+  },
+  "feral_link": {
+    "name": "Fanatical Dance",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Vile Peaks -010 AF-",
+      "slug": "vile-peaks-010-af",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "First Strike",
+        "slug": "first-strike",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Defense Maintenance",
+        "slug": "defense-maintenance",
+        "source_url": null,
+        "level": 3,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "HP: +10%",
+        "slug": "hp-10",
+        "source_url": null,
+        "level": 5,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "HP: +16%",
+        "slug": "hp-16",
+        "source_url": null,
+        "level": 20,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "HP: +25%",
+        "slug": "hp-25",
+        "source_url": null,
+        "level": 33,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Bravery",
+        "slug": "bravery",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Faith",
+        "slug": "faith",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Bravega",
+        "slug": "bravega",
+        "source_url": null,
+        "level": 13,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Faithga",
+        "slug": "faithga",
+        "source_url": null,
+        "level": 26,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Vigilance",
+        "slug": "vigilance",
+        "source_url": null,
+        "level": 45,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Veil",
+        "slug": "veil",
+        "source_url": null,
+        "level": 60,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Vigilaga",
+        "slug": "vigilaga",
+        "source_url": null,
+        "level": 63,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Veilga",
+        "slug": "veilga",
+        "source_url": null,
+        "level": 70,
+        "default": false,
+        "infusable": true
+      }
+    ]
+  }
+}

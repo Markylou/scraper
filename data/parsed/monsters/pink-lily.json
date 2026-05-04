@@ -1,0 +1,180 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "pink-lily",
+  "name": "Pink Lily",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/0/03/Pink_Lily.png/revision/latest?cb=20120802152603",
+  "role": "Ravager",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 40,
+  "growth": "Well-grown",
+  "special_notes": "Well-Grown - Rare - Precious",
+  "paradigm_pack_notes": "A tamed Pink Lily is one of the best infusion sources of Chain Bonus Boost II, an enhancement of the Ravager's primary function. Since Chain Bonus II is a Rank 6 Passive ability, apt to be replaced by the likes of Auto-Vigilance (Rank 8), Resilience +40% (Rank 8), Resist Physical +36% (Rank 7), Auto-Faith (Rank 7) or Resist Elements +30% (Rank 9), it may need to be yellow-locked by infusing a second Pink Lily, if the target monster does not have Chain Bonus I or II. Blue Chocobo, for example, has Chain Bonus Boost already, so merely infusing Pink Lily both gives the Blue Chocobo level II and yellow locks it.\n\nThis monster ally comes with a built-in defense against elements that is better than Auto-Shell in the amount of protection (except against the rare enemy Ruin or Saboteur attacks), permanent instead of 30 seconds, and does not take up a Passive ability slot. Unfortunately this also means it cannot be infused.",
+  "stats": {
+    "hp_min": 2019,
+    "hp_max": 2019,
+    "str_min": 186,
+    "str_max": 186,
+    "mag_min": 193,
+    "mag_max": 193
+  },
+  "feral_link": {
+    "name": "Spinning Jump",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Oerba -300 AF-",
+      "slug": "oerba-300-af",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [
+      "Fire",
+      "Ice",
+      "Lightning",
+      "Wind"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "Resist Elements: +5%",
+        "slug": "resist-elements-5",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Resist Elements: +20%",
+        "slug": "resist-elements-20",
+        "source_url": null,
+        "level": 16,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Chain Bonus Boost II",
+        "slug": "chain-bonus-boost-ii",
+        "source_url": null,
+        "level": 30,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Fire",
+        "slug": "fire",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Blizzard",
+        "slug": "blizzard",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Thunder",
+        "slug": "thunder",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Aero",
+        "slug": "aero",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Overwhelm",
+        "slug": "overwhelm",
+        "source_url": null,
+        "level": 4,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Blizzara",
+        "slug": "blizzara",
+        "source_url": null,
+        "level": 10,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Thundara",
+        "slug": "thundara",
+        "source_url": null,
+        "level": 14,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Aerora",
+        "slug": "aerora",
+        "source_url": null,
+        "level": 18,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Fira",
+        "slug": "fira",
+        "source_url": null,
+        "level": 20,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Flamestrike",
+        "slug": "flamestrike",
+        "source_url": null,
+        "level": 34,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Froststrike",
+        "slug": "froststrike",
+        "source_url": null,
+        "level": 37,
+        "default": false,
+        "infusable": false
+      },
+      {
+        "name": "Sparkstrike",
+        "slug": "sparkstrike",
+        "source_url": null,
+        "level": 38,
+        "default": false,
+        "infusable": false
+      }
+    ]
+  }
+}

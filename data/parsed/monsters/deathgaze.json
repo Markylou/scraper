@@ -1,0 +1,177 @@
+{
+  "source_url": null,
+  "source_id": null,
+  "slug": "deathgaze",
+  "name": "Deathgaze",
+  "dlc": false,
+  "monster_image": "https://static.wikia.nocookie.net/finalfantasy/images/8/8c/FFXIII2_enemy_Deathgaze.png/revision/latest?cb=20120802011432",
+  "role": "Saboteur",
+  "speed": null,
+  "tame_rate_pct": 10,
+  "max_level": 70,
+  "growth": "Late Bloomer",
+  "special_notes": "Late Bloomer - Rare - Zippy",
+  "paradigm_pack_notes": "Deathgaze is a Saboteur; Serah cannot cast the Pain and Heavy Poisonga attacks it gets (although \"Heavy\" and \"II\" spells are identical to the normal versions except for doing physical damage rather than magical, and with Strength as a multiplier instead of Magic). It can help the party cast Deprotect, Deprotega, Deshell, and Wound. It has the third highest HP among Saboteurs, after Samovira and Necrosis. Its Strength is low, and its Magic is average.\n\nIt requires 31 Grade three Biological (Orb) monster materials to advance to level 15; 46 grade four Essences to level 30, and 109 grade five Crystals to its maximum level of 70. It requires 28 Crystals to get Painga at 47. It is a more expensive infusion source of Painga than the Pantopoda, and much harder to find. The only thing uncommon about it is its appearance, and the only thing rare about it is its appearance on the field. It is more expensive to raise to maximum level than its abilities and stats warrant.",
+  "stats": {
+    "hp_min": 1393,
+    "hp_max": 1393,
+    "str_min": 153,
+    "str_max": 153,
+    "mag_min": 42,
+    "mag_max": 42
+  },
+  "feral_link": {
+    "name": "Tail Whip",
+    "description": null,
+    "type": null,
+    "damage_modifier": null,
+    "charge_time_seconds": null,
+    "effects": [],
+    "combos": {
+      "ps3": [],
+      "xbox": []
+    }
+  },
+  "locations": [
+    {
+      "name": "Yaschas Massif -100 AF- (The Pass of Paddra)",
+      "slug": "yaschas-massif-100-af-the-pass-of-paddra",
+      "source_url": null
+    }
+  ],
+  "constellations": [],
+  "affinities": {
+    "weak": [],
+    "halved": [
+      "Lightning"
+    ],
+    "resistant": [],
+    "immune": []
+  },
+  "abilities": {
+    "passives": [
+      {
+        "name": "First Strike",
+        "slug": "first-strike",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "red_locked": true
+      },
+      {
+        "name": "Resist Magic: +5%",
+        "slug": "resist-magic-5",
+        "source_url": null,
+        "level": 2,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Magic: +15%",
+        "slug": "resist-magic-15",
+        "source_url": null,
+        "level": 10,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Deprotect: +10%",
+        "slug": "resist-deprotect-10",
+        "source_url": null,
+        "level": 16,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Magic: +26%",
+        "slug": "resist-magic-26",
+        "source_url": null,
+        "level": 29,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Magic: +36%",
+        "slug": "resist-magic-36",
+        "source_url": null,
+        "level": 32,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Deprotect: +44%",
+        "slug": "resist-deprotect-44",
+        "source_url": null,
+        "level": 37,
+        "default": false,
+        "red_locked": false
+      },
+      {
+        "name": "Resist Deprotect: +66%",
+        "slug": "resist-deprotect-66",
+        "source_url": null,
+        "level": 54,
+        "default": false,
+        "red_locked": false
+      }
+    ],
+    "skills": [
+      {
+        "name": "Deprotect",
+        "slug": "deprotect",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Pain",
+        "slug": "pain",
+        "source_url": null,
+        "level": 1,
+        "default": true,
+        "infusable": true
+      },
+      {
+        "name": "Deshell",
+        "slug": "deshell",
+        "source_url": null,
+        "level": 4,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Wound",
+        "slug": "wound",
+        "source_url": null,
+        "level": 19,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Painga",
+        "slug": "painga",
+        "source_url": null,
+        "level": 47,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Deprotega",
+        "slug": "deprotega",
+        "source_url": null,
+        "level": 61,
+        "default": false,
+        "infusable": true
+      },
+      {
+        "name": "Heavy Poisonga",
+        "slug": "heavy-poisonga",
+        "source_url": null,
+        "level": 70,
+        "default": false,
+        "infusable": false
+      }
+    ]
+  }
+}
