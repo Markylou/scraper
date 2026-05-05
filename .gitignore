@@ -4,4 +4,17 @@ __pycache__/
 
 cache/
 output/
+output_test/
 
+data/pages/
+data/page_records/
+data/reference_records/
+data/saved_pages/
+
+.tmp/
+tmp/
+.codex/
+server.out
+server.err
+envtest.out
+envtest.err
