@@ -6,10 +6,7 @@ cache/
 output/
 output_test/
 
-data/pages/
-data/page_records/
-data/reference_records/
-data/saved_pages/
+data/*
 
 .tmp/
 tmp/

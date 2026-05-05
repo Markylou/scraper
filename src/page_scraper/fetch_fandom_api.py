@@ -1,9 +1,11 @@
 import time
 from urllib.parse import unquote
+from uuid import uuid4
 
 import requests
 from bs4 import BeautifulSoup
 
+from .core.job_output import job_output_root
 from .io_utils import load_urls
 from .page_archive import archive_page
 from .page_naming import page_title_from_url
@@ -69,6 +71,11 @@ def main() -> None:
     urls = load_urls(PAGE_URLS_FILE)
 
     print(f"Loaded {len(urls)} URLs")
+    if not urls:
+        print("Done.")
+        return
+
+    pages_dir = job_output_root(urls[0], uuid4().hex) / "pages"
 
     for i, url in enumerate(urls, start=1):
         try:
@@ -77,7 +84,7 @@ def main() -> None:
 
             title, html = fetch_fandom_url(url)
 
-            archive = archive_page(url=url, final_url=url, title=title, html=html, strategy="fandom")
+            archive = archive_page(url=url, final_url=url, title=title, html=html, strategy="fandom", pages_dir=pages_dir)
 
             print(f"  Saved: {archive.folder.name}")
             time.sleep(REQUEST_DELAY_SECONDS)

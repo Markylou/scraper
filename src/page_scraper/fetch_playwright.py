@@ -1,7 +1,9 @@
 import asyncio
+from uuid import uuid4
 
 from playwright.async_api import async_playwright
 
+from .core.job_output import job_output_root
 from .io_utils import load_urls
 from .page_archive import archive_page
 from .page_naming import page_title_from_url
@@ -35,6 +37,11 @@ async def main() -> None:
     urls = load_urls(PAGE_URLS_FILE)
 
     print(f"Loaded {len(urls)} URLs")
+    if not urls:
+        print("Done.")
+        return
+
+    pages_dir = job_output_root(urls[0], uuid4().hex) / "pages"
 
     async with async_playwright() as playwright:
         browser = await playwright.chromium.launch(headless=True)
@@ -61,6 +68,7 @@ async def main() -> None:
                     title=title,
                     html=html,
                     strategy="browser",
+                    pages_dir=pages_dir,
                 )
 
                 print(f"  Saved: {archive.folder.name}")

@@ -8,10 +8,12 @@ Small scraping and extraction pipeline for saving web pages and preparing clean 
 - `scripts/`: runnable entry points
 - `inputs/page_urls.txt`: generalized seed URLs
 - `inputs/monster_urls.txt`: compatibility seed URLs for existing workflows
-- `data/pages/`: saved pages organized by URL path
-- `data/pages/games/source.html`: original saved HTML for `https://.../Games/`
-- `data/pages/games/final-fantasy-x/source.html`: original saved HTML for `https://.../Games/Final-Fantasy-X/`
+- `data/jobs/`: all saved output, grouped by site slug and job id
+- `data/jobs/jegged_<job-id>/pages/games/source.html`: original saved HTML for `https://jegged.com/Games/`
+- `data/jobs/jegged_<job-id>/pages/games/final-fantasy-x/source.html`: original saved HTML for `https://jegged.com/Games/Final-Fantasy-X/`
 - Every saved page folder also contains `content.html`, `content.md`, and `metadata.json`
+- Job folders can also contain `assets/` and always include `manifest.json`
+- `src/page_scraper/core/`: backend engine modules for normalization, discovery, asset detection, downloading, and manifests
 - `docs/pipeline_notes.md`: pipeline planning notes
 
 ## Common Commands
@@ -32,22 +34,24 @@ Launch the local browser UI:
 .\.venv\Scripts\python.exe scripts\launch_ui.py
 ```
 
-Use **Save pages** to paste one or more page links and let the app choose the best saving method automatically. Each page is saved as a folder under `data/pages/` that mirrors the URL path, with the original HTML, clean content HTML, Markdown, and metadata together.
+Use **Save pages** to paste one or more page links and let the app choose the best saving method automatically. Each save creates a folder under `data/jobs/`, then stores pages inside that job's `pages/` folder using the URL path.
 
 Use **Refresh content files** if you want to rebuild `content.html`, `content.md`, and `metadata.json` from the already saved `source.html` files. Refresh does not download pages again.
+
+Use **Find pages** to start from one page and discover nearby pages/files. Use **Download selected** to save the discovered selection under `data/jobs/`.
 
 Technical notes:
 
 - Final Fantasy Fandom wiki URLs use the existing Fandom API scraper.
 - Other URLs use a generalized requests-based scraper first.
 - If a page appears to need a browser, the app falls back to Playwright automatically.
-- Saved page folders go to `data/pages/`.
+- Saved page folders go to `data/jobs/<site>_<job-id>/pages/`.
 - The full original HTML is always preserved as `source.html`.
 - The Markdown is a transform of the cleaned content HTML; it does not replace the raw source.
-- URL path segments become nested folder names. For example, `https://jegged.com/Games/Final-Fantasy-X/Abilities/` saves to `data/pages/games/final-fantasy-x/abilities/`.
+- URL path segments become nested folder names. For example, `https://jegged.com/Games/Final-Fantasy-X/Abilities/` saves to `data/jobs/jegged_<job-id>/pages/games/final-fantasy-x/abilities/`.
+- Job output folders are isolated under `data/jobs/<site>_<job-id>/` and include a portable `manifest.json`.
+- Job state is intentionally in memory for now; SQLite persistence is not part of this phase.
 
 ## Notes
 
-- `scripts/scrape_fandom_api.py` fetches Final Fantasy Fandom wiki pages through the MediaWiki API and writes page folders into `data/pages/`.
-- `scripts/scrape_playwright.py` fetches general web pages through a headless browser and writes page folders into `data/pages/`.
-- `scripts/build_page_content.py` refreshes content files for every folder in `data/pages/` that contains `source.html`.
+- `scripts/build_page_content.py` refreshes content files for every job page folder under `data/jobs/*/pages/` that contains `source.html`.

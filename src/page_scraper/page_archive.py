@@ -12,9 +12,6 @@ from urllib.parse import unquote, urljoin, urlparse
 from bs4 import BeautifulSoup
 from bs4.element import Comment, NavigableString, Tag
 
-from .paths import PAGES_DIR
-
-
 @dataclass(frozen=True)
 class PageArchive:
     folder: Path
@@ -78,7 +75,7 @@ def url_path_segments(title: str, final_url: str) -> list[str]:
     return segments
 
 
-def page_folder_path(title: str, final_url: str, pages_dir: Path = PAGES_DIR) -> Path:
+def page_folder_path(title: str, final_url: str, pages_dir: Path) -> Path:
     folder = pages_dir
     for segment in url_path_segments(title, final_url):
         folder = folder / segment
@@ -243,7 +240,7 @@ def archive_page(
     title: str,
     html: str,
     strategy: str,
-    pages_dir: Path = PAGES_DIR,
+    pages_dir: Path,
     folder: Path | None = None,
 ) -> PageArchive:
     pages_dir.mkdir(parents=True, exist_ok=True)

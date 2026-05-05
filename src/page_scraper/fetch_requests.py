@@ -9,10 +9,21 @@ REQUEST_TIMEOUT_SECONDS = 30
 
 @dataclass(frozen=True)
 class FetchResult:
-    url: str
+    requested_url: str
     final_url: str
-    html: str
     status_code: int
+    content_type: str | None
+    body: bytes
+    text: str | None
+    fetch_strategy: str
+
+    @property
+    def url(self) -> str:
+        return self.requested_url
+
+    @property
+    def html(self) -> str:
+        return self.text or ""
 
 
 def fetch_url(url: str) -> FetchResult:
@@ -23,10 +34,13 @@ def fetch_url(url: str) -> FetchResult:
     )
     response.raise_for_status()
     return FetchResult(
-        url=url,
+        requested_url=url,
         final_url=response.url,
-        html=decode_response_html(response),
         status_code=response.status_code,
+        content_type=response.headers.get("Content-Type"),
+        body=response.content,
+        text=decode_response_html(response),
+        fetch_strategy="requests",
     )
 
 

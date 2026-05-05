@@ -109,3 +109,20 @@ def test_archive_page_writes_source_content_markdown_and_metadata(tmp_path):
     assert '"path": "guides/guide"' in metadata
     assert '"images": [' in metadata
     assert '"https://example.com/images/item.png"' in metadata
+
+
+def test_archive_page_can_write_under_job_pages_root(tmp_path):
+    html = "<html><body><main><h1>Armor</h1><p>Auto abilities.</p></main></body></html>"
+
+    archive = archive_page(
+        url="https://jegged.com/Games/Final-Fantasy-X/Abilities/Equipment/Armor.html",
+        final_url="https://jegged.com/Games/Final-Fantasy-X/Abilities/Equipment/Armor.html",
+        title="Armor",
+        html=html,
+        strategy="requests",
+        pages_dir=tmp_path / "job" / "pages",
+    )
+
+    assert archive.source_file == (
+        tmp_path / "job" / "pages" / "games" / "final-fantasy-x" / "abilities" / "equipment" / "armor" / "source.html"
+    )

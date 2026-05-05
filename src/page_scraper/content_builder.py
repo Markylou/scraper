@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 
 from .page_archive import archive_page, title_from_html
-from .paths import PAGES_DIR, ensure_project_dirs
+from .paths import JOBS_DIR, ensure_project_dirs
 
 
 def read_metadata(folder) -> dict:
@@ -13,7 +13,7 @@ def read_metadata(folder) -> dict:
     return json.loads(metadata_file.read_text(encoding="utf-8"))
 
 
-def rebuild_page_content(pages_dir=PAGES_DIR) -> dict:
+def rebuild_page_content(pages_dir) -> dict:
     ensure_project_dirs()
     rebuilt: list[str] = []
     skipped: list[str] = []
@@ -42,4 +42,14 @@ def rebuild_page_content(pages_dir=PAGES_DIR) -> dict:
 
 
 def main() -> dict:
-    return rebuild_page_content()
+    ensure_project_dirs()
+    rebuilt: list[str] = []
+    skipped: list[str] = []
+
+    for pages_dir in sorted(JOBS_DIR.glob("*/pages")):
+        result = rebuild_page_content(pages_dir=pages_dir)
+        job_root = pages_dir.parent
+        rebuilt.extend(f"{job_root.name}/pages/{path}" for path in result["rebuilt"])
+        skipped.extend(f"{job_root.name}/pages/{path}" for path in result["skipped"])
+
+    return {"ok": True, "rebuilt": rebuilt, "skipped": skipped}

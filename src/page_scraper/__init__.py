@@ -1,2 +1,1 @@
-"""FFXIII-2 wiki scraping utilities."""
-
+"""Generalized local page scraping and archiving utilities."""

@@ -1,98 +1,32 @@
-1. Define desired final JSON schema
-   - What your finished monster object should look like
-   - IDs, slugs, normalized fields, references
+# Page Scraper Pipeline Notes
 
-2. Define raw/intermediate JSON schema
-   - Same general data, but using names/slugs instead of IDs
-   - Example: "locations": ["Academia 500 AF"] instead of "location_ids": [21]
+1. Collect page URLs
+   - Use `inputs/page_urls.txt` for generalized input.
+   - `inputs/monster_urls.txt` is only compatibility/sample data.
 
-3. Create URL input list
-   - inputs/monster_urls.txt
-   - one monster/detail page URL per line
-   - later this can be generated from an index page
+2. Save explicit pages
+   - Use the browser UI or scraper scripts to download pages.
+   - Direct saves create a job folder under `data/jobs/<site>_<job-id>/`.
+   - Pages are written under that job's `pages/` folder.
+   - Each page folder contains `source.html`, `content.html`, `content.md`, and `metadata.json`.
 
-4. Fetch raw HTML
-   - Download each URL
-   - Save one HTML file per page
-   - Do not parse yet
+3. Refresh derived content
+   - Refresh reads existing `source.html`.
+   - It rebuilds `content.html`, `content.md`, and `metadata.json`.
+   - It does not download from the web.
+   - The default refresh command walks `data/jobs/*/pages/`.
 
-5. Cache raw HTML locally
-   - Example: data/raw_html/apkallu.html
-   - This lets you retry extraction without hitting the site again
+4. Discover related pages
+   - Use the backend job flow to start from one URL.
+   - Discovery applies max-depth, same-domain, and same-start-path boundaries.
+   - Discovery records pages, assets, structured events, and structured failures in memory for the active process.
 
-6. Parse cached HTML
-   - Use BeautifulSoup/lxml
-   - Extract title, infobox, tables, links, notes, etc.
+5. Download selected job output
+   - Selected pages and assets are written under `data/jobs/<site>_<job-id>/`.
+   - Pages keep the same archive model inside the job `pages/` folder.
+   - Assets are saved under `assets/images/`, `assets/documents/`, or `assets/other/`.
 
-7. Convert parsed sections into raw structured JSON
-   - Use names/text values
-   - Do not worry about IDs yet
-
-8. Validate raw JSON shape
-   - Required fields exist
-   - Correct types
-   - Arrays are arrays
-   - Numbers are numbers
-   - Nullable fields are handled
-
-9. Save raw extracted JSON
-   - Example: data/parsed/monsters/apkallu.json
-
-10. Collect discovered entities
-   - All unique locations
-   - All unique skills
-   - All unique passives
-   - All unique elements/affinities
-   - All unique constellations
-
-11. Build master lookup tables
-   - locations.json
-   - skills.json
-   - passives.json
-   - elements.json
-   - constellations.json
-
-12. Assign stable IDs
-   - Every unique entity gets an ID
-   - Keep IDs stable once assigned
-   - Do not regenerate IDs randomly every scrape
-
-13. Normalize raw monster JSON
-   - Replace names/slugs with IDs
-   - Example:
-     - "locations": ["Academia 500 AF"]
-     - becomes "location_ids": [21]
-
-14. Validate final normalized JSON
-   - Final schema validation
-   - Referential integrity checks:
-     - location_id exists
-     - passive_id exists
-     - skill_id exists
-     - hp_max >= hp_min
-
-15. Save final monster JSON
-   - Example: data/final/monsters/apkallu.json
-
-16. Log failures
-   - Missing fields
-   - Failed parses
-   - Unknown references
-   - Weird pages needing manual review
-
-17. Review failures manually or with AI
-   - Send only the failed page snippet / parsed section to AI
-   - Have it suggest selector fixes or normalization fixes
-
-18. Update extractor/config
-   - Adjust selectors
-   - Add edge-case handling
-   - Re-run from cached HTML, not the network
-
-19. Re-run validation
-   - Raw validation
-   - Final validation
-   - Relationship validation
-
-20. Promote final data into your app/wiki
-   - Use final normalized JSON as source of truth
+6. Review the manifest
+   - Each job writes `manifest.json`.
+   - The manifest records settings, counts, downloaded paths, and failures.
+   - SQLite persistence is intentionally not part of the current backend phase.

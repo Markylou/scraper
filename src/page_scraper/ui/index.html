@@ -1,44 +1,90 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Page Saver</title>
-    <link rel="stylesheet" href="/styles.css">
-  </head>
-  <body>
-    <main class="shell">
-      <section class="toolbar" aria-labelledby="page-title">
-        <div>
-          <h1 id="page-title">Page Saver</h1>
-          <p>Paste one page link per line. The app saves the original page and prepares a clean reading copy.</p>
-        </div>
-      </section>
 
-      <form id="scrape-form" class="panel">
-        <label for="urls">Paste page links</label>
-        <textarea id="urls" name="urls" spellcheck="false" rows="10" placeholder="https://example.com/page"></textarea>
-        <div class="actions">
-          <button class="primary" type="submit">Save pages</button>
-          <button type="button" data-build="page-content">Refresh content files</button>
-        </div>
-      </form>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Page Saver</title>
+      <link rel="stylesheet" href="/styles.css">
+   </head>
 
-      <section class="status" aria-live="polite">
-        <h2 id="status-title">Ready</h2>
-        <p id="status-copy">Paste links above to begin.</p>
-      </section>
+   <body>
+      <main class="shell">
+         <section class="toolbar" aria-labelledby="page-title">
+            <div>
+               <h1 id="page-title">Page Saver</h1>
+               <p>Paste one page link per line. The app saves the original page and prepares a clean reading copy.</p>
+            </div>
+         </section>
 
-      <section id="results" class="results" hidden>
-        <h2>Saved pages</h2>
-        <ul id="result-list"></ul>
-      </section>
+         <section class="panel">
+            <h2>Find pages</h2>
+            <label for="start-url">Starting page link</label>
+            <input id="start-url" type="url" placeholder="https://example.com/section/">
+            <div class="settings-grid">
+               <label for="max-depth">How far to look</label>
+               <input id="max-depth" type="number" min="0" max="5" value="2">
+               <label class="check"><input id="same-domain" type="checkbox" checked> Stay on this website</label>
+               <label class="check"><input id="start-path" type="checkbox" checked> Stay in this section</label>
+               <label class="check"><input id="include-images" type="checkbox" checked> Include images</label>
+               <label class="check"><input id="include-documents" type="checkbox" checked> Include documents</label>
+            </div>
+            <div class="crawl-stats" aria-live="polite">
+               Links Found: <strong id="links-found">0</strong>
+               <span id="disc-indicator"></span>
+            </div>
+            <div class="actions">
+               <button class="primary" type="button" id="discover">Find pages</button>
+               <button type="button" id="download" hidden>Download selected</button>
+               <span id="crawl-controls" class="control-group" hidden>
+                  <button type="button" id="pause">Pause</button>
+                  <button type="button" id="resume">Resume</button>
+                  <button type="button" id="cancel">Cancel</button>
+               </span>
+            </div>
+         </section>
 
-      <details id="details" class="details" hidden>
-        <summary>Show details</summary>
-        <pre id="detail-output"></pre>
-      </details>
-    </main>
-    <script src="/app.js"></script>
-  </body>
+         <form id="scrape-form" class="panel">
+            <label for="urls">Page links to save</label>
+            <textarea id="urls" name="urls" spellcheck="false" rows="10" placeholder="https://example.com/page"></textarea>
+            <div class="actions">
+               <button class="primary" type="submit">Save pages</button>
+               <button type="button" data-build="page-content">Refresh content files</button>
+            </div>
+         </form>
+
+         <section class="status" aria-live="polite">
+            <h2 id="status-title">Ready</h2>
+            <p id="status-copy">Paste links above to begin.</p>
+         </section>
+
+         <section id="results" class="results" hidden>
+            <h2>Saved pages</h2>
+            <ul id="result-list"></ul>
+         </section>
+
+         <section id="discovery-results" class="results" hidden>
+            <h2>Files found</h2>
+            <div class="table-wrap">
+               <table>
+                  <thead>
+                     <tr>
+                        <th scope="col">Save</th>
+                        <th scope="col">Type</th>
+                        <th scope="col">URL</th>
+                     </tr>
+                  </thead>
+                  <tbody id="asset-list"></tbody>
+               </table>
+            </div>
+         </section>
+
+         <details id="details" class="details" hidden>
+            <summary>Show details</summary>
+            <pre id="detail-output"></pre>
+         </details>
+      </main>
+      <script src="/app.js"></script>
+   </body>
+
 </html>

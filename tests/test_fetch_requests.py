@@ -16,9 +16,21 @@ def test_html_does_not_need_browser_when_content_has_real_body_text():
 
 
 def test_fetch_result_shape():
-    result = FetchResult(url="https://example.com", final_url="https://example.com", html="<html></html>", status_code=200)
+    result = FetchResult(
+        requested_url="https://example.com",
+        final_url="https://example.com",
+        status_code=200,
+        content_type="text/html",
+        body=b"<html></html>",
+        text="<html></html>",
+        fetch_strategy="requests",
+    )
     assert result.url == "https://example.com"
+    assert result.html == "<html></html>"
     assert result.status_code == 200
+    assert result.content_type == "text/html"
+    assert result.body == b"<html></html>"
+    assert result.fetch_strategy == "requests"
 
 
 def test_decode_response_html_prefers_utf8_when_requests_guesses_latin1():
