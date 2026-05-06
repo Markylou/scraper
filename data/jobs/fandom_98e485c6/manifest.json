@@ -1,0 +1,26 @@
+{
+  "app": "DL Tool",
+  "version": "1.1-backend-no-sqlite",
+  "sourceUrl": "https://finalfantasy.fandom.com/wiki/Final_Fantasy_X_mixes",
+  "folderName": "fandom_98e485c6",
+  "status": "completed",
+  "createdAt": "2026-05-06T17:09:28.286888+00:00",
+  "updatedAt": "2026-05-06T17:09:29.509412+00:00",
+  "settings": {
+    "mode": "save_pages",
+    "url_count": 1
+  },
+  "summary": {
+    "pagesDiscovered": 1,
+    "pagesDownloaded": 1,
+    "assetsDiscovered": 0,
+    "assetsDownloaded": 0,
+    "failures": 0,
+    "totalBytes": 205545
+  },
+  "downloadedPages": [
+    "pages/wiki/final-fantasy-x-mixes/source.html"
+  ],
+  "downloadedAssets": [],
+  "failures": []
+}

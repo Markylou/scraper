@@ -1,0 +1,82 @@
+2026-05-05 18:22:29,168 INFO [page_scraper.smoke] logging smoke check
+2026-05-05 22:01:37,090 INFO [page_scraper.ui_server] Page Saver starting url=http://127.0.0.1:8765 open_browser=True
+2026-05-05 22:02:14,060 INFO [page_scraper.ui_server] Discovery job requested job_id=b2a19f2e328a4dd88932fa5fe1b28409
+2026-05-05 22:02:14,060 INFO [page_scraper.crawler] Discovery started job_id=b2a19f2e328a4dd88932fa5fe1b28409 source_url=https://jegged.com/Games/Final-Fantasy-X/ max_depth=3 same_domain_only=True stay_under_start_path=True
+2026-05-05 22:02:33,943 INFO [page_scraper.ui_server] Discovery job requested job_id=a99edfa052314e7592d7d4707b71419b
+2026-05-05 22:02:33,944 INFO [page_scraper.crawler] Discovery started job_id=a99edfa052314e7592d7d4707b71419b source_url=https://jegged.com/Games/Final-Fantasy-X/ max_depth=3 same_domain_only=True stay_under_start_path=True
+2026-05-05 22:04:33,836 INFO [page_scraper.crawler] Discovery finished job_id=b2a19f2e328a4dd88932fa5fe1b28409 status=ready pages=380 assets=1622 failures=1162
+2026-05-05 22:04:54,051 INFO [page_scraper.crawler] Discovery finished job_id=a99edfa052314e7592d7d4707b71419b status=ready pages=380 assets=1622 failures=1162
+2026-05-05 23:06:04,693 INFO [page_scraper.ui_server] Page Saver starting url=http://127.0.0.1:8765 open_browser=True
+2026-05-05 23:52:04,449 INFO [page_scraper.ui_server] Discovery job requested job_id=undefined
+2026-05-05 23:52:04,450 ERROR [page_scraper.ui_server] Discovery job failed job_id=undefined
+Traceback (most recent call last):
+  File "D:\root\projects\scraper\src\page_scraper\ui_server.py", line 107, in run_discovery_job
+    result = discover(JOBS, job_id)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\root\projects\scraper\src\page_scraper\core\crawler.py", line 80, in discover
+    job = store.get(job_id)
+          ^^^^^^^^^^^^^^^^^
+  File "D:\root\projects\scraper\src\page_scraper\job_store.py", line 326, in get
+    job = self._jobs[job_id]
+          ~~~~~~~~~~^^^^^^^^
+KeyError: 'undefined'
+2026-05-06 12:08:54,623 INFO [page_scraper.ui_server] Page Saver starting url=http://127.0.0.1:8765 open_browser=True
+2026-05-06 12:09:28,287 INFO [page_scraper.ui_server] Save pages started job_id=98e485c6d4f54cf7af3961780a67bccc urls=1 rejected=0 output_root=D:\root\projects\scraper\data\jobs\fandom_98e485c6
+2026-05-06 12:09:29,510 INFO [page_scraper.ui_server] Save pages finished job_id=98e485c6d4f54cf7af3961780a67bccc status=completed failed=0 rejected=0
+2026-05-06 13:13:41,343 INFO [page_scraper.ui_server] Page Saver starting url=http://127.0.0.1:8765 open_browser=True
+2026-05-06 13:14:55,662 INFO [page_scraper.ui_server] Discovery job requested job_id=undefined
+2026-05-06 13:14:55,662 ERROR [page_scraper.ui_server] Discovery job failed job_id=undefined
+Traceback (most recent call last):
+  File "D:\root\projects\scraper\src\page_scraper\ui_server.py", line 107, in run_discovery_job
+    result = discover(JOBS, job_id)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\root\projects\scraper\src\page_scraper\core\crawler.py", line 80, in discover
+    job = store.get(job_id)
+          ^^^^^^^^^^^^^^^^^
+  File "D:\root\projects\scraper\src\page_scraper\job_store.py", line 326, in get
+    job = self._jobs[job_id]
+          ~~~~~~~~~~^^^^^^^^
+KeyError: 'undefined'
+2026-05-06 13:43:37,055 INFO [page_scraper.ui_server] Page Saver starting url=http://127.0.0.1:8765 open_browser=True
+2026-05-06 13:43:54,386 INFO [page_scraper.ui_server] Page Saver starting url=http://127.0.0.1:8765 open_browser=True
+2026-05-06 13:44:51,873 INFO [page_scraper.ui_server] Discovery job requested job_id=e5625fcecc704c95933e657c3f59f00e
+2026-05-06 13:44:51,874 INFO [page_scraper.crawler] Discovery started job_id=e5625fcecc704c95933e657c3f59f00e source_url=https://jegged.com/games/ffx/ max_depth=2 same_domain_only=True stay_under_start_path=True
+2026-05-06 13:44:52,264 ERROR [page_scraper.crawler] Discovery fetch failed job_id=e5625fcecc704c95933e657c3f59f00e url=https://jegged.com/games/ffx/
+Traceback (most recent call last):
+  File "D:\root\projects\scraper\src\page_scraper\core\crawler.py", line 126, in discover
+    html = fetcher(normalized)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\root\projects\scraper\src\page_scraper\core\crawler.py", line 88, in <lambda>
+    fetcher = fetch_html or (lambda url: default_fetch_html(url, settings))
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\root\projects\scraper\src\page_scraper\core\crawler.py", line 45, in default_fetch_html
+    result = fetch_url(url)
+             ^^^^^^^^^^^^^^
+  File "D:\root\projects\scraper\src\page_scraper\fetch_requests.py", line 35, in fetch_url
+    response.raise_for_status()
+  File "C:\Users\marcus\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 1028, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://jegged.com/games/ffx/
+2026-05-06 13:44:52,284 INFO [page_scraper.crawler] Discovery finished job_id=e5625fcecc704c95933e657c3f59f00e status=ready pages=0 assets=0 failures=1
+2026-05-06 13:51:44,105 INFO [page_scraper.ui_server] Discovery job requested job_id=166d4e6331de44238533ca4fc9035cc2
+2026-05-06 13:51:44,105 INFO [page_scraper.crawler] Discovery started job_id=166d4e6331de44238533ca4fc9035cc2 source_url=https://jegged.com/ max_depth=2 same_domain_only=True stay_under_start_path=True
+2026-05-06 13:51:51,834 INFO [page_scraper.crawler] Discovery finished job_id=166d4e6331de44238533ca4fc9035cc2 status=cancelled pages=22 assets=239 failures=10
+2026-05-06 13:52:09,428 INFO [page_scraper.ui_server] Discovery job requested job_id=9942355222034755ba99e1f86386da93
+2026-05-06 13:52:09,428 INFO [page_scraper.crawler] Discovery started job_id=9942355222034755ba99e1f86386da93 source_url=https://jegged.com/games/ffx/ max_depth=2 same_domain_only=True stay_under_start_path=True
+2026-05-06 13:52:09,750 ERROR [page_scraper.crawler] Discovery fetch failed job_id=9942355222034755ba99e1f86386da93 url=https://jegged.com/games/ffx/
+Traceback (most recent call last):
+  File "D:\root\projects\scraper\src\page_scraper\core\crawler.py", line 126, in discover
+    html = fetcher(normalized)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\root\projects\scraper\src\page_scraper\core\crawler.py", line 88, in <lambda>
+    fetcher = fetch_html or (lambda url: default_fetch_html(url, settings))
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\root\projects\scraper\src\page_scraper\core\crawler.py", line 45, in default_fetch_html
+    result = fetch_url(url)
+             ^^^^^^^^^^^^^^
+  File "D:\root\projects\scraper\src\page_scraper\fetch_requests.py", line 35, in fetch_url
+    response.raise_for_status()
+  File "C:\Users\marcus\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 1028, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://jegged.com/games/ffx/
+2026-05-06 13:52:09,751 INFO [page_scraper.crawler] Discovery finished job_id=9942355222034755ba99e1f86386da93 status=ready pages=0 assets=0 failures=1
