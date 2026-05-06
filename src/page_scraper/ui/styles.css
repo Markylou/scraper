@@ -222,6 +222,30 @@ td:nth-child(2) {
   overflow-wrap: anywhere;
 }
 
+.variant-row td {
+  padding-top: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.variant-list {
+  display: grid;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.variant-option {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 8px;
+  margin: 0;
+  font-weight: 400;
+}
+
+.variant-option span {
+  overflow-wrap: anywhere;
+}
+
 h3 {
   margin: 0 0 8px;
   font-size: 0.95rem;

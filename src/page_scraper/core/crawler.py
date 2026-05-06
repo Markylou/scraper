@@ -8,9 +8,13 @@ from bs4 import BeautifulSoup
 
 from ..fetch_playwright import fetch_page_html
 from ..fetch_requests import fetch_url, html_needs_browser
+from ..logging_config import get_logger
 from ..page_archive import title_from_html
 from .asset_discovery import discover_assets
 from .normalizer import normalize_url, same_domain, under_start_path, url_identity_key
+
+
+LOGGER = get_logger("crawler")
 
 
 @dataclass(frozen=True)
@@ -84,6 +88,14 @@ def discover(
     fetcher = fetch_html or (lambda url: default_fetch_html(url, settings))
     store.set_status(job_id, "discovering")
     store.event(job_id, "info", "discovery_started", "Finding pages", {"source_url": start_url})
+    LOGGER.info(
+        "Discovery started job_id=%s source_url=%s max_depth=%s same_domain_only=%s stay_under_start_path=%s",
+        job_id,
+        start_url,
+        settings.max_depth,
+        settings.same_domain_only,
+        settings.stay_under_start_path,
+    )
 
     queue = deque([(start_url, 0, None)])
     seen: set[str] = set()
@@ -113,6 +125,7 @@ def discover(
         try:
             html = fetcher(normalized)
         except Exception as exc:
+            LOGGER.exception("Discovery fetch failed job_id=%s url=%s", job_id, normalized)
             store.failure(job_id, "page", None, normalized, "network_error", str(exc))
             continue
 
@@ -135,6 +148,8 @@ def discover(
                 page["id"],
                 selected=asset["selected"],
                 discovered_from_url=normalized,
+                variant_group_id=asset.get("variant_group_id"),
+                variants=asset.get("variants"),
             )
             store.event(job_id, "info", "asset_discovered", "Found file", {"url": stored["url"], "type": stored["asset_type"]})
 
@@ -147,6 +162,14 @@ def discover(
     status = "ready" if not store.is_cancelled(job_id) else "cancelled"
     store.set_status(job_id, status)
     store.event(job_id, "info", "discovery_completed", "Finished finding pages")
+    LOGGER.info(
+        "Discovery finished job_id=%s status=%s pages=%s assets=%s failures=%s",
+        job_id,
+        status,
+        len(store.pages(job_id)),
+        len(store.assets(job_id)),
+        len(failures),
+    )
     return {
         "ok": status == "ready",
         "pages_discovered": len(store.pages(job_id)),

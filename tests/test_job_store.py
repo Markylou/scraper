@@ -5,6 +5,9 @@ def test_job_lifecycle():
     store = JobStore()
     job_id = store.create("scrape")
 
+    assert store.exists(job_id)
+    assert not store.exists("undefined")
+
     store.log(job_id, "Starting")
     store.finish(job_id, {"ok": True})
 
@@ -13,6 +16,7 @@ def test_job_lifecycle():
     assert job["status"] == "done"
     assert job["messages"] == ["Starting"]
     assert job["result"] == {"ok": True}
+    assert job["updated_at"] >= job["created_at"]
 
 
 def test_structured_events_failures_and_controls():
@@ -47,3 +51,27 @@ def test_pages_assets_and_selection_are_tracked():
 
     assert store.pages(job_id)[0]["selected"] is False
     assert store.assets(job_id)[0]["selected"] is False
+
+
+def test_asset_variant_selection_updates_representative_url_without_changing_group_id():
+    store = JobStore()
+    job_id = store.create("crawl", status="created")
+    page = store.upsert_page(job_id, "https://example.com/a/", depth=0, discovered_from_url=None)
+    asset = store.upsert_asset(
+        job_id,
+        "https://example.com/img/Achelous-540w.webp",
+        "image",
+        page["id"],
+        variant_group_id="https://example.com/img/Achelous.webp",
+        variants=[
+            {"url": "https://example.com/img/Achelous-100w.webp", "label": "100w", "width": 100},
+            {"url": "https://example.com/img/Achelous-540w.webp", "label": "540w", "width": 540},
+        ],
+    )
+
+    store.set_asset_variant(job_id, asset["id"], "https://example.com/img/Achelous-100w.webp")
+    updated = store.assets(job_id)[0]
+
+    assert updated["id"] == asset["id"]
+    assert updated["url"] == "https://example.com/img/Achelous-100w.webp"
+    assert updated["selected_variant_url"] == "https://example.com/img/Achelous-100w.webp"

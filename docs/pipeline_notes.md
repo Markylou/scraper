@@ -30,3 +30,7 @@
    - Each job writes `manifest.json`.
    - The manifest records settings, counts, downloaded paths, and failures.
    - SQLite persistence is intentionally not part of the current backend phase.
+
+## Local API Layer
+
+The local API is a thin JSON layer over the current scraper backend. It does not introduce a database or a separate app framework. Frontends should treat `manifest.json` and files under `data/jobs/` as completed output, while using `/api/jobs/{job_id}` and related routes for live in-memory state.

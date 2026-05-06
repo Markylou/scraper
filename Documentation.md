@@ -131,3 +131,93 @@
 - Removed stale path compatibility constants for the old raw-HTML and monster-parser flow.
 - Removed default `data/pages/` write targets from archive/scrape helpers so active save paths must be job-owned.
 - Updated the package docstring from the old FFXIII-2-specific wording to generalized page scraping.
+
+## 2026-05-05 Image Variant Deduplication
+
+- Added image variant grouping during asset discovery.
+- Exact duplicate image URLs are counted once in the file list and tracked with `occurrence_count`.
+- Numeric width suffixes such as `-100w`, `-200w`, and `-540w` are grouped as variants of the same image.
+- Un-suffixed originals are preferred over suffixed width variants when present; otherwise the largest numeric width is selected by default.
+- Descriptive words such as `Large`, `Small`, `Dark`, and `Light` are not stripped, so semantically different assets remain separate.
+- Preserved grouped image metadata in the in-memory job model:
+  - `variant_group_id`
+  - `variants`
+  - `variant_count`
+  - `occurrence_count`
+  - `selected_variant_url`
+- Added a variant-selection API at `PATCH /api/jobs/{job_id}/assets/variant`.
+- Updated the UI file table so grouped image rows show variant/found counts and include a `Choose image size` disclosure with radio buttons.
+- Verification:
+  - Manual all-test runner passed `37` test functions.
+  - UI static smoke check returned `200` for `/`, `/app.js`, `/styles.css`, and `/api/health`.
+  - Variant patch API smoke test changed a grouped image from `540w` to `100w`.
+  - Jegged-style image grouping smoke test collapsed repeated width variants while keeping `Vial-Green-Large` and `Vial-Green-Small` separate.
+
+## 2026-05-05 Local API Spec Planning
+
+- Started a dedicated local API spec for frontend use.
+- Confirmed the current implementation lives in `src/page_scraper/ui_server.py` and uses in-memory jobs from `src/page_scraper/job_store.py`.
+- Kept SQLite, durable job history, FastAPI, WebSockets, and frontend framework migration out of scope for this phase.
+
+## 2026-05-05 Local API Contract
+
+- Added a stable API contract layer for local frontend callers.
+- Kept existing compatibility routes for the simple UI.
+- Added normalized response envelopes, frontend-facing job/page/asset/event/failure models, event polling, and manifest JSON responses.
+- Added `POST /api/jobs/save` as the stable explicit-save endpoint while keeping `POST /api/scrape` for compatibility.
+- Kept active job state in memory and completed output in `data/jobs/`.
+- Verification:
+  - `pytest` is still unavailable in the venv, so the repo's manual import runner was used.
+  - Manual all-test runner passed 51 test functions.
+  - Import check returned `imports ok`.
+  - Static UI/API smoke check returned `200` for `/`, `/app.js`, `/styles.css`, and `/api/health`.
+
+## 2026-05-05 Local API Utility Endpoints
+
+- Added `POST /api/jobs/{job_id}/pages/add` for adding one or more page URLs to an existing job as selected pages.
+- Added guarded `POST /api/system/open-folder` support for opening folders under `data/jobs/` on Windows.
+- Added `POST /api/jobs/{job_id}/failures/{failure_id}/retry` to re-queue a failed page or file and run the existing downloader in the background.
+- Updated the downloader to skip already downloaded selected pages/files so targeted retry does not re-save completed items.
+- Verification:
+  - Manual all-test runner passed 55 test functions.
+  - Import check returned `imports ok`.
+  - Static UI/API smoke check returned `200` for `/`, `/app.js`, `/styles.css`, and `/api/health`.
+
+## 2026-05-05 Backend Logging
+
+- Added standard-library logging configuration in `src/page_scraper/logging_config.py`.
+- Runtime logs write to `logs/page_scraper.log` with rotation.
+- Logged UI server startup, background job boundaries, Save Pages lifecycle, discovery lifecycle, download lifecycle, downloader retry attempts, fetch/download failures, retry failures, and guarded folder-open failures.
+- Kept user-facing progress separate in API events, failures, and `manifest.json`.
+- Added logging config tests for file creation, rotating handler setup, idempotent configuration, and child loggers.
+- Added `logs/` to `.gitignore`.
+- Verification:
+  - `.\.venv\Scripts\python.exe -m pytest tests -v` passed 58 tests.
+
+## 2026-05-05 Job Route Status Fix
+
+- Fixed `GET /api/jobs/{job_id}` crashing when compatibility payload fields included a job `status` string.
+- Renamed the internal API response helper argument from `status` to `http_status` so JSON compatibility fields cannot overwrite the HTTP status code.
+- Added a regression test for polling a job whose JSON payload includes `status`.
+- Verification:
+  - `.\.venv\Scripts\python.exe -m pytest tests -v` passed 59 tests.
+
+## 2026-05-05 Ping Endpoint
+
+- Added `GET /ping` as a minimal server-alive endpoint for frontend troubleshooting widgets.
+- The route returns the stable API envelope with `status: up`, `service: page-scraper`, and `apiVersion: 1`.
+- Kept `/ping` independent of job state, saved output, crawler work, and disk inspection.
+- Documented the route in `docs/api.md`.
+- Verification:
+  - Focused ping route test passed.
+
+## 2026-05-06 Missing Job Guard
+
+- Fixed job-specific routes so a missing job id, including the literal browser value `undefined`, returns a JSON `404 job_not_found` response instead of starting a background worker that crashes.
+- Added a `JobStore.exists()` helper for route validation.
+- Moved `job_created` event emission outside the `JobStore.create()` lock to avoid a nested lock deadlock.
+- Updated the browser UI to read job ids from either compatibility fields (`jobId`) or the stable API envelope (`data.id`).
+- Added friendly UI errors when a job id is missing before polling or starting discovery/download actions.
+- Verification:
+  - Focused missing-job API tests passed.
+  - `.\.venv\Scripts\python.exe -m pytest tests -v` passed 62 tests.

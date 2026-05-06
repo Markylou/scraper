@@ -8,6 +8,7 @@ from urllib.parse import urlparse
 import requests
 
 from ..fetch_requests import USER_AGENT, fetch_url
+from ..logging_config import get_logger
 from ..page_archive import archive_page, page_slug_from_title
 from .job_output import job_output_root
 from .manifest import write_manifest
@@ -15,6 +16,7 @@ from .manifest import write_manifest
 
 REQUEST_TIMEOUT_SECONDS = 30
 MAX_FILE_SIZE_BYTES = 100 * 1024 * 1024
+LOGGER = get_logger("downloader")
 
 
 def default_fetch_page_html(url: str) -> str:
@@ -62,6 +64,7 @@ def download_selected(
     store.set_output_root(job_id, str(root))
     store.set_status(job_id, "downloading")
     store.event(job_id, "info", "download_started", "Downloading selected items", {"output_root": str(root)})
+    LOGGER.info("Download started job_id=%s output_root=%s", job_id, root)
 
     pages_downloaded = 0
     assets_downloaded = 0
@@ -72,6 +75,8 @@ def download_selected(
         if store.is_paused(job_id):
             break
         if not page.get("selected", True):
+            continue
+        if page.get("status") == "downloaded":
             continue
         store.event(job_id, "info", "file_started", "Saving page", {"url": page["url"]})
         try:
@@ -88,7 +93,9 @@ def download_selected(
             store.update_page(job_id, page["id"], status="downloaded", local_path=local_path, size_bytes=len(html.encode("utf-8")))
             pages_downloaded += 1
             store.event(job_id, "info", "file_completed", "Saved page", {"url": page["url"], "path": local_path})
+            LOGGER.info("Page downloaded job_id=%s page_id=%s url=%s path=%s", job_id, page["id"], page["url"], local_path)
         except Exception as exc:
+            LOGGER.exception("Page download failed job_id=%s page_id=%s url=%s", job_id, page["id"], page["url"])
             store.update_page(job_id, page["id"], status="failed", error_message=str(exc))
             store.failure(job_id, "page", page["id"], page["url"], failure_code(exc), str(exc))
             store.event(job_id, "error", "file_failed", "Page could not be saved", {"url": page["url"]})
@@ -99,6 +106,8 @@ def download_selected(
         if store.is_paused(job_id):
             break
         if not asset.get("selected", False):
+            continue
+        if asset.get("status") == "downloaded":
             continue
         store.event(job_id, "info", "file_started", "Saving file", {"url": asset["url"]})
         try:
@@ -118,7 +127,9 @@ def download_selected(
             )
             assets_downloaded += 1
             store.event(job_id, "info", "file_completed", "Saved file", {"url": asset["url"], "path": local_path})
+            LOGGER.info("Asset downloaded job_id=%s asset_id=%s url=%s path=%s", job_id, asset["id"], asset["url"], local_path)
         except Exception as exc:
+            LOGGER.exception("Asset download failed job_id=%s asset_id=%s url=%s", job_id, asset["id"], asset["url"])
             store.update_asset(job_id, asset["id"], status="failed", error_message=str(exc))
             store.failure(job_id, "asset", asset["id"], asset["url"], failure_code(exc), str(exc))
             store.event(job_id, "error", "file_failed", "File could not be saved", {"url": asset["url"]})
@@ -134,6 +145,14 @@ def download_selected(
     store.set_status(job_id, status)
     write_manifest(store, job_id)
     store.event(job_id, "info", "job_completed", "Download finished", {"status": status})
+    LOGGER.info(
+        "Download finished job_id=%s status=%s pages_downloaded=%s assets_downloaded=%s failures=%s",
+        job_id,
+        status,
+        pages_downloaded,
+        assets_downloaded,
+        len(store.failures(job_id)),
+    )
     return {
         "ok": status in {"completed", "completed_with_errors"},
         "output_root": str(root),
@@ -151,6 +170,7 @@ def fetch_with_retries(url: str, fetch_asset) -> tuple[bytes, str | None]:
         try:
             return fetch_asset(url)
         except Exception as exc:
+            LOGGER.warning("Asset fetch attempt failed url=%s delay_before_attempt=%s error=%s", url, delay, exc)
             last_error = exc
     raise last_error or RuntimeError("unknown download error")
 

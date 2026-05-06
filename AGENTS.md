@@ -27,6 +27,8 @@ Common commands:
 
 Use **Save pages** in the UI for explicit URLs. Use **Find pages** / **Download selected** for crawler-style jobs. Use **Refresh content files** to rebuild derived files from existing `source.html` without downloading from the web.
 
+Runtime diagnostics are written to `logs/page_scraper.log` when the UI server runs. Treat logs as developer debugging output; keep user-facing progress in job events, failures, and manifests.
+
 ## Coding Style & Naming Conventions
 
 Use Python 3.12+ style with 4-space indentation, type hints where they clarify contracts, and standard-library imports before third-party imports. Prefer small pure helpers for URL normalization, folder planning, text cleanup, HTML extraction, asset classification, and manifest summaries.

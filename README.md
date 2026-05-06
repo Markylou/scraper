@@ -51,7 +51,17 @@ Technical notes:
 - URL path segments become nested folder names. For example, `https://jegged.com/Games/Final-Fantasy-X/Abilities/` saves to `data/jobs/jegged_<job-id>/pages/games/final-fantasy-x/abilities/`.
 - Job output folders are isolated under `data/jobs/<site>_<job-id>/` and include a portable `manifest.json`.
 - Job state is intentionally in memory for now; SQLite persistence is not part of this phase.
+- Developer logs are written to `logs/page_scraper.log` when the local UI server runs.
 
 ## Notes
 
 - `scripts/build_page_content.py` refreshes content files for every job page folder under `data/jobs/*/pages/` that contains `source.html`.
+- Logs are for debugging server, crawler, and downloader behavior. User-facing job progress still lives in API events, failures, and `manifest.json`.
+
+## Local API
+
+The local server exposes a JSON API at `http://127.0.0.1:8765/api/...` for future local frontends. It supports explicit page saves, crawler jobs, selection updates, image variant selection, downloads, job polling, events, failures, and manifest access.
+
+The API is intentionally local and in-memory for now. Restarting the server clears active job state, but downloaded output remains in `data/jobs/<site>_<job-id>/`.
+
+See `docs/api.md` for the current route contract.

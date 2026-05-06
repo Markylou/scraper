@@ -63,8 +63,28 @@ function hideDetails() {
   detailOutput.textContent = "";
 }
 
+function errorText(error, fallback) {
+  return error?.error?.message || error?.message || fallback;
+}
+
 function setLinksFound(count) {
   linksFound.textContent = String(count);
+}
+
+function responseJobId(response) {
+  return response?.jobId || response?.data?.jobId || response?.data?.id || response?.job?.id || null;
+}
+
+function requireJobId(response) {
+  const jobId = responseJobId(response);
+  if (!jobId) {
+    throw {
+      error: {
+        message: "The app server did not return a job id. Refresh the page and try again.",
+      },
+    };
+  }
+  return jobId;
 }
 
 function pageUrl(page) {
@@ -119,7 +139,11 @@ function renderAssetTable(assets) {
     saveCell.appendChild(checkbox);
 
     const typeCell = document.createElement("td");
-    typeCell.textContent = asset.asset_type || "file";
+    const variantCount = asset.variant_count || asset.variants?.length || 1;
+    const occurrenceCount = asset.occurrence_count || variantCount;
+    typeCell.textContent = variantCount > 1
+      ? `${asset.asset_type || "file"} (${variantCount} variants, ${occurrenceCount} found)`
+      : asset.asset_type || "file";
 
     const urlCell = document.createElement("td");
     urlCell.className = "url-cell";
@@ -127,6 +151,51 @@ function renderAssetTable(assets) {
 
     row.append(saveCell, typeCell, urlCell);
     assetList.appendChild(row);
+
+    if (variantCount > 1) {
+      const variantRow = document.createElement("tr");
+      variantRow.className = "variant-row";
+      const spacer = document.createElement("td");
+      const variantCell = document.createElement("td");
+      variantCell.colSpan = 2;
+
+      const details = document.createElement("details");
+      const summary = document.createElement("summary");
+      summary.textContent = "Choose image size";
+      details.appendChild(summary);
+
+      const list = document.createElement("div");
+      list.className = "variant-list";
+      asset.variants.forEach((variant) => {
+        const label = document.createElement("label");
+        label.className = "variant-option";
+        const radio = document.createElement("input");
+        radio.type = "radio";
+        radio.name = `variant-${asset.id}`;
+        radio.checked = variant.url === asset.url || variant.url === asset.selected_variant_url;
+        radio.addEventListener("change", async () => {
+          if (!activeJobId || !radio.checked) {
+            return;
+          }
+          await patchJson(`/api/jobs/${activeJobId}/assets/variant`, {
+            assetId: asset.id,
+            url: variant.url,
+          });
+          asset.url = variant.url;
+          asset.selected_variant_url = variant.url;
+          urlCell.textContent = variant.url;
+        });
+        const text = document.createElement("span");
+        const count = variant.occurrence_count && variant.occurrence_count > 1 ? `, ${variant.occurrence_count} found` : "";
+        text.textContent = `${variant.label || "variant"}${count}: ${variant.url}`;
+        label.append(radio, text);
+        list.appendChild(label);
+      });
+      details.appendChild(list);
+      variantCell.appendChild(details);
+      variantRow.append(spacer, variantCell);
+      assetList.appendChild(variantRow);
+    }
   });
 
   discoveryResults.hidden = assets.length === 0;
@@ -192,6 +261,13 @@ async function readJsonResponse(response) {
 }
 
 async function pollJob(jobId, runningCopy, onUpdate = null) {
+  if (!jobId) {
+    throw {
+      error: {
+        message: "The app could not find the job id. Refresh the page and try again.",
+      },
+    };
+  }
   setBusy(true);
   setStatus(runningCopy, "This can take a few moments.");
 
@@ -254,7 +330,7 @@ form.addEventListener("submit", async (event) => {
 
   try {
     const start = await postJson("/api/scrape", { urlsText: urls.value });
-    const job = await pollJob(start.jobId, "Saving pages...");
+    const job = await pollJob(requireJobId(start), "Saving pages...");
     const saved = job.result?.saved || [];
     renderSavedPages(saved);
     const failedCount = saved.filter((item) => !item.ok).length;
@@ -266,7 +342,7 @@ form.addEventListener("submit", async (event) => {
   } catch (error) {
     setBusy(false);
     showDetails(error);
-    setStatus("Some pages could not be saved", error.error || "Check the links and try again.", "error");
+    setStatus("Some pages could not be saved", errorText(error, "Check the links and try again."), "error");
   }
 });
 
@@ -276,13 +352,13 @@ refreshButtons.forEach((button) => {
     hideDetails();
     try {
       const start = await postJson(`/api/build/${button.dataset.build}`);
-      const job = await pollJob(start.jobId, "Refreshing content files...");
+      const job = await pollJob(requireJobId(start), "Refreshing content files...");
       const rebuilt = job.result?.rebuilt?.length || 0;
       setStatus("Content files are ready", `${rebuilt} page folder${rebuilt === 1 ? "" : "s"} refreshed.`);
     } catch (error) {
       setBusy(false);
       showDetails(error);
-      setStatus("Could not refresh content files", error.error || "Something went wrong.", "error");
+      setStatus("Could not refresh content files", errorText(error, "Something went wrong."), "error");
     }
   });
 });
@@ -312,7 +388,7 @@ discoverButton.addEventListener("click", async () => {
       includeImages: includeImages.checked,
       includeDocuments: includeDocuments.checked,
     });
-    activeJobId = start.jobId;
+    activeJobId = requireJobId(start);
     await postJson(`/api/jobs/${activeJobId}/discover`);
     const job = await pollJob(activeJobId, "Finding pages...", (latestJob) => {
       updateDiscoveryView(latestJob);
@@ -327,7 +403,7 @@ discoverButton.addEventListener("click", async () => {
     setCrawlControls(false);
     discIndicator.textContent = "";
     showDetails(error);
-    setStatus("Could not find pages", error.error || "Check the starting link and try again.", "error");
+    setStatus("Could not find pages", errorText(error, "Check the starting link and try again."), "error");
   }
 });
 
@@ -347,7 +423,7 @@ downloadButton.addEventListener("click", async () => {
     setBusy(false);
     setCrawlControls(false);
     showDetails(error);
-    setStatus("Could not download selected", error.error || "Something went wrong.", "error");
+    setStatus("Could not download selected", errorText(error, "Something went wrong."), "error");
   }
 });
 

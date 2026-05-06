@@ -42,3 +42,31 @@ def test_discover_applies_depth_boundaries_and_records_assets():
     ]
     assert any(failure["failure_code"] == "skipped_external_domain" for failure in store.failures(job_id))
     assert any(failure["failure_code"] == "skipped_outside_start_path" for failure in store.failures(job_id))
+
+
+def test_discover_preserves_grouped_image_variants():
+    def fetch(url):
+        return """
+            <main>
+              <img src="/img/Monster/Achelous-100w.webp">
+              <img src="/img/Monster/Achelous-200w.webp">
+              <img src="/img/Monster/Achelous-540w.webp">
+            </main>
+        """
+
+    store = JobStore()
+    job_id = store.create(
+        "crawl",
+        status="created",
+        source_url="https://example.com/games/start/",
+        settings=DiscoverySettings(max_depth=0).to_dict(),
+    )
+
+    summary = discover(store, job_id, fetch_html=fetch)
+    assets = store.assets(job_id)
+
+    assert summary["assets_discovered"] == 1
+    assert len(assets) == 1
+    assert assets[0]["url"] == "https://example.com/img/Monster/Achelous-540w.webp"
+    assert assets[0]["variant_count"] == 3
+    assert [variant["label"] for variant in assets[0]["variants"]] == ["100w", "200w", "540w"]
