@@ -1,0 +1,1 @@
+& "$PSScriptRoot\.venv\Scripts\python.exe" "$PSScriptRoot\scripts\launch_ui.py" @args
