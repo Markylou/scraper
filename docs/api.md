@@ -1,39 +1,19 @@
 # Local Page Scraper API
 
-The local API is served by `scripts/launch_ui.py` at `http://127.0.0.1:8765` by default.
+The local API is now served by **FastAPI** via `scripts/launch_ui.py` at `http://127.0.0.1:8765` by default.
 
-This API is intended for local frontends. It does not use a database. Active jobs live in memory while the server is running. Downloaded output is written to `data/jobs/<site>_<job-id>/`, and completed job summaries are represented by `manifest.json`.
+This API is intended for local frontends (SolidJS/Vite during development). It does not use a database. Active jobs live in memory while the server is running. Downloaded output is written to `data/jobs/<site>_<job-id>/`, and completed job summaries are represented by `manifest.json`.
 
-Developer diagnostics are written with Python standard-library logging to `logs/page_scraper.log` when the UI server starts. API clients should keep using `/api/jobs/{job_id}/events`, `/api/jobs/{job_id}/failures`, and `/api/jobs/{job_id}/manifest` for user-facing status.
+**OpenAPI Documentation** (recommended):
+- Swagger UI: http://127.0.0.1:8765/docs
+- ReDoc: http://127.0.0.1:8765/redoc
+- OpenAPI schema: http://127.0.0.1:8765/openapi.json
 
-## Current Compatibility Routes
-
-- `GET /ping`
-- `POST /api/scrape`
-- `POST /api/jobs/save`
-- `POST /api/build/page-content`
-- `GET /api/jobs/{job_id}`
-- `GET /api/jobs/{job_id}/pages`
-- `GET /api/jobs/{job_id}/assets`
-- `GET /api/jobs/{job_id}/events`
-- `GET /api/jobs/{job_id}/failures`
-- `GET /api/jobs/{job_id}/manifest`
-- `POST /api/jobs`
-- `POST /api/jobs/{job_id}/pages/add`
-- `POST /api/jobs/{job_id}/discover`
-- `POST /api/jobs/{job_id}/download`
-- `POST /api/jobs/{job_id}/pause`
-- `POST /api/jobs/{job_id}/resume`
-- `POST /api/jobs/{job_id}/cancel`
-- `POST /api/jobs/{job_id}/failures/{failure_id}/retry`
-- `POST /api/system/open-folder`
-- `PATCH /api/jobs/{job_id}/pages/selection`
-- `PATCH /api/jobs/{job_id}/assets/selection`
-- `PATCH /api/jobs/{job_id}/assets/variant`
+Developer diagnostics are written with Python standard-library logging to `logs/page_scraper.log`.
 
 ## Response Shape
 
-New frontend code should read the stable response envelope:
+All successful responses use the stable envelope:
 
 ```json
 {
@@ -42,125 +22,51 @@ New frontend code should read the stable response envelope:
 }
 ```
 
-Errors use the same shape everywhere:
+Errors:
 
 ```json
 {
   "ok": false,
   "error": {
     "code": "invalid_request",
-    "message": "Enter a starting page link.",
+    "message": "...",
     "details": {}
   }
 }
 ```
 
-Some routes still include compatibility keys such as `jobId`, `pages`, `assets`, `events`, and `failures` so the current simple UI keeps working while the frontend contract settles.
+Some routes still return compatibility keys (`jobId`, `job`, `pages`, `assets`, etc.) so existing frontends continue to work without changes.
 
-## Ping
+## Core Routes
 
-### `GET /ping`
+### Health & Ping
+- `GET /ping`
+- `GET /api/health`
 
-Returns a minimal server-alive response for frontend sanity checks. This route does not inspect jobs, touch saved output, or perform scraper work.
+### Job Management
+- `POST /api/jobs` — Create a new crawl job
+- `POST /api/jobs/save` (also `POST /api/scrape` for compatibility)
+- `GET /api/jobs/{job_id}`
+- `POST /api/jobs/{job_id}/discover`
+- `POST /api/jobs/{job_id}/download`
+- `POST /api/jobs/{job_id}/pause`
+- `POST /api/jobs/{job_id}/resume`
+- `POST /api/jobs/{job_id}/cancel`
+- `POST /api/jobs/{job_id}/pages/add`
+- `PATCH /api/jobs/{job_id}/pages/selection`
+- `PATCH /api/jobs/{job_id}/assets/selection`
+- `PATCH /api/jobs/{job_id}/assets/variant`
 
-Response:
+### Monitoring
+- `GET /api/jobs/{job_id}/pages`
+- `GET /api/jobs/{job_id}/assets`
+- `GET /api/jobs/{job_id}/events?afterEventId=...`
+- `GET /api/jobs/{job_id}/failures`
+- `GET /api/jobs/{job_id}/manifest`
+- `POST /api/jobs/{job_id}/failures/{failure_id}/retry`
 
-```json
-{
-  "ok": true,
-  "data": {
-    "status": "up",
-    "service": "page-scraper",
-    "apiVersion": "1"
-  }
-}
-```
+### Utilities
+- `POST /api/build/page-content`
+- `POST /api/system/open-folder`
 
-## Save Pages
-
-### `POST /api/jobs/save`
-
-Starts a job that saves explicit page URLs.
-
-Request:
-
-```json
-{
-  "urls": ["https://example.com/page"],
-  "urlsText": ""
-}
-```
-
-Response:
-
-```json
-{
-  "ok": true,
-  "data": {
-    "jobId": "job-id"
-  },
-  "jobId": "job-id",
-  "rejected": []
-}
-```
-
-`POST /api/scrape` remains available as the older compatibility route for the simple UI.
-
-## Add URLs To A Job
-
-### `POST /api/jobs/{job_id}/pages/add`
-
-Adds one or more page URLs to an existing job as selected pages. This is the backend route for a future `+ Add URL` UI affordance.
-
-Request:
-
-```json
-{
-  "urls": ["https://example.com/extra-page"],
-  "urlsText": "https://example.com/another-page"
-}
-```
-
-Response:
-
-```json
-{
-  "ok": true,
-  "data": [],
-  "meta": {
-    "count": 2
-  },
-  "pages": [],
-  "rejected": []
-}
-```
-
-## Monitoring
-
-Frontends should poll `GET /api/jobs/{job_id}` for summary state and `GET /api/jobs/{job_id}/events?afterEventId=<last-id>` for incremental updates.
-
-Polling every 500-1000 ms is enough for the local UI. The backend does not expose WebSockets or Server-Sent Events in this phase.
-
-## Manifest
-
-`GET /api/jobs/{job_id}/manifest` writes or refreshes the job manifest and returns both the local path and parsed manifest JSON. The manifest is output metadata, not app persistence.
-
-## Open Output Folder
-
-### `POST /api/system/open-folder`
-
-Opens a local job output folder on Windows. For safety, this endpoint only accepts folders inside `data/jobs/`.
-
-Request:
-
-```json
-{
-  "path": "data/jobs/jegged_abcdef12"
-}
-```
-
-## Failure Retry
-
-### `POST /api/jobs/{job_id}/failures/{failure_id}/retry`
-
-Re-queues the page or file connected to a recorded failure and starts the existing downloader in the background. This is intentionally narrow for v1: it retries failures tied to known page or asset records.
+See the interactive docs at `/docs` for full requestresponse schemas.

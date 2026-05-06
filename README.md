@@ -26,32 +26,35 @@ From `D:\projects\scraper`:
 .\.venv\Scripts\python.exe scripts\build_page_content.py
 ```
 
-## Browser UI
+## Browser UI + API
 
-Launch the local browser UI:
+Launch the local server (FastAPI backend):
 
 ```powershell
 .\.venv\Scripts\python.exe scripts\launch_ui.py
 ```
 
-Use **Save pages** to paste one or more page links and let the app choose the best saving method automatically. Each save creates a folder under `data/jobs/`, then stores pages inside that job's `pages/` folder using the URL path.
+The server runs at **http://127.0.0.1:8765**
 
-Use **Refresh content files** if you want to rebuild `content.html`, `content.md`, and `metadata.json` from the already saved `source.html` files. Refresh does not download pages again.
+- **Interactive API docs**: http://127.0.0.1:8765/docs (best place to explore)
+- **ReDoc**: http://127.0.0.1:8765/redoc
 
-Use **Find pages** to start from one page and discover nearby pages/files. Use **Download selected** to save the discovered selection under `data/jobs/`.
+### What the UI / API supports
+- Paste URLs → **Save pages** (creates job + writes `data/jobs/<site>_<id>/pages/...`)
+- **Find pages** (crawler with depth + domain/path limits)
+- **Download selected** pages + assets
+- Image variant selection for responsive images
+- Pause / Resume / Cancel running jobs
+- Retry failed downloads
+- Refresh derived `content.html` / `content.md` / `metadata.json`
 
-Technical notes:
-
-- Final Fantasy Fandom wiki URLs use the existing Fandom API scraper.
-- Other URLs use a generalized requests-based scraper first.
-- If a page appears to need a browser, the app falls back to Playwright automatically.
-- Saved page folders go to `data/jobs/<site>_<job-id>/pages/`.
-- The full original HTML is always preserved as `source.html`.
-- The Markdown is a transform of the cleaned content HTML; it does not replace the raw source.
-- URL path segments become nested folder names. For example, `https://jegged.com/Games/Final-Fantasy-X/Abilities/` saves to `data/jobs/jegged_<job-id>/pages/games/final-fantasy-x/abilities/`.
-- Job output folders are isolated under `data/jobs/<site>_<job-id>/` and include a portable `manifest.json`.
-- Job state is intentionally in memory for now; SQLite persistence is not part of this phase.
-- Developer logs are written to `logs/page_scraper.log` when the local UI server runs.
+### Technical notes
+- Final Fantasy Fandom wiki URLs use the fast Fandom API path.
+- Other sites use `requests` first, with automatic Playwright fallback when needed.
+- All output goes under `data/jobs/<site>_<short-job-id>/`
+- Page folders mirror the URL path structure for easy browsing.
+- Job state is in-memory (fast). Completed work is persisted as files + `manifest.json`.
+- The old custom HTTP server has been replaced with FastAPI for better docs, validation, and maintainability.
 
 ## Notes
 
